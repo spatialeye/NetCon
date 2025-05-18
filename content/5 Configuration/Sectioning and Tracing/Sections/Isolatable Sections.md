@@ -1,5 +1,5 @@
 ---
-title: Operated Sections
+title: Isolatable Sections
 description: 
 permalink: 
 aliases: 
@@ -8,7 +8,7 @@ date: 2025-05-18
 tags:
   - ToDo
 ---
-# Operated Sections
+# Isolatable Sections
 
 See [[../../../3 Overview/Network Sections|Network Sections]] for an overview and the data model.
 
