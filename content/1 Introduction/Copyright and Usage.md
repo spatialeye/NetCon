@@ -8,7 +8,7 @@ date: 2024-09-27
 ---
 [[../index|previous]] [[./Introduction|next]]
 # Copyright and Usage
-© Spatial Eye 2022-2024
+© Spatial Eye 2022-2025
 
 In order to build the NetCon© data model and populate it with data, you need to have a valid `Spatial Eye NetCon`, or `Spatial Eye Spatial Warehouse with NetCon` or `GE GeoSpatial Analysis Spatial Warehouse with NetCon` license.
 
