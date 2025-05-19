@@ -12,7 +12,7 @@ tags:
   - data_morphing
   - Overview
 ---
-[[./Use Cases|previous]] [[./Data Flow Example 1|more]] [[./Solution Architecture|next]]
+[[../Use Cases|previous]] [[./Data Flow Example 1|more]] [[../Solution Architecture|next]]
 # Purpose and Examples
 
 The *first* purpose of NetCon is to be the **single source of truth for network connectivity** - sometimes called network topology - to provide a vehicle for time-based working with any commodity network in a generic way, provisioning information exchanged with all consumers of the network connectivity data. As such, it provides a graph of atomic (indivisible) connections.
@@ -32,4 +32,4 @@ The following four examples illustrate this *third* purpose.
 3. [[./Data Flow Example 3|Data Flow Example 3]] - From GIS T-piece to simple flow calculation
 4. [[./Data Flow Example 4|Data Flow Example 4]] - From GIS T-piece to Common Information Model
 
-Please see here for [[./Tracing and Querying/Basic network tracing|Basic network tracing]] and here for the [[../7 NetConQL/NetConQL - Network Connection Query Language|NetConQL - Network Connection Query Language]].
+Please see here for [[../Tracing and Querying/Basic network tracing|Basic network tracing]] and here for the [[../../7 NetConQL/NetConQL - Network Connection Query Language|NetConQL - Network Connection Query Language]].
