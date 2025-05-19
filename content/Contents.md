@@ -28,18 +28,18 @@ Version & Release
 Overview
 
 1. [[./3 Overview/Use Cases|Use Cases]]
-2. [[./3 Overview/Data Flow Examples/Purpose and Examples|Purpose and Examples]]
+2. [[./3 Overview/Purpose and Examples|Purpose and Examples]]
 3. [[./3 Overview/Solution Architecture|Solution Architecture]]
 4. [[./3 Overview/Sources of Connectivity|Sources of Connectivity]]
-5. [[./3 Overview/Networks/Commodity Networks|Commodity Networks]]
-6. [[./3 Overview/Networks/Network Ontology|Network Ontology]]
+5. [[./3 Overview/Commodity Networks|Commodity Networks]]
+6. [[./3 Overview/Network Ontology|Network Ontology]]
 7. Tracing and Querying
 	1. [[./3 Overview/Tracing and Querying/Shortest path or Dijkstra algorithm|Shortest path or Dijkstra algorithm]]
 	2. [[./3 Overview/Tracing and Querying/NetCon Path|NetCon Path]]
 	3. [[./3 Overview/Tracing and Querying/Basic network tracing|Basic network tracing]]
-8. [[./3 Overview/Networks/Life Cycle Status|Life Cycle Status]]
-9. [[./3 Overview/Networks/Barrier or Operational State|Barrier or Operational State]]
-10. [[./3 Overview/Networks/Referential Information|Referential Information]]
+8. [[./3 Overview/Life Cycle Status|Life Cycle Status]]
+9. [[./3 Overview/Barrier or Operational State|Barrier or Operational State]]
+10. [[./3 Overview/Referential Information|Referential Information]]
 11. [[./3 Overview/Network Sections|Network Sections]]
 
 Getting started
