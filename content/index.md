@@ -28,7 +28,7 @@ This section provides a short [[./1 Introduction/Introduction|Introduction]] to 
 ## Latest news
 We had a release adding Net Congestion tooling; besides [[./5 Configuration/Sectioning and Tracing/Sections/Isolatable Sections|Isolatable Sections]] and [[./5 Configuration/Sectioning and Tracing/Sections/Operated Sections|Operated Sections]] it is now possible to define [[./5 Configuration/Sectioning and Tracing/Sections/Control or NetCongestion Section|Control or NetCongestion Section]].
 For the electricity domain, these look remarkable similar to what you see in FISR and the (A)DMS.
-When switches are operated, by means 
+When switches are operated, by means of [[./5 Configuration/Overlay and Near Real Time Networks/Overlay Networks for Data Quality|an overlay network]], the new network state is reflected in new control sections and a new [[./8 API/Results/Connection Or Path Results/Flow|flow]] for all affected connections.
 ## Version information
 
 This section provides [[./2 Version And Release Information/Version Information#Releases|Version Information]], [[./2 Version And Release Information/Version Information#Release Notes|Release Notes]] and a [[./2 Version And Release Information/Roadmap|Roadmap]].
