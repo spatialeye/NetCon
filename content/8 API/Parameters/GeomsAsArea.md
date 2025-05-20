@@ -11,7 +11,8 @@ date: 2024-09-30
 tags:
   - ApiParameter
   - GeomsAsArea
-  - Connection
+  - Overview
+  - Example
 ---
 # GeomsAsArea
 
