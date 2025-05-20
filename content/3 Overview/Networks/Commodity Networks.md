@@ -9,7 +9,7 @@ tags:
   - Overview
   - Commodity
   - Disciplin
-  - Connection
+  - Example
 ---
 [[../Sources of Connectivity|previous]] [[./Commodity|more]] [[./Network Ontology|next]]
 # Commodity Networks
