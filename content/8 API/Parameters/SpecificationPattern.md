@@ -12,6 +12,7 @@ tags:
   - ApiParameter
   - Specification
   - SpecificationPattern
+  - Index
 ---
 # SpecificationPattern
 
