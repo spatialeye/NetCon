@@ -4,13 +4,12 @@ description:
 permalink: 
 aliases: 
 draft: false
-date: 2024-09-27
+date: 2025-05-20
 tags:
   - Overview
   - Example
   - FlowCalculator
   - Terminal
-  - Connection
 ---
 [[./Data Flow Example 2|previous]] [[./Data Flow Example 4|next]]
 # Data flow example III: From GIS T-piece to simple flow calculation
@@ -60,11 +59,9 @@ flowchart TD
       flownode3 --- flowpipe2[pipe 2] --- flownode5((n5))
     end
   end
-  classDef outerStyle fill:#eee, stroke:#eee
-  classDef sectionStyle fill: #eec, stroke #eec
-  classDef barrierStyle fill:#bbf
+  classDef barrierStyle fill:#9ac
 ```
 
 ---
-Example 3: One pipe branching of another.
+Example 3: One pipe branching of another, visualized in different stages and models.
 ![[../../Zimages/example3_tpiece.png|example3_tpiece.png]]
