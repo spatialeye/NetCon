@@ -9,6 +9,7 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceMazed
+  - Index
 ---
 # API TraceMazed
 
@@ -18,7 +19,7 @@ If the start connection is not connected to mazed connections, there will not be
 
 If the search parameters are specified as wildcards, many matching records can be retrieved.
 
-If no parameters are provided, the [[../../3 Overview/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are used as input.
+If no parameters are provided, the [[../../3 Overview/Networks/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are used as input.
 
 ## Parameters
 | File                                                                                   | type    | mand  | description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -103,7 +104,7 @@ If no parameters are provided, the [[../../3 Overview/Sources|Sources]] (see als
 
 
   
-For a more elaborate explanation see [[../../3 Overview/Network Ontology|Network Ontology]].
+For a more elaborate explanation see [[../../3 Overview/Networks/Network Ontology|Network Ontology]].
 
 ---
 Example query to find the connected mazed Asset as paths for an Asset with TableName = 'e_isolating_equipment' and Id = 789:
