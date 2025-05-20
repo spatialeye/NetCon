@@ -12,6 +12,7 @@ tags:
   - ApiParameter
   - AssetId
   - AssetIds
+  - Index
 ---
 # AssetIds
 
