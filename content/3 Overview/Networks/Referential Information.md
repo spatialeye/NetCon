@@ -11,7 +11,7 @@ tags:
   - AssetId
   - CustomAssetId
   - Overview
-  - Connection
+  - Example
 ---
 [[./Barrier or Operational State|previous]] [[../Network Sections|next]]
 # Referential Information
