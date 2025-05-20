@@ -12,7 +12,8 @@ tags:
   - ApiParameter
   - AssetId
   - AssetIds
-  - Connection
+  - Overview
+  - Example
 ---
 # AssetIds
 
