@@ -4,13 +4,12 @@ description:
 permalink: 
 aliases: 
 draft: false
-date: 2025-05-18
+date: 2025-05-20
 tags:
   - Overview
   - Example
-  - Connection
 ---
-[[./Purpose and Examples|previous]] [[./Data Flow Example 2|next]]
+[[./Purpose and Examples|previous]] [[./Data Flow Example 2|Data Flow Example 2]]
 # Data flow example I: From GIS valve to simple flow calculation
 
 
@@ -60,18 +59,16 @@ flowchart TD
     sectionpic3:::sectionStyle
   end
   subgraph flow [Load flow calculation]
-    subgraph flowpic [format depends on calculator]
+    subgraph flowpic [morphed format]
       direction LR 
       flownode1((n1)) --- flowpipe1[pipe 1] --- flownode3((n3)) --- flowvalvea[valve a] --- flownode4((n4)) --- flowpipe2[pipe 2] --- flownode2((n2))
       flowvalvea:::barrierStyle
     end
   end
-  classDef outerStyle fill:#eee, stroke:#eee
-  classDef sectionStyle fill: #eec, stroke #eec
-  classDef barrierStyle fill:#bbf
+  classDef barrierStyle fill:#9ac
 ```
 
 ---
-Example 1: One valve connecting two pipes.
+Example 1: One valve connecting two pipes, visualized in different stages and models.
 ![[../../Zimages/example1_onevalve.png|example1_onevalve.png]]
 
