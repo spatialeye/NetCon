@@ -10,7 +10,8 @@ tags:
   - ApiSearchCall
   - ApiCall
   - ToDo
-  - Connection
+  - Overview
+  - Example
 ---
 # API GetConnection
 
