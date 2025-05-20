@@ -10,7 +10,7 @@ tags:
   - ApiTraceCall
   - TraceNeighbor
   - ToDo
-  - Index
+  - Connection
 ---
 # API TraceNeighbor
 
