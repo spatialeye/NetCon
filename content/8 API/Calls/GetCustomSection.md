@@ -10,7 +10,7 @@ tags:
   - ApiCall
   - GetCustomSection
   - ToDo
-  - Index
+  - Connection
 ---
 # API GetControlSection
 
