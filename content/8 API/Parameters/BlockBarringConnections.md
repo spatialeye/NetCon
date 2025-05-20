@@ -11,7 +11,8 @@ date: 2024-10-02
 tags:
   - ApiParameter
   - BlockBarringConnections
-  - Connection
+  - Overview
+  - Example
 ---
 # BlockBarringConnections
 
