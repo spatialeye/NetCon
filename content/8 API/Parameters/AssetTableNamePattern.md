@@ -13,7 +13,8 @@ tags:
   - ApiParameter
   - AssetTableName
   - AssetTableNamePattern
-  - Connection
+  - Overview
+  - Example
 ---
 # AssetTableNamePattern
 
