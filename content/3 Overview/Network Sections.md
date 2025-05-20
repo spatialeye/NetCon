@@ -10,6 +10,7 @@ tags:
   - Section
   - Overview
   - NetCon2
+  - Index
 ---
 [[./Networks/Referential Information|previous]] [[../index#Getting started|next]]
 # Clustering the Network into Sections
