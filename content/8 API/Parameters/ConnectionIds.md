@@ -12,7 +12,7 @@ tags:
   - ApiParameter
   - ConnectionId
   - ConnectionIds
-  - Index
+  - Connection
 ---
 # ConnectionIds
 

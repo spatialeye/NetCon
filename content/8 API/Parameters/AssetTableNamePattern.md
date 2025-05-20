@@ -13,7 +13,7 @@ tags:
   - ApiParameter
   - AssetTableName
   - AssetTableNamePattern
-  - Index
+  - Connection
 ---
 # AssetTableNamePattern
 

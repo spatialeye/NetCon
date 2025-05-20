@@ -7,7 +7,7 @@ draft: false
 date: 2025-03-12
 tags:
   - "#OverlayNetwork"
-  - Index
+  - Connection
   - OverlayNetwork
 ---
 [[./Introduction to Overlay Networks|previous]] [[./Stacked Overlay Networks|next]]

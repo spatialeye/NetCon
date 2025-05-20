@@ -14,7 +14,7 @@ tags:
   - Commodity
   - NetCon2
   - ToDo
-  - Index
+  - Connection
 ---
 # CommodityPattern
 

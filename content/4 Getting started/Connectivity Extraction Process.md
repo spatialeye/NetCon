@@ -13,7 +13,7 @@ tags:
   - DataFlow
   - Connectivity
   - Topology
-  - Index
+  - Connection
 ---
 [[./Download and Install NetCon|previous]] [[../5 Configuration/Extraction/Connectivity Extraction from Smallworld|next]]
 # Connectivity Extraction Process

@@ -11,7 +11,7 @@ tags:
   - Barrier
   - OperationalState
   - Overview
-  - Index
+  - Connection
 ---
 [[./Life Cycle Status|previous]] [[./Referential Information|next]]
 # Barrier or Operational State

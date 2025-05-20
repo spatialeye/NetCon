@@ -9,7 +9,7 @@ tags:
   - DataQuality
   - ApiMetaCall
   - ApiCall
-  - Index
+  - Connection
 ---
 # DataQuality
 

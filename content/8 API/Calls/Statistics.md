@@ -9,7 +9,7 @@ tags:
   - Statistics
   - ApiMetaCall
   - ApiCall
-  - Index
+  - Connection
 ---
 # Statistics
 

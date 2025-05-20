@@ -11,7 +11,7 @@ date: 2025-02-18
 tags:
   - ApiParameter
   - StopAtBarringConnections
-  - Index
+  - Connection
 ---
 # StopAtBarringConnections
 
