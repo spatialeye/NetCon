@@ -9,7 +9,8 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetNeighbor
-  - Connection
+  - Overview
+  - Example
 ---
 # API GetNeighbor
 
