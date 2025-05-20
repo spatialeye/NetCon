@@ -8,7 +8,7 @@ date: 2024-09-30
 tags:
   - GettingStarted
   - ToDo
-  - Index
+  - Connection
 ---
 [[./Connectivity Extraction Process|previous]]
 # Viewing Connectivity
