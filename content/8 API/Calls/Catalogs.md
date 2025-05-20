@@ -10,7 +10,7 @@ tags:
   - ApiCall
   - Catalogs
   - ToDo
-  - Index
+  - Connection
   - ApiMetaCall
 ---
 # Catalogs
