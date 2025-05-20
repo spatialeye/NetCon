@@ -8,6 +8,7 @@ date: 2024-09-30
 tags:
   - GettingStarted
   - ToDo
+  - Index
 ---
 [[../index#Getting started|previous]] [[./Connectivity Extraction Process|next]]
 # Download and Install NetCon

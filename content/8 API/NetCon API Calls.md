@@ -23,10 +23,10 @@ These are generic services to ask information about the network.
 
 | File                                                                    | description                                                                 |
 | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| [[./Calls/Statistics\|Statistics]]                       | \-                                                                          |
 | [[./Calls/Engine Process States\|Engine Process States]] | Returns state records of the execution of processes of the network engines. |
 | [[./Calls/DataQuality\|DataQuality]]                     | Return counts of                                                            |
 | [[./Calls/Catalogs\|Catalogs]]                           | Returns all NetCon catalogs and enumerator values.                          |
+| [[./Calls/Statistics\|Statistics]]                       | \-                                                                          |
 
 
 

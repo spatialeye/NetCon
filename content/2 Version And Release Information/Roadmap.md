@@ -7,6 +7,8 @@ aliases:
   - Roadmap
 draft: false
 date: 2024-09-27
+tags:
+  - Index
 ---
 [[./Version Information|previous]] [[../3 Overview/Use Cases|next]]
 # Roadmap

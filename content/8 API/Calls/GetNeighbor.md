@@ -9,6 +9,7 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetNeighbor
+  - Index
 ---
 # API GetNeighbor
 
@@ -18,7 +19,7 @@ The input connections themselves are excluded from the result.
 
 If the search parameters are specified as wildcards, many matching records can be retrieved.
 
-If no parameters are provided, the [[../../3 Overview/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are used as input.
+If no parameters are provided, the [[../../3 Overview/Networks/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are used as input.
 
 ## Parameters
 | File                                                                         | type    | mand  | description                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -87,7 +88,7 @@ If no parameters are provided, the [[../../3 Overview/Sources|Sources]] (see als
 
 
   
-For a more elaborate explanation see [[../../3 Overview/Network Ontology|Network Ontology]].
+For a more elaborate explanation see [[../../3 Overview/Networks/Network Ontology|Network Ontology]].
 
 ---
 Example query to find the neighboring Assets' connections leading to or from an Asset with TableName = 'e_transformer_fp' and Id = 456:

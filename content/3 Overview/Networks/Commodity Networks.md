@@ -9,6 +9,7 @@ tags:
   - Overview
   - Commodity
   - Disciplin
+  - Index
 ---
 [[../Sources of Connectivity|previous]] [[./Commodity|more]] [[./Network Ontology|next]]
 # Commodity Networks
