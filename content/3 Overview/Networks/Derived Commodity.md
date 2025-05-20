@@ -8,6 +8,7 @@ date: 2024-09-27
 tags:
   - Overview
   - ToDo
+  - Index
 ---
 # Derived Commodity
 
