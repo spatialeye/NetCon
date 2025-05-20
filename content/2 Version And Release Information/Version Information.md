@@ -9,6 +9,7 @@ Version: 2024.1.3
 Product: NetCon 2.0
 tags:
   - ToDo
+  - Index
 ---
 [[../1 Introduction/Introduction|previous]] [[./Roadmap||next]]
 # Releases
@@ -134,7 +135,7 @@ New:
 ## Spatial Eye NetCon 2023.4.1.0
 
 New:
-- [[Flow calculation|Flow calculation]] is added and computed on the fly to determine the direction of the flow (none, down or mazed) for every connection. If not start criterion is specified, the [[../3 Overview/Sources|source]] is used.
+- [[Flow calculation|Flow calculation]] is added and computed on the fly to determine the direction of the flow (none, down or mazed) for every connection. If not start criterion is specified, the [[../3 Overview/Networks/Sources|source]] is used.
 - [[Flow calculation export|Flow calculation export]] is enabled for various network flow calculation programs.
 - [[NetCon sections|NetCon sections]] are computed on the fly. This allows for a faster startup. Sections are name Isolatable, Operated, Control and Custom sections. The sections have now more attributes than the previous Section and Super sections. The relations between sections and connections have been simplified.
 	- The sections themselves are not only available as feature source tables so they can be materialized (see [[../6 Use/Long running queries/Materializing Long Running traces|Materializing Long Running traces]]), but also their traces are available to be persisted.
@@ -165,7 +166,7 @@ Changes per release 31 Oct 2024
 * The result attribute `flag` has been renamed to [[../8 API/Calls/TraceMazed|TraceMazed]]. This affects all results.
 
 Enhancement requests:
-* When a NetConConnection has no [[../3 Overview/Commodity|Commodity]], derive it from its upstream neighbors.
+* When a NetConConnection has no [[../3 Overview/Networks/Commodity|Commodity]], derive it from its upstream neighbors.
 
 ---
 ## Spatial Eye NetCon 2023.3.3.0
