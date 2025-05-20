@@ -11,7 +11,8 @@ date: 2025-02-18
 tags:
   - ApiParameter
   - SmartStart
-  - Connection
+  - Overview
+  - Example
 ---
 # SmartStart
 

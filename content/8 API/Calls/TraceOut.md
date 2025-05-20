@@ -9,7 +9,8 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceOut
-  - Connection
+  - Overview
+  - Example
 ---
 # API TraceOut
 

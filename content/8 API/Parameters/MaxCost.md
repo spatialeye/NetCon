@@ -11,7 +11,8 @@ date: 2024-10-02
 tags:
   - ApiParameter
   - MaxCost
-  - Connection
+  - Overview
+  - Example
 ---
 # MaxCost
 

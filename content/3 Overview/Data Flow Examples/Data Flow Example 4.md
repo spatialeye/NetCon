@@ -4,14 +4,13 @@ description:
 permalink: 
 aliases: 
 draft: false
-date: 2024-09-27
+date: 2025-05-20
 tags:
   - Overview
   - Example
   - CIM
   - ADMS
   - Terminal
-  - Connection
 ---
 [[./Data Flow Example 3|previous]] [[../Sources of Connectivity|next]]
 # Data flow example IV: From GIS T-piece to Common Information Model
@@ -45,11 +44,9 @@ flowchart TD
       flownode3 --- flowterm33([connector 3.3]) --- flowpipe3[cable 2] --- flownode5((n5))
     end
   end
-  classDef outerStyle fill:#eee, stroke:#eee
-  classDef sectionStyle fill: #eec, stroke #eec
-  classDef barrierStyle fill:#bbf
+  classDef barrierStyle fill:#9ac
 ```
 
 ---
-Example 4: One cable branching of another.
+Example 4: One cable branching of another, visualized in different stages and models.
 ![[../../Zimages/example4_tjoint_cim.png|example4_tjoint_cim.png]]

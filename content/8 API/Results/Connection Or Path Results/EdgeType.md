@@ -11,7 +11,8 @@ date: 2025-04-17
 tags:
   - ApiResult
   - EdgeType
-  - Connection
+  - Overview
+  - Example
 ---
 # EdgeType
 

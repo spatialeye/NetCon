@@ -9,7 +9,7 @@ tags:
   - Commodity
   - Overview
   - ToDo
-  - Connection
+  - Example
 ---
 [[./Commodity Networks|previous]] [[./Network Ontology|next]] 
 # Commodity

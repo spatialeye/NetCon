@@ -12,7 +12,8 @@ tags:
   - ApiParameter
   - Specification
   - SpecificationPattern
-  - Connection
+  - Overview
+  - Example
 ---
 # SpecificationPattern
 

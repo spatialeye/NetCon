@@ -4,11 +4,10 @@ description:
 permalink: 
 aliases: 
 draft: false
-date: 2025-05-18
+date: 2025-05-20
 tags:
   - Overview
   - Example
-  - Connection
 ---
 [[./Data Flow Example 1|prevous]] [[./Data Flow Example 3|next]]
 # Data Flow Example 2: From ambiguous GIS valves information to flow calculation
@@ -78,12 +77,11 @@ flowchart TD
       flowvalveb:::barrier2Style
     end
   end
-  classDef outerStyle fill:#eee, stroke:#eee
-  classDef sectionStyle fill: #eec, stroke #eec
-  classDef barrierStyle fill:#bbf
-  classDef barrier2Style fill:#bfb
+
+  classDef barrierStyle fill:#9ac
+  classDef barrier2Style fill:#dba
 ```
 
 ---
-Example 2: Two valves on the same location connecting two pipes.
+Example 2: Two valves on the same location connecting two pipes, visualized in different stages and models.
 ![[../../Zimages/example2_twovalvesontop.png|example2_twovalvesontop.png]]

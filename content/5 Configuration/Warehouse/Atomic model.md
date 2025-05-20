@@ -7,7 +7,8 @@ draft: false
 date: 2024-10-01
 tags:
   - Warehouse
-  - Connection
+  - Overview
+  - Example
 ---
 # Atomic model
 

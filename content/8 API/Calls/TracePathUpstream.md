@@ -9,7 +9,8 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TracePathUpstream
-  - Connection
+  - Overview
+  - Example
 ---
 # API TracePath
 

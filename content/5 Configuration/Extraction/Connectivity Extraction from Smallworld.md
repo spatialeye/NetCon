@@ -11,7 +11,8 @@ tags:
   - Connectivity
   - Extraction
   - GettingStarted
-  - Connection
+  - Overview
+  - Example
 ---
 # Connectivity Extraction from Smallworld
 

@@ -9,7 +9,8 @@ tags:
   - DataQuality
   - ApiMetaCall
   - ApiCall
-  - Connection
+  - Overview
+  - Example
 ---
 # DataQuality
 

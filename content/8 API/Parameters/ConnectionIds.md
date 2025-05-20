@@ -12,7 +12,8 @@ tags:
   - ApiParameter
   - ConnectionId
   - ConnectionIds
-  - Connection
+  - Overview
+  - Example
 ---
 # ConnectionIds
 
