@@ -11,7 +11,7 @@ date: 2024-09-27
 tags:
   - ApiResult
   - ConnectionId
-  - Index
+  - Connection
 ---
 # Id
 
