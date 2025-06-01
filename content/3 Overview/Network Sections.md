@@ -10,6 +10,8 @@ tags:
   - Section
   - Overview
   - NetCon2
+  - single_source_of_truth
+  - data_morphing
 ---
 [[./Networks/Referential Information|previous]] [[../index#Getting started|next]]
 # Clustering the Network into Sections
