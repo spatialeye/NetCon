@@ -10,7 +10,7 @@ tags:
   - Overview
   - ToDo
 ---
-[[./Commodity Networks|previous]] [[./Network Ontology|next]] 
+[[./Commodity Networks|previous]] [[./Derived Commodity|next]] 
 # Commodity
 
 The commodity of a network is what is being transported by it.
@@ -101,5 +101,5 @@ A special case is a steel pipe transporting gas or water, that is cathodic-prote
 In this case, it transports gas or water on the inside, and it has a small electric current on the outside.
 #ToDo
 
-Sometimes the commodity is not registered with an asset, but it needs to be derived as a [[./Derived Commodity|Derived Commodity]].
+Sometimes the commodity is not registered with an asset, but it needs to be derived as a [[./Derived Commodity|next]].
 

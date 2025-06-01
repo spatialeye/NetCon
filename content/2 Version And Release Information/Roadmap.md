@@ -17,3 +17,4 @@ tags:
 2. Hot daily refresh: when data has been refreshed, e.g. after a daily warehouse load, the in memory network should refresh without down-time;
 3. Logging of API function will be improved where error names are returned in the message field of the result;
 4. [[../7 NetConQL/NetConQL - Specification|NetConQL - Specification]] will be extended to included the reduction functions that are already implemented, for example, to reduce redundant nodes;
+5. [[../3 Overview/Networks/Derived Commodity|Derived Commodity]].

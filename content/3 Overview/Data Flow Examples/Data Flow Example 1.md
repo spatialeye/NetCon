@@ -4,12 +4,12 @@ description:
 permalink: 
 aliases: 
 draft: false
-date: 2025-05-20
+date: 2025-06-01
 tags:
   - Overview
   - Example
 ---
-[[./Purpose and Examples|previous]] [[./Data Flow Example 2|Data Flow Example 2]]
+[[./Purpose and Examples|previous]] [[./Data Flow Example 2|next]]
 # Data flow example I: From GIS valve to simple flow calculation
 
 
