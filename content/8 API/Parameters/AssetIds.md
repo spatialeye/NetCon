@@ -12,8 +12,6 @@ tags:
   - ApiParameter
   - AssetId
   - AssetIds
-  - Overview
-  - Example
 ---
 # AssetIds
 
