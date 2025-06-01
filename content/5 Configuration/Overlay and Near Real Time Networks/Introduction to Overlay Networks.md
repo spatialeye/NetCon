@@ -7,8 +7,6 @@ draft: false
 date: 2025-03-12
 tags:
   - "#OverlayNetwork"
-  - Overview
-  - Example
   - OverlayNetwork
 ---
 [[./Overlay Networks for Data Quality|next]]
