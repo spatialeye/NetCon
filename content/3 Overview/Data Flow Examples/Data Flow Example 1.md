@@ -8,8 +8,6 @@ date: 2025-05-20
 tags:
   - Overview
   - Example
-  - single_source_of_truth
-  - data_morphing
 ---
 [[./Purpose and Examples|previous]] [[./Data Flow Example 2|Data Flow Example 2]]
 # Data flow example I: From GIS valve to simple flow calculation
