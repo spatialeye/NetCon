@@ -9,8 +9,6 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceMazed
-  - Overview
-  - Example
 ---
 # API TraceMazed
 
