@@ -8,8 +8,6 @@ date: 2024-09-30
 tags:
   - GettingStarted
   - ToDo
-  - Overview
-  - Example
 ---
 [[../../4 Getting started/Connectivity Extraction Process|previous]]
 # Configuration of Connectivity Viewer
