@@ -8,8 +8,6 @@ aliases:
 draft: false
 date: 2025-06-01
 tags:
-  - single_source_of_truth
-  - data_morphing
   - Overview
 ---
 [[./Version Information|previous]] [[../3 Overview/Use Cases|next]]
