@@ -7,8 +7,6 @@ draft: false
 date: 2024-09-30
 tags:
   - Wildcard
-  - single_source_of_truth
-  - data_morphing
   - Overview
 ---
 # NetCon API Introduction
