@@ -7,8 +7,6 @@ draft: false
 date: 2024-09-30
 tags:
   - Wildcard
-  - Overview
-  - Example
 ---
 # NetCon API Introduction
 
