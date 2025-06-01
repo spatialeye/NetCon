@@ -9,8 +9,6 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetNeighborDownstream
-  - single_source_of_truth
-  - data_morphing
   - Overview
 ---
 # API GetNeighborDownstream

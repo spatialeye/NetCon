@@ -11,8 +11,6 @@ date: 2024-10-02
 tags:
   - ApiParameter
   - MaxStep
-  - single_source_of_truth
-  - data_morphing
   - Overview
 ---
 # MaxStep

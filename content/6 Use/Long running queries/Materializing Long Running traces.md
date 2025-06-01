@@ -1,8 +1,6 @@
 ---
 tags:
   - ToDo
-  - single_source_of_truth
-  - data_morphing
   - Overview
 ---
 For isolatable, operated, congestion and custom sections the trace information is available as feature source so it can be persisted.

@@ -13,8 +13,6 @@ tags:
   - DataFlow
   - Connectivity
   - Topology
-  - single_source_of_truth
-  - data_morphing
   - Overview
 ---
 [[./Download and Install NetCon|previous]] [[../5 Configuration/Extraction/Connectivity Extraction from Smallworld|next]]

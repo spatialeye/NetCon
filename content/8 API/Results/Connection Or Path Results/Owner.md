@@ -11,8 +11,6 @@ date: 2025-04-18
 tags:
   - ApiResult
   - Owner
-  - single_source_of_truth
-  - data_morphing
   - Overview
 ---
 # Owner

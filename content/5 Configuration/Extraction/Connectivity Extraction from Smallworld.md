@@ -11,8 +11,6 @@ tags:
   - Connectivity
   - Extraction
   - GettingStarted
-  - single_source_of_truth
-  - data_morphing
   - Overview
 ---
 # Connectivity Extraction from Smallworld

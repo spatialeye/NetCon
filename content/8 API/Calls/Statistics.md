@@ -9,8 +9,6 @@ tags:
   - Statistics
   - ApiMetaCall
   - ApiCall
-  - single_source_of_truth
-  - data_morphing
   - Overview
 ---
 # Statistics

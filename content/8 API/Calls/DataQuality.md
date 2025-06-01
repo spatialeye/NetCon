@@ -9,8 +9,6 @@ tags:
   - DataQuality
   - ApiMetaCall
   - ApiCall
-  - single_source_of_truth
-  - data_morphing
   - Overview
 ---
 # DataQuality

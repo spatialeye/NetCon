@@ -11,8 +11,6 @@ date: 2024-09-27
 tags:
   - ApiResult
   - ToId
-  - single_source_of_truth
-  - data_morphing
   - Overview
 ---
 # ToId

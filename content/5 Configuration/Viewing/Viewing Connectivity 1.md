@@ -8,8 +8,6 @@ date: 2024-09-30
 tags:
   - GettingStarted
   - ToDo
-  - single_source_of_truth
-  - data_morphing
   - Overview
 ---
 [[../../4 Getting started/Connectivity Extraction Process|previous]]
