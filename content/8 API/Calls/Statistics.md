@@ -9,8 +9,6 @@ tags:
   - Statistics
   - ApiMetaCall
   - ApiCall
-  - Overview
-  - Example
 ---
 # Statistics
 
