@@ -7,8 +7,6 @@ draft: false
 date: 2024-09-27
 tags:
   - Overview
-  - single_source_of_truth
-  - data_morphing
 ---
 [[./Commodity Networks|previous]] [[../Tracing and Querying/Shortest path or Dijkstra algorithm|next]]
 # Network Ontology
