@@ -11,6 +11,8 @@ tags:
   - Barrier
   - OperationalState
   - Overview
+  - single_source_of_truth
+  - data_morphing
 ---
 [[./Life Cycle Status|previous]] [[./Referential Information|next]]
 # Barrier or Operational State

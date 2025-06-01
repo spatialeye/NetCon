@@ -8,6 +8,9 @@ date: 2024-09-30
 tags:
   - GettingStarted
   - ToDo
+  - single_source_of_truth
+  - data_morphing
+  - Overview
 ---
 [[../index#Getting started|previous]] [[./Connectivity Extraction Process|next]]
 # Download and Install NetCon

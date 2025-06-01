@@ -10,6 +10,9 @@ tags:
   - ApiCall
   - GetControlSection
   - ToDo
+  - single_source_of_truth
+  - data_morphing
+  - Overview
 ---
 # API GetControlSection
 

@@ -10,6 +10,8 @@ tags:
   - Example
   - FlowCalculator
   - Terminal
+  - single_source_of_truth
+  - data_morphing
 ---
 [[./Data Flow Example 2|previous]] [[./Data Flow Example 4|next]]
 # Data flow example III: From GIS T-piece to simple flow calculation

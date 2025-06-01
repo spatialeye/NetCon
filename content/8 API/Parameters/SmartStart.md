@@ -11,6 +11,9 @@ date: 2025-02-18
 tags:
   - ApiParameter
   - SmartStart
+  - single_source_of_truth
+  - data_morphing
+  - Overview
 ---
 # SmartStart
 

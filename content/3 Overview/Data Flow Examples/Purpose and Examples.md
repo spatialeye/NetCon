@@ -6,13 +6,13 @@ aliases:
   - single source of truth
   - data morphing
 draft: false
-date: 2024-09-27
+date: 2025-06-01
 tags:
   - single_source_of_truth
   - data_morphing
   - Overview
 ---
-[[../Use Cases|previous]] [[./Data Flow Example 1|more]] [[../Solution Architecture|next]]
+[[../Use Cases|previous]] [[../Solution Architecture|next]]
 # Purpose and Examples
 
 The *first* purpose of NetCon is to be the **single source of truth for network connectivity** - sometimes called network topology - to provide a vehicle for time-based working with any commodity network in a generic way, provisioning information exchanged with all consumers of the network connectivity data. As such, it provides a graph of atomic (indivisible) connections.
@@ -27,7 +27,7 @@ A remarkable result of the very first rollout of NetCon was, directly after the 
 We have already seen much positive proof that a standard approach brings benefit and higher data quality to all consumers of NetCon. By being a standard model, many 'ready to go' applications can be developed that will be able to provide functionality for working with the network (see business cases). This is easily said, but not easily done, because the source data can be registered in quite different systems, in quite different ways. Therefore, NetCon is equipped with many options to morph or tailor the data to its consuming applications.
 
 The following four examples illustrate this *third* purpose.
-1. [[./Data Flow Example 1|more]] - Data flow example I: From GIS valve to simple flow calculation
+1. [[./Data Flow Example 1|Data Flow Example 1]] - Data flow example I: From GIS valve to simple flow calculation
 2. [[./Data Flow Example 2|Data Flow Example 2]] - From ambiguous GIS valves information to flow calculation
 3. [[./Data Flow Example 3|Data Flow Example 3]] - From GIS T-piece to simple flow calculation
 4. [[./Data Flow Example 4|Data Flow Example 4]] - From GIS T-piece to Common Information Model

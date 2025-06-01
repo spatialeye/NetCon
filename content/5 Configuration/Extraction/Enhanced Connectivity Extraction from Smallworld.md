@@ -10,6 +10,9 @@ tags:
   - Smallworld
   - Connectivity
   - Extraction
+  - single_source_of_truth
+  - data_morphing
+  - Overview
 ---
 # Enhanced Connectivity Extraction from Smallworld
 

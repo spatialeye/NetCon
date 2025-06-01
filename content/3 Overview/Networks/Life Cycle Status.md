@@ -8,6 +8,8 @@ date: 2024-09-27
 tags:
   - LifeCycleStatus
   - Overview
+  - single_source_of_truth
+  - data_morphing
 ---
 [[../Tracing and Querying/Basic network tracing|previous]] [[./Barrier or Operational State|next]]
 # Life Cycle Status
