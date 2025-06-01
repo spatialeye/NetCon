@@ -10,8 +10,6 @@ tags:
   - ApiTraceCall
   - TraceNeighbor
   - ToDo
-  - Overview
-  - Example
 ---
 # API TraceNeighbor
 
