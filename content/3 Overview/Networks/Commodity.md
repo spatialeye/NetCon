@@ -9,7 +9,6 @@ tags:
   - Commodity
   - Overview
   - ToDo
-  - Example
 ---
 [[./Commodity Networks|previous]] [[./Network Ontology|next]] 
 # Commodity
