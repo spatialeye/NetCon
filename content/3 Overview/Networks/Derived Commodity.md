@@ -8,8 +8,6 @@ date: 2024-09-27
 tags:
   - Overview
   - ToDo
-  - single_source_of_truth
-  - data_morphing
 ---
 # Derived Commodity
 
