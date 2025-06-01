@@ -11,8 +11,6 @@ date: 2024-09-30
 tags:
   - ApiParameter
   - MaxResults
-  - single_source_of_truth
-  - data_morphing
   - Overview
 ---
 # MaxResults
