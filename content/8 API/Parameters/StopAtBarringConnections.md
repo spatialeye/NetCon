@@ -11,8 +11,6 @@ date: 2025-02-18
 tags:
   - ApiParameter
   - StopAtBarringConnections
-  - single_source_of_truth
-  - data_morphing
   - Overview
 ---
 # StopAtBarringConnections
