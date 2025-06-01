@@ -12,8 +12,6 @@ tags:
   - ApiParameter
   - ExpandPaths
   - NetCon2
-  - Overview
-  - Example
 ---
 # ExpandPaths
 
