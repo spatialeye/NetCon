@@ -11,8 +11,6 @@ tags:
   - AssetId
   - CustomAssetId
   - Overview
-  - single_source_of_truth
-  - data_morphing
 ---
 [[./Barrier or Operational State|previous]] [[../Network Sections|next]]
 # Referential Information
