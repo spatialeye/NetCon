@@ -4,43 +4,61 @@ description:
 permalink: 
 aliases: 
 draft: false
-date: 2025-05-16
+date: 2025-06-01
 Version: 2024.1.3
 Product: NetCon 2.0
 tags:
   - ToDo
-  - Overview
-  - Example
 ---
 [[../1 Introduction/Introduction|previous]] [[./Roadmap||next]]
 # Releases
 
 This paragraph contains the version information for the `Spatial Eye NetCon` product(s). The product's change history is described below for each of the released versions.
 
-|              Version               | Released    |
-| :--------------------------------: | ----------- |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.8|Spatial Eye NetCon 2024.1.3.8]] | 16 mei 2025 |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.7|Spatial Eye NetCon 2024.1.3.7]] | 17 apr 2025 |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.6|Spatial Eye NetCon 2024.1.3.6]] | 10 apr 2025 |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.5|Spatial Eye NetCon 2024.1.3.5]] | 25 mar 2025 |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.4|Spatial Eye NetCon 2024.1.3.4]] | 18 feb 2025 |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.3|Spatial Eye NetCon 2024.1.3.3]] | 6 feb 2025  |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.2|Spatial Eye NetCon 2024.1.3.2]] | 5 feb 2025  |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.1|Spatial Eye NetCon 2024.1.3.1]] | 17 jan 2025 |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.0|Spatial Eye NetCon 2024.1.3.0]] | okt 2024    |
-| [[Version Information#Spatial Eye NetCon 2023.4.1.0|Spatial Eye NetCon 2023.4.1.0]] | mar 2024    |
-| [[Version Information#Spatial Eye NetCon 2023.3.3.0|Spatial Eye NetCon 2023.3.3.0]] | nov 2023    |
-| [[Version Information#Spatial Eye NetCon 2023.1.1.0|Spatial Eye NetCon 2023.1.1.0]] | mar 2023    |
-| [[Version Information#Spatial Eye NetCon 2022.4.0.0|Spatial Eye NetCon 2022.4.0.0]] | dec 2022    |
+|               Version               | Released    |
+| :---------------------------------: | ----------- |
+| [[Version Information#Spatial Eye NetCon 2024.2.2.10|Spatial Eye NetCon 2024.2.2.10]] | t.b.d.      |
+| [[Version Information#Spatial Eye NetCon 2024.2.2.9|Spatial Eye NetCon 2024.2.2.9]]  | 28 mei 2025 |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.8|Spatial Eye NetCon 2024.1.3.8]]  | 16 mei 2025 |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.7|Spatial Eye NetCon 2024.1.3.7]]  | 17 apr 2025 |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.6|Spatial Eye NetCon 2024.1.3.6]]  | 10 apr 2025 |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.5|Spatial Eye NetCon 2024.1.3.5]]  | 25 mar 2025 |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.4|Spatial Eye NetCon 2024.1.3.4]]  | 18 feb 2025 |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.3|Spatial Eye NetCon 2024.1.3.3]]  | 6 feb 2025  |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.2|Spatial Eye NetCon 2024.1.3.2]]  | 5 feb 2025  |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.1|Spatial Eye NetCon 2024.1.3.1]]  | 17 jan 2025 |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.0|Spatial Eye NetCon 2024.1.3.0]]  | okt 2024    |
+| [[Version Information#Spatial Eye NetCon 2023.4.1.0|Spatial Eye NetCon 2023.4.1.0]]  | mar 2024    |
+| [[Version Information#Spatial Eye NetCon 2023.3.3.0|Spatial Eye NetCon 2023.3.3.0]]  | nov 2023    |
+| [[Version Information#Spatial Eye NetCon 2023.1.1.0|Spatial Eye NetCon 2023.1.1.0]]  | mar 2023    |
+| [[Version Information#Spatial Eye NetCon 2022.4.0.0|Spatial Eye NetCon 2022.4.0.0]]  | dec 2022    |
 
 # Release Notes
 
+## Spatial Eye NetCon 2024.2.2.10
+
+Fixes:
+* Small performance improvement to speed up initial load.
+
+## Spatial Eye NetCon 2024.2.2.9
+
+The location of the documentation has changed to:
+	https://spatialeye.github.io/NetCon/
+
+Fixes:
+* If the source contained different [[../8 API/Results/Connection Or Path Results/AssetHierarchy|AssetHierarchies]] for the same asset (combination of [[../8 API/Results/Connection Or Path Results/AssetTableName|AssetTableName]] and [[../8 API/Results/Connection Or Path Results/AssetId|AssetId]]), only the first was picked up. This has now been corrected, they will be merged into one AssetHierarchy, that contains all properties.) Note that there is a small startup performance impact because of this.
+* If the source contained different [[../8 API/Results/Connection Or Path Results/Specification|Specification]]s for the same asset (combination of [[../8 API/Results/Connection Or Path Results/AssetTableName|AssetTableName]] and [[../8 API/Results/Connection Or Path Results/AssetId|AssetId]]), only the first was picked up. This has now been corrected, they will be merged into one Specification, that contains all properties.) Note that there is a small startup performance impact because of this.
+* [[../8 API/Results/Connection Or Path Results/Specification|Specification]] of the shape "DeviceType=123,Id=456" would result in a Specification->id=123,id=456 format. A work around was to use change to a format, such as "Device.Type=123,Id=456". The problem has been corrected, such that a workaround is no longer required.
+* If Asset data was [[../8 API/Parameters/EnrichAssetInformation|enriched]], than repeatedly loading the data would add new properties each time, which could result in the same asset contains properties several times. From now on, it will be checked if a property was already present.
+* TraceApi parameter [[../8 API/Parameters/PatternAsRegex|PatternAsRegex]] was not picked up. This has been fixed.
+* Several join expressions had problems evaluating due to the introduction of a 'NetworkName' representing results of reduced (morphed) trace results, resulting in an 'Error evaluating join' error; typically visible in the desktop application or while materializing trace results. This was introduced a few version back and is corrected now.
+* Some internal performance enhancements have been made.
 
 ---
 ## Spatial Eye NetCon 2024.1.3.8
 
 In a future release: the location of the documentation will change to:
-	https://spatial-eye.github.io/NetCon/
+	https://spatialeye.github.io/NetCon/
 
 Fixes:
 * When an invalid search predicate was provided, this would result in an error, even though the [[../7 NetConQL/NetConQL - Network Connection Query Language|NetConQL - Network Connection Query Language]] parser would ignore the error, as can be seen in the query recipe that is returned and logged. As a result of this fix, an invalid predicate will return false.
@@ -74,7 +92,7 @@ Fixes:
 ## Spatial Eye NetCon 2024.1.3.5
 
 Changes:
-* In [[../8 API/Results/Connection Or Path Results/AssetHierarchy|AssetHierarchy]] and [[../8 API/Results/Connection Or Path Results/Specification|Specification]], it is possible to use quotes.
+* In [[../8 API/Results/Connection Or Path Results/AssetHierarchy|AssetHierarchies]] and [[../8 API/Results/Connection Or Path Results/Specification|Specification]], it is possible to use quotes.
 * It is now possible to create [[../5 Configuration/Properties/Property Type Definition|Property Type Definition]], to force a type when properties are is parsed from a string (e.g. during querying or as used in AssetHierarchy or Specification.
 * [[../5 Configuration/Overlay and Near Real Time Networks/Introduction to Overlay Networks|Overlay networks]] are made available.
 * [[../6 Use/Enumerators/NetCon EdgeType Enumerator|NetCon EdgeType Enumerator]] node has been renamed to loop, since and edge is never a node, but a 'loop' was intended.

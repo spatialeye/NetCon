@@ -10,8 +10,6 @@ tags:
   - ApiCall
   - GetOperatedSection
   - ToDo
-  - Overview
-  - Example
 ---
 # API GetOperatedSection
 

@@ -7,8 +7,6 @@ draft: false
 date: 2025-03-12
 tags:
   - "#OverlayNetwork"
-  - Overview
-  - Example
   - OverlayNetwork
 ---
 [[./Stacked Overlay Networks|previous]]

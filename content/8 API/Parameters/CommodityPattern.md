@@ -14,8 +14,6 @@ tags:
   - Commodity
   - NetCon2
   - ToDo
-  - Overview
-  - Example
 ---
 # CommodityPattern
 

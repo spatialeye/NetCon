@@ -10,8 +10,6 @@ tags:
   - ApiTraceCall
   - TraceOutageImpact
   - ToDo
-  - Overview
-  - Example
 ---
 # API TraceOutageImpact
 
