@@ -9,8 +9,6 @@ tags:
   - Overview
   - Commodity
   - Disciplin
-  - single_source_of_truth
-  - data_morphing
 ---
 [[../Sources of Connectivity|previous]] [[./Commodity|more]] [[./Network Ontology|next]]
 # Commodity Networks
