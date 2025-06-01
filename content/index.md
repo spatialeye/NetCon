@@ -7,8 +7,6 @@ aliases:
 draft: false
 tags:
   - Index
-  - single_source_of_truth
-  - data_morphing
   - Overview
 date: 2024-09-26
 Version: 2024.1.3
