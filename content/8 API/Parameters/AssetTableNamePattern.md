@@ -13,8 +13,6 @@ tags:
   - ApiParameter
   - AssetTableName
   - AssetTableNamePattern
-  - Overview
-  - Example
 ---
 # AssetTableNamePattern
 
