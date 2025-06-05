@@ -10,7 +10,6 @@ tags:
   - Smallworld
   - Connectivity
   - Extraction
-  - Overview
 ---
 # Enhanced Connectivity Extraction from Smallworld
 
