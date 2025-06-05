@@ -1,7 +1,7 @@
 ---
 title: Barrier
-description: Enumerator denoting the barring state of this connection. See [[NetCon Barrier Enumerator|NetCon Barrier Enumerator]].
-Type: int
+description: Enumerator denoting the barring state of this connection.
+Type: integer
 Order: 999
 Unique: false
 permalink: 
@@ -14,7 +14,9 @@ tags:
 ---
 # Barrier
 
-Type of: _int_
-Unique: __
+| Type          | Unique               |
+| ------------- | -------------------- |
+| integer |  |
 
-Enumerator denoting the barring state of this connection. See [[NetCon Barrier Enumerator|NetCon Barrier Enumerator]].
+Enumerator denoting the barring state of this connection.
+See [[../../../6 Use/Enumerators/NetCon Barrier Enumerator|NetCon Barrier Enumerator]].
