@@ -10,6 +10,8 @@ tags:
   - Smallworld
   - Connectivity
   - Extraction
+  - ApiResult
+  - Barrier
 ---
 # Enhanced Connectivity Extraction from Smallworld
 
