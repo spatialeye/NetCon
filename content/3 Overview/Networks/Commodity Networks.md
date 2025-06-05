@@ -10,27 +10,10 @@ tags:
   - Commodity
   - Disciplin
 ---
-[[../Sources of Connectivity|previous]] [[./Commodity|more]] [[./Network Ontology|next]]
+[[../Sources of Connectivity|previous]] [[./Disciplin|Disciplin]] [[./Commodity|Commodity]] [[./Network Ontology|next]]
 # Commodity Networks
 
-NetCon is all about networks, but not just any network. It reasons about networks that transport a [[./Commodity|more]]. It is setup in such a way that for each type of network specific behavior can be exhibited.
-
-## Disiplin
-
-As networks in NetCon we consider the following disciplines:
-
-| Code | Disciplin        | Remark                                                                               |
-| ---- | ---------------- | ------------------------------------------------------------------------------------ |
-| U    | Unknown          | Unknown or generic network                                                           |
-| E    | Electricity      | Electricity network                                                                  |
-| G    | Gas              | Gas network                                                                          |
-| W    | Water            | Water network                                                                        |
-| H    | Heat             | Network for city heating                                                             |
-| S    | Sewage           | Sewage network                                                                       |
-| T    | Telecom          | Telecom network, such fibre glass, gsm, coax, copper, ethernet or wifi               |
-| R    | Roads            | Road network, possibly with pavements, cycle paths, highways, etc.                   |
-| P    | Public Transport | Public transport network such as railways, trams, bus services                       |
-| C    | Container        | Container or structure network, which connections contain bundles of other networks. |
+NetCon is all about networks, but not just any network. It reasons about networks that transport a [[./Commodity|Commodity]]. It is setup in such a way that for each type of network specific behavior can be exhibited. We call the types of the networks [[./Disciplin|disciplines]].
 
 ## From Asset to Connection
 
@@ -60,7 +43,7 @@ classDiagram
   end
 ```
 
-What the network is conducting or transporting is stored in the [[./Commodity|more]] field. Examples are high pressure or low pressure gas, optionally followed by what type of gas (e.g. methane or hydrogen). Another example is low, medium or high voltage power, optionally followed by phase information.
+What the network is conducting or transporting is stored in the [[./Commodity|Commodity]] field. Examples are high pressure or low pressure gas, optionally followed by what type of gas (e.g. methane or hydrogen). Another example is low, medium or high voltage power, optionally followed by phase information.
 
 When the commodity is switched of or stopped, the network connection that does this is called a **barrier**. More about this can be read in [[./Barrier or Operational State|Barrier]].
 
