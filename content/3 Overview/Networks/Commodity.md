@@ -9,6 +9,8 @@ tags:
   - Commodity
   - Overview
   - ToDo
+  - ApiResult
+  - Barrier
 ---
 [[./Commodity Networks|previous]] [[./Derived Commodity|next]] 
 # Commodity
