@@ -1,7 +1,6 @@
 ---
 tags:
   - ToDo
-  - Overview
 ---
 For isolatable, operated, congestion and custom sections the trace information is available as feature source so it can be persisted.
 

@@ -9,7 +9,6 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetNeighborUpstream
-  - Overview
 ---
 # API GetNeighborUpstream
 

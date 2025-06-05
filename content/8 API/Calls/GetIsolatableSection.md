@@ -10,7 +10,6 @@ tags:
   - ApiCall
   - GetIsolatableSection
   - ToDo
-  - Overview
 ---
 # API GetIsolatableSection
 
