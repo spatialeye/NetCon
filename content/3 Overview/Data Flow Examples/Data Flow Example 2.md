@@ -8,6 +8,8 @@ date: 2025-05-20
 tags:
   - Overview
   - Example
+  - ApiResult
+  - Barrier
 ---
 [[./Data Flow Example 1|prevous]] [[./Data Flow Example 3|next]]
 # Data Flow Example 2: From ambiguous GIS valves information to flow calculation
