@@ -4,7 +4,7 @@ description:
 permalink: 
 aliases: 
 draft: false
-date: 2025-03-20
+date: 2025-06-05
 tags: 
 ---
 # Property Type Definition
@@ -21,9 +21,8 @@ The NetConPropertyTypeDefinition collection has the following definition:
 | FieldName | String, e.g. `buildyear` or `length` or `eancode.id`                   | No       |
 | FieldType | String. Values must be one of: String, DateTime, Double, Long, Boolean | No       |
 | Unit      | String, e.g. `m` for meter or `m2` of squared meter.                   | Yes      |
-Fieldnames without a `.` will apply to all 
-If the fieldname contains a `.`, it is assumed that the first part denotes the parent.
-S
+Fieldnames without a '.' will apply to all properties with that name.
+If the fieldname contains a '.', it is assumed that the first part denotes the parent.
 
 ## Specifying the rules
 
