@@ -1,15 +1,14 @@
 ---
 title: Statistics
-description: 
+description: Returns counts of how often certain properties, such as Barrier or Role or AssetTableName, occur.
 permalink: 
 aliases: 
 draft: false
-date: 2025-04-18
+date: 2025-06-01
 tags:
   - Statistics
   - ApiMetaCall
   - ApiCall
-  - Overview
 ---
 # Statistics
 
