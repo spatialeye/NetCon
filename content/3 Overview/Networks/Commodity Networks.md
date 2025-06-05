@@ -9,6 +9,8 @@ tags:
   - Overview
   - Commodity
   - Disciplin
+  - ApiResult
+  - Barrier
 ---
 [[../Sources of Connectivity|previous]] [[./Disciplin|Disciplin]] [[./Commodity|Commodity]] [[./Network Ontology|next]]
 # Commodity Networks
