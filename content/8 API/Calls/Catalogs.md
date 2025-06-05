@@ -10,6 +10,8 @@ tags:
   - ApiCall
   - Catalogs
   - ToDo
+  - ApiResult
+  - Barrier
   - ApiMetaCall
 ---
 # Catalogs

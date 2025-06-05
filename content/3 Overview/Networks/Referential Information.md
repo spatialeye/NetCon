@@ -11,6 +11,8 @@ tags:
   - AssetId
   - CustomAssetId
   - Overview
+  - ApiResult
+  - Barrier
 ---
 [[./Barrier or Operational State|previous]] [[../Network Sections|next]]
 # Referential Information

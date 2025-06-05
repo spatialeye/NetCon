@@ -11,6 +11,8 @@ tags:
   - single_source_of_truth
   - data_morphing
   - Overview
+  - ApiResult
+  - Barrier
 ---
 [[../Use Cases|previous]] [[../Solution Architecture|next]]
 # Purpose and Examples

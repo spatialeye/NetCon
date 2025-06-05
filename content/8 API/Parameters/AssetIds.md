@@ -12,6 +12,8 @@ tags:
   - ApiParameter
   - AssetId
   - AssetIds
+  - ApiResult
+  - Barrier
 ---
 # AssetIds
 

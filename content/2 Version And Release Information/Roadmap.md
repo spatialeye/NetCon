@@ -7,6 +7,9 @@ aliases:
   - Roadmap
 draft: false
 date: 2025-06-01
+tags:
+  - ApiResult
+  - Barrier
 ---
 [[./Version Information|previous]] [[../3 Overview/Use Cases|next]]
 # Roadmap

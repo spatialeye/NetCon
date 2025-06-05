@@ -8,6 +8,8 @@ date: 2024-09-27
 tags:
   - Commodity
   - Disciplin
+  - ApiResult
+  - Barrier
 ---
 [[./Commodity Networks|previous]] [[./Derived Commodity|next]] 
 # Disciplin
