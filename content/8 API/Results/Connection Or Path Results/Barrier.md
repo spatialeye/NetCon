@@ -7,7 +7,7 @@ Unique: false
 permalink: 
 aliases: 
 draft: false
-date: 2024-09-30
+date: 2025-06-05
 tags:
   - ApiResult
   - Barrier
