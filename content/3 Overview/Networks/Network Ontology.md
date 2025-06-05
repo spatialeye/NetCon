@@ -7,6 +7,8 @@ draft: false
 date: 2024-09-27
 tags:
   - Overview
+  - ApiResult
+  - Barrier
 ---
 [[./Commodity Networks|previous]] [[../Tracing and Querying/Shortest path or Dijkstra algorithm|next]]
 # Network Ontology
