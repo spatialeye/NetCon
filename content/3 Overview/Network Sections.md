@@ -10,8 +10,6 @@ tags:
   - Section
   - Overview
   - NetCon2
-  - ApiResult
-  - Barrier
 ---
 [[./Networks/Referential Information|previous]] [[../index#Getting started|next]]
 # Clustering the Network into Sections
