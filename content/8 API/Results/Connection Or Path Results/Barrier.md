@@ -14,9 +14,7 @@ tags:
 ---
 # Barrier
 
-| Type          | Unique               |
-| ------------- | -------------------- |
-| integer |  |
+Type of: _integer_
 
 Enumerator denoting the barring state of this connection.
 See [[../../../6 Use/Enumerators/NetCon Barrier Enumerator|NetCon Barrier Enumerator]].

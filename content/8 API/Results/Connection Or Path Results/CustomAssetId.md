@@ -1,6 +1,6 @@
 ---
 title: CustomAssetId
-description: Company wide unique id of the asset.
+description: Company wide unique id of the asset. Note that one asset can have several connections.
 Type: boolean
 Order: 999
 Unique: false
@@ -11,12 +11,10 @@ date: 2024-09-30
 tags:
   - ApiResult
   - CustomAssetId
-  - Barrier
 ---
 # CustomAssetId
 
 Type of: _boolean_
-Unique: __
 
-Company wide unique id of the asset.
+Company wide unique id of the asset. Note that one asset can have several connections.
 

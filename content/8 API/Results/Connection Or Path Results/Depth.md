@@ -1,22 +1,20 @@
 ---
 title: Depth
-description: Index of the current connection in the path.
+description: Index of the current connection in the path. A depth = 1 means it is the first connection in the path.
 Type: boolean
 Order: 999
 Unique: false
 permalink: 
 aliases: 
-draft: true
-date: 2024-10-02
+draft: false
+date: 2025-06-05
 tags:
   - ApiResult
   - Depth
-  - Barrier
 ---
 # Depth
 
 Type of: _boolean_
-Unique: __
 
-Index of the current connection in the path.
+Index of the current connection in the path. A depth = 1 means it is the first connection in the path.
 

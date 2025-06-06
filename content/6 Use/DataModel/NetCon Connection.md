@@ -7,8 +7,6 @@ draft: false
 date: 2025-05-20
 tags:
   - Connection
-  - ApiResult
-  - Barrier
 ---
 # NetCon Connection
 
@@ -21,7 +19,7 @@ The definition of the table contents is standard and may not be altered.
 | Field          | Name                 | Description                                                                                                                                                                                                                                              |
 | -------------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | se_history_id* | Meta History Id      | Optional hidden Spatial Warehouse Key, will be ignored. See also [User Data in Spatial Warehouse](https://documentation.spatial-eye.com/swh/2021_2/en/143117a0-d822-42f1-ae69-a484a2db0efa.htm)                                                          |
-| id*            | [[../../8 API/Results/Connection Or Path Results/ConnectionId\|Id]] | Identifier of the connection, also known as [[../../8 API/Results/Connection Or Path Results/ConnectionId|Id]]. Often the Spatial Warehouse key is used, which external name is `Meta History Root Id`; the internal name is `se_history_rootid`.                                                          |
+| id*            | [[../../8 API/Results/Connection Or Path Results/Id\|Id]] | Identifier of the connection, also known as [[../../8 API/Results/Connection Or Path Results/Id|Id]]. Often the Spatial Warehouse key is used, which external name is `Meta History Root Id`; the internal name is `se_history_rootid`.                                                          |
 | fromid*        | [[../../8 API/Results/Connection Or Path Results/FromId|FromId]]           | Node Id where connection starts from.                                                                                                                                                                                                                    |
 | toid*          | [[../../8 API/Results/Connection Or Path Results/ToId|ToId]]             | Node Id where connection goes to.                                                                                                                                                                                                                        |
 | role           | [[../../8 API/Results/Connection Or Path Results/Role|Role]]             | Enumerator denoting rol of connection in network. See also [[../Enumerators/NetCon Role Enumerator|NetCon Role Enumerator]].                                                                                                                                                                   |

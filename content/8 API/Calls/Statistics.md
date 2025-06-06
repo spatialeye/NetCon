@@ -9,8 +9,6 @@ tags:
   - Statistics
   - ApiMetaCall
   - ApiCall
-  - ApiResult
-  - Barrier
 ---
 # Statistics
 

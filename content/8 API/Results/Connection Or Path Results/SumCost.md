@@ -1,22 +1,21 @@
 ---
 title: SumCost
-description: Sum of all the [[Cost|Cost]]s in the path.
+description: Sum of all the costs of the connections in the path.
 Type: double
 Order: 999
 Unique: false
 permalink: 
 aliases: 
 draft: false
-date: 2024-10-02
+date: 2025-06-05
 tags:
   - ApiResult
   - SumCost
-  - Barrier
 ---
 # SumCost
 
 Type of: _double_
-Unique: __
 
-Sum of all the [[Cost|Cost]]s in the path.
+Sum of all the costs of the connections in the path.
 
+See also [[./Cost|Cost]].

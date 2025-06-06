@@ -1,22 +1,20 @@
 ---
 title: AssetId
-description: Id of the asset in registration system.
+description: Id of the asset in registration system. Unique per Asset Table Name. Note that one asset can have several connections.
 Type: long
 Order: 999
 Unique: false
 permalink: 
 aliases: 
 draft: false
-date: 2024-09-30
+date: 2025-06-05
 tags:
   - ApiResult
   - AssetId
-  - Barrier
 ---
 # AssetId
 
 Type of: _long_
-Unique: __
 
-Id of the asset in registration system.
+Id of the asset in registration system. Unique per Asset Table Name. Note that one asset can have several connections.
 

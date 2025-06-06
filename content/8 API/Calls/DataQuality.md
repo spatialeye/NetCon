@@ -9,8 +9,6 @@ tags:
   - DataQuality
   - ApiMetaCall
   - ApiCall
-  - ApiResult
-  - Barrier
 ---
 # DataQuality
 

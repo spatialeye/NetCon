@@ -8,8 +8,6 @@ date: 2025-06-01
 tags:
   - Overview
   - Example
-  - ApiResult
-  - Barrier
 ---
 [[./Purpose and Examples|previous]] [[./Data Flow Example 2|next]]
 # Data flow example I: From GIS valve to simple flow calculation

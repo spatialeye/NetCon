@@ -11,8 +11,6 @@ tags:
   - Connectivity
   - Extraction
   - GettingStarted
-  - ApiResult
-  - Barrier
 ---
 # Connectivity Extraction from Smallworld
 
