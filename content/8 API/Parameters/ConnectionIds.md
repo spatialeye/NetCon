@@ -12,8 +12,6 @@ tags:
   - ApiParameter
   - ConnectionId
   - ConnectionIds
-  - ApiResult
-  - Barrier
 ---
 # ConnectionIds
 
