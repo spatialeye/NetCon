@@ -7,9 +7,6 @@ draft: false
 date: 2024-09-27
 comments: false
 shared: 
-tags:
-  - ApiResult
-  - Barrier
 ---
 [[../index|previous]] [[./Introduction|next]]
 # Copyright and Usage
