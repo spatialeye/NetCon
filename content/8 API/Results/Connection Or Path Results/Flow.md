@@ -1,6 +1,6 @@
 ---
 title: Flow
-description: Direction of commodity. 'DownStream' if the commodity flows from FromId towards ToId, 'Mazed' if the networks barriers are such that the flow can go both ways, i.e. from sources at either side, 'NoFlow' if no connected path to a [[../../../3 Overview/Networks/Sources|Source]] exists, see also [[Role|Role]]. Upstream, when streaming from ToId to FlowId. Note that you should never see 'UpStream' in API call results since it swaps the FromId and ToId so the flow is 'DownStream' instead.
+description: Direction of commodity. 'DownStream' if the commodity flows from FromId towards ToId, 'Mazed' if the networks barriers are such that the flow can go both ways, i.e. from sources at either side, 'NoFlow' if no connected path to a Source exists. Upstream, when streaming from ToId to FlowId. Note that you should never see 'UpStream' in API call results since it swaps the FromId and ToId so the flow is 'DownStream' instead.
 Type: string
 Order: 999
 Unique: false
@@ -11,14 +11,14 @@ date: 2025-02-21
 tags:
   - ApiResult
   - Flow
-  - Barrier
 ---
 # Flow
 
 Type of: _string_
-Unique: __
 
-Direction of commodity. 'DownStream' if the commodity flows from FromId towards ToId, 'Mazed' if the networks barriers are such that the flow can go both ways, i.e. from sources at either side, 'NoFlow' if no connected path to a [[Sources|Source]] exists, see also [[Role|Role]]. Upstream, when streaming from ToId to FlowId. Note that you should never see 'UpStream' in API call results since it swaps the FromId and ToId so the flow is 'DownStream' instead.
+Direction of commodity. 'DownStream' if the commodity flows from FromId towards ToId, 'Mazed' if the networks barriers are such that the flow can go both ways, i.e. from sources at either side, 'NoFlow' if no connected path to a Source exists. Upstream, when streaming from ToId to FlowId. Note that you should never see 'UpStream' in API call results since it swaps the FromId and ToId so the flow is 'DownStream' instead.
+
+The flow is computed as downstream seen from Connections with the [[./Role|Role]] = [[../../../3 Overview/Networks/Sources|Source]].
 
 The flow describes the direction of the flow of the [[../../../3 Overview/Networks/Commodity|Commodity]] in a connection, or how the connection is used in the network:
 
@@ -30,6 +30,9 @@ The flow describes the direction of the flow of the [[../../../3 Overview/Networ
 | 3    | mazed     | Up as well as down; which means the connection is fed from a [[../../../3 Overview/Networks/Sources\|Source]] at either side.                         |
 | 4    | violation | Not used. A violation would be if a non [[./BiDirectional|BiDirectional]] connection is used up. The software prevents this.             |
 | 8    | no engine | The flow could not be computed since the engine has not been initialized.                                                |
+## Rules
+
+Flow is affected by [[../../../5 Configuration/Commodities/Commodity Rules|Commodity Rules]] as well as [[../../../5 Configuration/Commodities/Flow Transition Rules|Flow Transition Rules]].
 
 ## Mazed
 
