@@ -1,6 +1,6 @@
 ---
 title: Role
-description: The role that this connection has in the commodity network. See [[NetCon Role Values|NetCon Role Values]].
+description: The role that this connection has in the commodity network.
 Type: integer
 Order: 999
 Unique: false
@@ -11,11 +11,11 @@ date: 2024-09-30
 tags:
   - ApiResult
   - Role
-  - Barrier
 ---
 # Role
 
 Type of: _integer_
-Unique: __
 
-The role that this connection has in the commodity network. See [[NetCon Role Values|NetCon Role Values]].
+The role that this connection has in the commodity network.
+
+See [[../../../6 Use/Enumerators/NetCon Role Enumerator|NetCon Role Enumerator]].
