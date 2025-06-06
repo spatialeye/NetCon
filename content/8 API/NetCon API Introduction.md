@@ -7,8 +7,6 @@ draft: false
 date: 2024-09-30
 tags:
   - Wildcard
-  - ApiResult
-  - Barrier
 ---
 # NetCon API Introduction
 
