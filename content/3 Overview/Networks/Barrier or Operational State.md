@@ -11,7 +11,6 @@ tags:
   - Barrier
   - OperationalState
   - Overview
-  - ApiResult
 ---
 [[./Life Cycle Status|previous]] [[./Referential Information|next]]
 # Barrier or Operational State
