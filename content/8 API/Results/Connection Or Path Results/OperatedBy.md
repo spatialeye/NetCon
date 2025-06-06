@@ -11,12 +11,10 @@ date: 2025-04-18
 tags:
   - ApiResult
   - OperatedBy
-  - Barrier
 ---
 # OperatedBy
 
 Type of: _string_
-Unique: __
 
 Name of organisation responsible for operating this connection or barrier.
 
