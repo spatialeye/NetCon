@@ -11,12 +11,10 @@ date: 2024-09-27
 tags:
   - ApiResult
   - ToId
-  - Barrier
 ---
 # ToId
 
 Type of: _long_
-Unique: __
 
 Id identifying the node going to.
 
