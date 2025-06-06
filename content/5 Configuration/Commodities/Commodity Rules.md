@@ -50,7 +50,7 @@ The NetConCommodityTransitionRule collection has the following definition:
 
 | FieldName | FieldType                                                              | Optional |
 | --------- | ---------------------------------------------------------------------- | -------- |
-| Disciplin | Letter denoting [[../../3 Overview/Networks/Disciplin|Disciplin]], e.g.                                    | No       |
+| Disciplin | Letter denoting [[Disciplin|Disciplin]], e.g.                                    | No       |
 | FieldType | String. Values must be one of: String, DateTime, Double, Long, Boolean | No       |
 | Unit      | String, e.g. `m` for meter or `m2` of squared meter.                   | Yes      |
 
