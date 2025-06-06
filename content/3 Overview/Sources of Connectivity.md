@@ -8,8 +8,6 @@ date: 2025-03-12
 tags:
   - data_sources
   - Overview
-  - ApiResult
-  - Barrier
 ---
 [[./Solution Architecture|previous]] [[./Networks/Commodity Networks|next]]
 # Four common sources of information for network connectivity
