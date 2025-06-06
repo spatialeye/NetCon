@@ -7,16 +7,14 @@ Unique: false
 permalink: 
 aliases: 
 draft: false
-date: 2024-09-30
+date: 2025-06-05
 tags:
   - ApiResult
   - AssetTableName
-  - Barrier
 ---
 # AssetTableName
 
 Type of: _string_
-Unique: __
 
 Name of the table where more information can be found on the asset that constitutes the connection.
 
