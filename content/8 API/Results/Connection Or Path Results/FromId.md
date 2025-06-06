@@ -11,12 +11,10 @@ date: 2024-09-27
 tags:
   - ApiResult
   - FromId
-  - Barrier
 ---
 # FromId
 
 Type of: _long_
-Unique: __
 
 Id identifying the node departing from.
 
