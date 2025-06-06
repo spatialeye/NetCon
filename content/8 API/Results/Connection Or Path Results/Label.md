@@ -11,12 +11,10 @@ date: 2024-09-30
 tags:
   - ApiResult
   - Label
-  - Barrier
 ---
 # Label
 
 Type of: _string_
-Unique: __
 
 Tagging information to label important assets in the network. Typically these labels can be used to retrieve the downstream parts that are dependent on the labelled asset.
 
