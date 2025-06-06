@@ -11,12 +11,10 @@ date: 2025-04-18
 tags:
   - ApiResult
   - Owner
-  - Barrier
 ---
 # Owner
 
 Type of: _string_
-Unique: __
 
 Name of organisation owning this connection or asset.
 
