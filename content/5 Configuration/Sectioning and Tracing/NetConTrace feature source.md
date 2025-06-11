@@ -82,7 +82,7 @@ And the accompanying upstream predicate would be:
 |                            | FromNodeId           | long       |                                                                                                   |
 |                            | ToNodeId             | long       |                                                                                                   |
 |                            | ...                  |            |                                                                                                   |
-|                            | Flow                 | enum       | none, upstream, downstream or mazed depending on how this connection is fed from a source         |
+|                            | Flow                 | enum       | none, upstream, downstream or meshed depending on how this connection is fed from a source         |
 |                            | IsolatedSectionId    | long       | Id of the isolated section this connection belongs to.                                            |
 |                            | OperatedSectionId    | long       | Id of the operated section this connection belongs to.                                            |
 |                            | ControlSectionId      | long       | Id of the Control Section this connection belongs to.                                              |
@@ -91,7 +91,7 @@ And the accompanying upstream predicate would be:
 |                            | FromNodeId           | long       |                                                                                                   |
 |                            | ToNodeId             | long       |                                                                                                   |
 |                            | ...                  |            |                                                                                                   |
-|                            | Flow                 | enum       | none, upstream, downstream or mazed depending on how this isolatable section is fed from a source |
+|                            | Flow                 | enum       | none, upstream, downstream or meshed depending on how this isolatable section is fed from a source |
 |                            | OperatedSectionId    | long       | Id of the operated section this isolatable section belongs to.                                    |
 |                            | ControlSectionId      | long       | Id of the Control Section this isolatable section belongs to.                                      |
 |                            | CommoditySectionId   | long       | Id of the commodity section this isolatable section belongs to.                                   |
