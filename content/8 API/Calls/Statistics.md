@@ -4,7 +4,7 @@ description: Returns counts of how often certain properties, such as Barrier or 
 permalink: 
 aliases: 
 draft: false
-date: 2025-06-01
+date: 2025-06-11
 tags:
   - Statistics
   - ApiMetaCall
@@ -38,11 +38,11 @@ The total number of elements and their summed up cost of:
 
 Computes from the flow of the elements in the network:
 
-| Flow          | Description                                                                                     |
-| ------------- | ----------------------------------------------------------------------------------------------- |
-| noFlowCount   | elements that are not connected to, or blocked from, a source                                   |
-| directedCount | elements that are directed as down- or upstream                                                 |
-| mazedCount    | elements that are marked as mazed-stream, i.e. the flow can come from both the from and to node |
+| Flow          | Description                                                                                      |
+| ------------- | ------------------------------------------------------------------------------------------------ |
+| noFlowCount   | elements that are not connected to, or blocked from, a source                                    |
+| directedCount | elements that are directed as down- or upstream                                                  |
+| meshedCount   | elements that are marked as meshed-stream, i.e. the flow can come from both the from and to node |
 
 ## Properties
 

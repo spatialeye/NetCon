@@ -54,7 +54,7 @@ Thematic style for NetCon line assets:
 Thematic style for NetCon up- and downstream flow:
 
 ![[../../Zimages/netcon_flow_style_slice_down.png|netcon_flow_style_slice_down.png]]
-![[../../Zimages/netcon_flow_style_slice_mazed.png|netcon_flow_style_slice_mazed.png]]
+![[../../Zimages/netcon_flow_style_slice_meshed.png|netcon_flow_style_slice_meshed.png]]
 ![[../../Zimages/netcon_flow_style_slice_no_source.png|netcon_flow_style_slice_no_source.png]]
 ![[../../Zimages/netcon_flow_style_slice_up.png|netcon_flow_style_slice_up.png]]
 

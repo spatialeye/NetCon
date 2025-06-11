@@ -10,10 +10,10 @@ tags:
   - Commodity
   - Disciplin
 ---
-[[../Sources of Connectivity|previous]] [[Disciplin|Disciplin]] [[./Commodity|Commodity]] [[./Network Ontology|next]]
+[[../Sources of Connectivity|previous]] [[./Disciplin|Disciplin]] [[./Commodity|Commodity]] [[./Network Ontology|next]]
 # Commodity Networks
 
-NetCon is all about networks, but not just any network. It reasons about networks that transport a [[./Commodity|Commodity]]. It is setup in such a way that for each type of network specific behavior can be exhibited. We call the types of the networks [[Disciplin|disciplines]].
+NetCon is all about networks, but not just any network. It reasons about networks that transport a [[./Commodity|Commodity]]. It is setup in such a way that for each type of network specific behavior can be exhibited. We call the types of the networks [[./Disciplin|disciplines]].
 
 ## From Asset to Connection
 

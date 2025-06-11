@@ -84,7 +84,7 @@ Several observations can be made:
 	* This increases the depth compared to the simple path notation used before;
 * The connection Id=45 is also modelled as a path, with a SumCost of 10, even though it may not be used in a shorted path;
 	* It may still be of interested in NetCon output:
-		* For a start, mazed networks behave different and need to be operated in a different way;
+		* For a start, meshed networks behave different and need to be operated in a different way;
 		* It is still transporting the commodity and as such is *live*;
 * The connection at n8 is inserted as a self-loop into the path leading to n9 - here the PreviousId=88 and not PreviousId=78;
 	* Basically, if self-loops are encountered on the way, they *have* to be used (unless those are [[./Basic network tracing#Block criteria|blocked]] of course);

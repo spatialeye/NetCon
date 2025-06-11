@@ -4,7 +4,7 @@ description:
 permalink: 
 aliases: 
 draft: false
-date: 2025-06-06
+date: 2025-06-11
 Version: 2024.1.3
 Product: NetCon 2.0
 tags:
@@ -15,23 +15,23 @@ tags:
 
 This paragraph contains the version information for the `Spatial Eye NetCon` product(s). The product's change history is described below for each of the released versions.
 
-|               Version               | Released    |
-| :---------------------------------: | ----------- |
-| [[Version Information#Spatial Eye NetCon 2024.2.2.10|Spatial Eye NetCon 2024.2.2.10]] | t.b.d.      |
-| [[Version Information#Spatial Eye NetCon 2024.2.2.9|Spatial Eye NetCon 2024.2.2.9]]  | 28 mei 2025 |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.8|Spatial Eye NetCon 2024.1.3.8]]  | 16 mei 2025 |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.7|Spatial Eye NetCon 2024.1.3.7]]  | 17 apr 2025 |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.6|Spatial Eye NetCon 2024.1.3.6]]  | 10 apr 2025 |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.5|Spatial Eye NetCon 2024.1.3.5]]  | 25 mar 2025 |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.4|Spatial Eye NetCon 2024.1.3.4]]  | 18 feb 2025 |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.3|Spatial Eye NetCon 2024.1.3.3]]  | 6 feb 2025  |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.2|Spatial Eye NetCon 2024.1.3.2]]  | 5 feb 2025  |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.1|Spatial Eye NetCon 2024.1.3.1]]  | 17 jan 2025 |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.0|Spatial Eye NetCon 2024.1.3.0]]  | okt 2024    |
-| [[Version Information#Spatial Eye NetCon 2023.4.1.0|Spatial Eye NetCon 2023.4.1.0]]  | mar 2024    |
-| [[Version Information#Spatial Eye NetCon 2023.3.3.0|Spatial Eye NetCon 2023.3.3.0]]  | nov 2023    |
-| [[Version Information#Spatial Eye NetCon 2023.1.1.0|Spatial Eye NetCon 2023.1.1.0]]  | mar 2023    |
-| [[Version Information#Spatial Eye NetCon 2022.4.0.0|Spatial Eye NetCon 2022.4.0.0]]  | dec 2022    |
+|               Version               | Released     |
+| :---------------------------------: | ------------ |
+| [[Version Information#Spatial Eye NetCon 2024.2.2.10|Spatial Eye NetCon 2024.2.2.10]] | 11 juni 2025 |
+| [[Version Information#Spatial Eye NetCon 2024.2.2.9|Spatial Eye NetCon 2024.2.2.9]]  | 28 mei 2025  |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.8|Spatial Eye NetCon 2024.1.3.8]]  | 16 mei 2025  |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.7|Spatial Eye NetCon 2024.1.3.7]]  | 17 apr 2025  |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.6|Spatial Eye NetCon 2024.1.3.6]]  | 10 apr 2025  |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.5|Spatial Eye NetCon 2024.1.3.5]]  | 25 mar 2025  |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.4|Spatial Eye NetCon 2024.1.3.4]]  | 18 feb 2025  |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.3|Spatial Eye NetCon 2024.1.3.3]]  | 6 feb 2025   |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.2|Spatial Eye NetCon 2024.1.3.2]]  | 5 feb 2025   |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.1|Spatial Eye NetCon 2024.1.3.1]]  | 17 jan 2025  |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.0|Spatial Eye NetCon 2024.1.3.0]]  | okt 2024     |
+| [[Version Information#Spatial Eye NetCon 2023.4.1.0|Spatial Eye NetCon 2023.4.1.0]]  | mar 2024     |
+| [[Version Information#Spatial Eye NetCon 2023.3.3.0|Spatial Eye NetCon 2023.3.3.0]]  | nov 2023     |
+| [[Version Information#Spatial Eye NetCon 2023.1.1.0|Spatial Eye NetCon 2023.1.1.0]]  | mar 2023     |
+| [[Version Information#Spatial Eye NetCon 2022.4.0.0|Spatial Eye NetCon 2022.4.0.0]]  | dec 2022     |
 
 # Release Notes
 
@@ -39,6 +39,8 @@ This paragraph contains the version information for the `Spatial Eye NetCon` pro
 
 Fixes:
 * Small performance improvement to speed up initial load.
+* Geometry cache has an improved mechanism to unload data.
+* Breaking change: throughout the software, a spelling mistake has been corrected, everything called 'maze' is now called 'mesh.'
 
 ## Spatial Eye NetCon 2024.2.2.9
 
@@ -107,7 +109,7 @@ Fixes:
 
 Changes:
 * The internal start up procedures have been changed to allow for Overlay Networks. An overlay network can be used for Data Quality or Data Patching purposes and will create a new network that depends on another one. In queries, you can specify the Network to be queries with the [[../9 Expressions/Parameters/NetworkName|NetworkName]] parameter.
-* A new parameter [[../8 API/Parameters/StopAtBarringConnections|StopAtBarringConnections]] has been added to [[../8 API/Calls/TraceOut|TraceOut]] and [[../8 API/Calls/TraceMazed|TraceMazed]]. It needs to be researched if this makes sense when Flow is used, since there is propably no flow at barring barriers. The [[../8 API/Parameters/BlockBarringConnections|BlockBarringConnections]] is ignored if the new parameter is set since it would undo the other one.
+* A new parameter [[../8 API/Parameters/StopAtBarringConnections|StopAtBarringConnections]] has been added to [[../8 API/Calls/TraceOut|TraceOut]] and [[../8 API/Calls/TraceMeshed|TraceMeshed]]. It needs to be researched if this makes sense when Flow is used, since there is propably no flow at barring barriers. The [[../8 API/Parameters/BlockBarringConnections|BlockBarringConnections]] is ignored if the new parameter is set since it would undo the other one.
 * When reporting all data quality problems for large networks, the [[../8 API/Calls/Statistics|Statistics]] API is too slow to produce an answer within the time limit. As a result `504 gateway timeout` is received. The default parameter is changed to skip data quality checks.
 
 ---
@@ -154,7 +156,7 @@ New:
 ## Spatial Eye NetCon 2023.4.1.0
 
 New:
-- [[Flow calculation|Flow calculation]] is added and computed on the fly to determine the direction of the flow (none, down or mazed) for every connection. If not start criterion is specified, the [[../3 Overview/Networks/Sources|source]] is used.
+- [[Flow calculation|Flow calculation]] is added and computed on the fly to determine the direction of the flow (none, down or meshed) for every connection. If not start criterion is specified, the [[../3 Overview/Networks/Sources|source]] is used.
 - [[Flow calculation export|Flow calculation export]] is enabled for various network flow calculation programs.
 - [[NetCon sections|NetCon sections]] are computed on the fly. This allows for a faster startup. Sections are name Isolatable, Operated, Control and Custom sections. The sections have now more attributes than the previous Section and Super sections. The relations between sections and connections have been simplified.
 	- The sections themselves are not only available as feature source tables so they can be materialized (see [[../6 Use/Long running queries/Materializing Long Running traces|Materializing Long Running traces]]), but also their traces are available to be persisted.
@@ -182,7 +184,7 @@ Changes per release 30 Oct 2024
 
 Changes per release 31 Oct 2024
 * The predicates in [[../5 Configuration/Sectioning and Tracing/NetConTrace feature source|NetConTrace feature source]] can now take on many more and different arguments. Previously they only accepted assettablesnames like `assettablenames=*somepattern,another`.
-* The result attribute `flag` has been renamed to [[../8 API/Calls/TraceMazed|TraceMazed]]. This affects all results.
+* The result attribute `flag` has been renamed to [[../8 API/Calls/TraceMeshed|TraceMeshed]]. This affects all results.
 
 Enhancement requests:
 * When a NetConConnection has no [[../3 Overview/Networks/Commodity|Commodity]], derive it from its upstream neighbors.
