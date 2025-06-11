@@ -17,7 +17,7 @@ In that case, the only restriction is what the registration system allows to be 
 If you registration system is setup in such a way, that there are many redundancies or inappropriate connections going to/from the same now, then Flow Transition Rules can be your helping hand to straighten out the transitions. 
 
 Imagine a system where substation internals, schematic diagrams and in-place map locations are all modelled in a single data model, and are all connected. 
-If no preventions are taken, every cable that is both in a schematic representation as well as in a in-place location will create a cycle in the graph, hence making it 'mazed', while it is only a double registration of the same asset.
+If no preventions are taken, every cable that is both in a schematic representation as well as in a in-place location will create a cycle in the graph, hence making it 'meshed', while it is only a double registration of the same asset.
 
 Another situation where this may occur is when cables have mostly overview locations, but in some situations they have have detailed locations. These may also call cycles.
 
@@ -27,7 +27,7 @@ The NetConFlowTransitionRule collection has the following definition:
 
 | FieldName     | FieldType                                                                                                                                                                                                   | Optional |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| Disciplin     | Letter denoting [[Disciplin|Disciplin]], e.g.                                                                                                                                                                         | No       |
+| Disciplin     | Letter denoting [[../../3 Overview/Networks/Disciplin|Disciplin]], e.g.                                                                                                                                                                         | No       |
 | Block         | Boolean, denoting this is a rule that will block a flow (forbidden transition) or will explicitly enable a flow (in which case connections matching the PredicateFrom have to find a matching PredicateTo). | No       |
 | PredicateFrom | [[../../7 NetConQL/NetConQL - Network Connection Query Language|NetConQL - Network Connection Query Language]] predicate that is evaluatad on a connection where we transition from.                                                                                      | No       |
 | PredicateTo   | [[../../7 NetConQL/NetConQL - Network Connection Query Language|NetConQL - Network Connection Query Language]] predicate that is evaluatad on a connection where we transition to.                                                                                        | No       |
