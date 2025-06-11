@@ -17,7 +17,7 @@ tags:
 
 Connections can be conducting or barring/blocking the flow of the [[./Commodity|Commodity]], i.e. opened or closed. The flow is assumed to be barred when isbarrier > 0, and conducting/flowing isbarrier < 0. Normal connections that are not operated have isbarrier = 0.
 
-Typical values are -1 (can be barrier) and 1 (is barring). Other values are reserved 'mostly barring' behavior (-2) for trickle throughput (so it is conducting a little bit, a bit like traffic in a traffic jam. This is used to avoid contaminations is mazed water networks.
+Typical values are -1 (can be barrier) and 1 (is barring). Other values are reserved 'mostly barring' behavior (-2) for trickle throughput (so it is conducting a little bit, a bit like traffic in a traffic jam. This is used to avoid contaminations is meshed water networks.
 
 Autonomous switching can also be designated. The value -10 means conducting is the default, but an autonomous system can switch the flow off, and 10 means barring is the default but it can be switched on autonomously.
 
