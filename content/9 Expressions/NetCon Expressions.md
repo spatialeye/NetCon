@@ -49,8 +49,8 @@ Bla bla
 
 | File                                                                             | description                                                                                                                          |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| [[./Toplevel Expressions/NetworkMatch()\|NetworkMatch()]] | Creates a predicate to use on [[Connections|Connections]] to filter them.                                                                        |
 | [[./Toplevel Expressions/Network()\|Network()]]           | An expression that provides a handle to the network, which contains [[Connections|Connections]] and knows about their [[Sections|Sections]] and [[Flow|Flow]]. |
+| [[./Toplevel Expressions/NetworkMatch()\|NetworkMatch()]] | Creates a predicate to use on [[Connections|Connections]] to filter them.                                                                        |
 
 
 
@@ -59,9 +59,9 @@ Bla bla
 
 | File                                                                   | description                                                                                         |
 | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| [[./NetworkPredicate Expressions/Or()\|Or()]]   | Combines two [[NetworkPredicate|NetworkPredicate]]s and only returns true if one of the combined predicates is true. |
-| [[./NetworkPredicate Expressions/Not()\|Not()]] | Creates a new [[NetworkPredicate|NetworkPredicate]] that returns true if the receiving predicate is false.           |
 | [[./NetworkPredicate Expressions/And()\|And()]] | Combines two [[NetworkPredicate|NetworkPredicate]]s and only returns true if all combined predicates are true.       |
+| [[./NetworkPredicate Expressions/Not()\|Not()]] | Creates a new [[NetworkPredicate|NetworkPredicate]] that returns true if the receiving predicate is false.           |
+| [[./NetworkPredicate Expressions/Or()\|Or()]]   | Combines two [[NetworkPredicate|NetworkPredicate]]s and only returns true if one of the combined predicates is true. |
 
 
 
