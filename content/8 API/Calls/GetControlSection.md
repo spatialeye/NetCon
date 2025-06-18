@@ -10,6 +10,7 @@ tags:
   - ApiCall
   - GetControlSection
   - ToDo
+  - GettingStarted
 ---
 # API GetControlSection
 
