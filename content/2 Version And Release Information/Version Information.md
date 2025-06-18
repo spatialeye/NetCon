@@ -4,8 +4,8 @@ description:
 permalink: 
 aliases: 
 draft: false
-date: 2025-06-11
-Version: 2024.1.3
+date: 2025-06-18
+Version: 2024.2.2
 Product: NetCon 2.0
 tags:
   - ToDo
@@ -17,7 +17,7 @@ This paragraph contains the version information for the `Spatial Eye NetCon` pro
 
 |               Version               | Released     |
 | :---------------------------------: | ------------ |
-| [[Version Information#Spatial Eye NetCon 2024.2.2.10|Spatial Eye NetCon 2024.2.2.10]] | 11 juni 2025 |
+| [[Version Information#Spatial Eye NetCon 2024.2.2.10|Spatial Eye NetCon 2024.2.2.10]] | 18 juni 2025 |
 | [[Version Information#Spatial Eye NetCon 2024.2.2.9|Spatial Eye NetCon 2024.2.2.9]]  | 28 mei 2025  |
 | [[Version Information#Spatial Eye NetCon 2024.1.3.8|Spatial Eye NetCon 2024.1.3.8]]  | 16 mei 2025  |
 | [[Version Information#Spatial Eye NetCon 2024.1.3.7|Spatial Eye NetCon 2024.1.3.7]]  | 17 apr 2025  |
@@ -38,9 +38,10 @@ This paragraph contains the version information for the `Spatial Eye NetCon` pro
 ## Spatial Eye NetCon 2024.2.2.10
 
 Fixes:
-* Small performance improvement to speed up initial load.
+* Performance improvement to speed up initial load.
 * Geometry cache has an improved mechanism to unload data.
 * Breaking change: throughout the software, a spelling mistake has been corrected, everything called 'maze' is now called 'mesh.'
+* Counting [[../8 API/Parameters/StartConnectionIds|StartConnectionIds]] in the [[../8 API/Results/Search Or Trace Results/ResultsCount|ResultsCount]] has been corrected.
 
 ## Spatial Eye NetCon 2024.2.2.9
 
