@@ -12,6 +12,7 @@ tags:
   - ApiParameter
   - StartConnectionId
   - StartConnectionIds
+  - GettingStarted
 ---
 # StartConnectionIds
 

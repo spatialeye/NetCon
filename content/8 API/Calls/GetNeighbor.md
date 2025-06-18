@@ -9,6 +9,7 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetNeighbor
+  - GettingStarted
 ---
 # API GetNeighbor
 

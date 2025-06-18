@@ -9,6 +9,7 @@ tags:
   - Statistics
   - ApiMetaCall
   - ApiCall
+  - GettingStarted
 ---
 # Statistics
 

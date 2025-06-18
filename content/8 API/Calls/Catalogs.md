@@ -10,6 +10,7 @@ tags:
   - ApiCall
   - Catalogs
   - ToDo
+  - GettingStarted
   - ApiMetaCall
 ---
 # Catalogs

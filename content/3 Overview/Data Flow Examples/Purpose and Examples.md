@@ -11,6 +11,7 @@ tags:
   - single_source_of_truth
   - data_morphing
   - Overview
+  - GettingStarted
 ---
 [[../Use Cases|previous]] [[../Solution Architecture|next]]
 # Purpose and Examples

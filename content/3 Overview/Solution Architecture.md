@@ -7,6 +7,7 @@ draft: false
 date: 2025-06-01
 tags:
   - Overview
+  - GettingStarted
 ---
 [[./Data Flow Examples/Purpose and Examples|previous]] [[./Sources of Connectivity|next]]
 # Solution Architecture

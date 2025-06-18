@@ -9,6 +9,7 @@ Version: 2024.2.2
 Product: NetCon 2.0
 tags:
   - ToDo
+  - GettingStarted
 ---
 [[../1 Introduction/Introduction|previous]] [[./Roadmap||next]]
 # Releases
