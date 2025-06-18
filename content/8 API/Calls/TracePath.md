@@ -9,6 +9,7 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TracePath
+  - GettingStarted
 ---
 # API TracePath
 
