@@ -9,6 +9,7 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceMeshed
+  - GettingStarted
 ---
 # API TraceMeshed
 
