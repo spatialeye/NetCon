@@ -9,6 +9,7 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceOut
+  - GettingStarted
 ---
 # API TraceOut
 
