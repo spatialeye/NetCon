@@ -10,7 +10,6 @@ tags:
   - Example
   - FlowCalculator
   - Terminal
-  - GettingStarted
 ---
 [[./Data Flow Example 2|previous]] [[./Data Flow Example 4|next]]
 # Data flow example III: From GIS T-piece to simple flow calculation

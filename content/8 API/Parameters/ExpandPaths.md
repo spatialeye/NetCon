@@ -12,7 +12,6 @@ tags:
   - ApiParameter
   - ExpandPaths
   - NetCon2
-  - GettingStarted
 ---
 # ExpandPaths
 

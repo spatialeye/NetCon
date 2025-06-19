@@ -9,7 +9,6 @@ Version: 2024.2.2
 Product: NetCon 2.0
 tags:
   - ToDo
-  - GettingStarted
 ---
 [[../1 Introduction/Introduction|previous]] [[./Roadmap||next]]
 # Releases
@@ -18,6 +17,8 @@ This paragraph contains the version information for the `Spatial Eye NetCon` pro
 
 |               Version               | Released     |
 | :---------------------------------: | ------------ |
+| [[Version Information#Spatial Eye NetCon 2024.2.2.12|Spatial Eye NetCon 2024.2.2.12]] | t.b.d.       |
+| [[Version Information#Spatial Eye NetCon 2024.2.2.11|Spatial Eye NetCon 2024.2.2.11]] | 19 juni 2025 |
 | [[Version Information#Spatial Eye NetCon 2024.2.2.10|Spatial Eye NetCon 2024.2.2.10]] | 18 juni 2025 |
 | [[Version Information#Spatial Eye NetCon 2024.2.2.9|Spatial Eye NetCon 2024.2.2.9]]  | 28 mei 2025  |
 | [[Version Information#Spatial Eye NetCon 2024.1.3.8|Spatial Eye NetCon 2024.1.3.8]]  | 16 mei 2025  |
@@ -36,6 +37,18 @@ This paragraph contains the version information for the `Spatial Eye NetCon` pro
 
 # Release Notes
 
+## Spatial Eye NetCon 2024.2.2.11
+
+Fixes:
+
+---
+## Spatial Eye NetCon 2024.2.2.11
+
+Fixes:
+* Queries could crash on unexpected null values in [[../8 API/Results/Connection Or Path Results/AssetHierarchy|AssetHierarchy]] input. Now it is protected against this.
+* Area geometry in the [[../8 API/NetCon API Calls|NetCon API Calls]] was no longer provided, unless the [[../8 API/Parameters/MergeGeoms|MergeGeoms]] options was checked. Now it is working again (if an API Calls uses the [[../8 API/Parameters/GeomsAsArea|GeomsAsArea]] parameter), independent of the MergeGeoms option.
+* Incorrect input for some [[../8 API/NetCon API Calls|NetCon API Calls]] parameters would result in an error. Now it will result in the best query from the input, which may be in complete. Feedback is provided in the [[../8 API/Results/Search Or Trace Results/Recipe|recipe]]
+---
 ## Spatial Eye NetCon 2024.2.2.10
 
 Fixes:
@@ -44,6 +57,7 @@ Fixes:
 * Breaking change: throughout the software, a spelling mistake has been corrected, everything called 'maze' is now called 'mesh.'
 * Counting [[../8 API/Parameters/StartConnectionIds|StartConnectionIds]] in the [[../8 API/Results/Search Or Trace Results/ResultsCount|ResultsCount]] has been corrected.
 
+---
 ## Spatial Eye NetCon 2024.2.2.9
 
 The location of the documentation has changed to:
@@ -96,7 +110,7 @@ Fixes:
 ## Spatial Eye NetCon 2024.1.3.5
 
 Changes:
-* In [[../8 API/Results/Connection Or Path Results/AssetHierarchy|AssetHierarchies]] and [[../8 API/Results/Connection Or Path Results/Specification|Specification]], it is possible to use quotes.
+* In [[../8 API/Results/Connection Or Path Results/AssetHierarchy|AssetHierarchy]] and [[../8 API/Results/Connection Or Path Results/Specification|Specification]], it is possible to use quotes.
 * It is now possible to create [[../5 Configuration/Properties/Property Type Definition|Property Type Definition]], to force a type when properties are is parsed from a string (e.g. during querying or as used in AssetHierarchy or Specification.
 * [[../5 Configuration/Overlay and Near Real Time Networks/Introduction to Overlay Networks|Overlay networks]] are made available.
 * [[../6 Use/Enumerators/NetCon EdgeType Enumerator|NetCon EdgeType Enumerator]] node has been renamed to loop, since and edge is never a node, but a 'loop' was intended.
