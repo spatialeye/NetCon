@@ -5,8 +5,7 @@ permalink:
 aliases: 
 draft: false
 date: 2025-03-20
-tags:
-  - ToDo
+tags: 
 ---
 # Property Type Determination
 
@@ -16,20 +15,20 @@ When the type of a value has to be determined, e.g. in [[../../7 NetConQL/NetCon
 
 Certain property names will have a type that is predetermined and cannot be changed. E.g.
 
-| PropertyName   | Type                       |
-| -------------- | -------------------------- |
-| Role           | [[../../6 Use/Enumerators/NetCon Role Enumerator|NetCon Role Enumerator]]     |
-| Barrier        | [[../../6 Use/Enumerators/NetCon Barrier Enumerator|NetCon Barrier Enumerator]]  |
-| Flow           | [[../../6 Use/Enumerators/NetCon Flow Enumerator|NetCon Flow Enumerator]]     |
-| Cost           | Double                     |
-| AssetTableName | String                     |
-| AssetId        | Long                       |
-| CustomAssetId  | String                     |
-| Status         | [[../../6 Use/Enumerators/NetCon Status Enumerator|NetCon Status Enumerator]]   |
-| Label          | String or GUID (future)    |
-| Owner          | String                     |
-| OperatedBy     | String                     |
-| EdgeType       | [[../../6 Use/Enumerators/NetCon EdgeType Enumerator|NetCon EdgeType Enumerator]] |
+| PropertyName   | Type                               |
+| -------------- | ---------------------------------- |
+| Role           | See [[../../6 Use/Enumerators/NetCon Role Enumerator|NetCon Role Enumerator]]     |
+| Barrier        | See [[../../6 Use/Enumerators/NetCon Barrier Enumerator|NetCon Barrier Enumerator]]  |
+| Flow           | See [[../../6 Use/Enumerators/NetCon Flow Enumerator|NetCon Flow Enumerator]]     |
+| Cost           | Double                             |
+| AssetTableName | String                             |
+| AssetId        | Long                               |
+| CustomAssetId  | String                             |
+| Status         | See [[../../6 Use/Enumerators/NetCon Status Enumerator|NetCon Status Enumerator]]   |
+| Label          | String or GUID (future)            |
+| Owner          | String                             |
+| OperatedBy     | String                             |
+| EdgeType       | See [[../../6 Use/Enumerators/NetCon EdgeType Enumerator|NetCon EdgeType Enumerator]] |
 ## Definition determined types
 
 It is possible for a specific field name (optionally only in the context of a parent tree property).
@@ -51,15 +50,15 @@ When a value is being parsed, the following rules are used for inference of the 
 | 4     | Number that does not contain a decimal separator `.`<br>Culture settings are ingnored. | Long     |
 | 5     | True or False                                                                          | Boolean  |
 | 6     | Other                                                                                  | String   |
+# Date format support
 
-#ToDo
-Date examples
+When it is tested if a text contains a date, the following dates are supported.
+Note that when the `-`, is used as separators, the date should be enclosed with quotes (`"`).
 
-    "2005.09.14", 2005, 9, 14)] 
-    "2005.9.14", 2005, 9, 14)
-    "2005-09-14", 2005, 9, 14)
-    "2005/09/14", 2005, 9, 14)
-    "14-09-05", 2005, 9, 14)
-    "14-09-2005", 2005, 9, 14)
-    "2005 09 14", false, 2005, 9, 14)
-    "2005 SEP 14", false, 2005, 9, 14)
+Ways to write 14th of September, 2005:
+* "2005.09.14"
+* "2005.9.14"
+* "2005-09-14"
+* "2005/09/14"
+* "14-09-05"
+* "14-09-2005"
