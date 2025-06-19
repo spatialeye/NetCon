@@ -7,8 +7,6 @@ aliases:
   - Roadmap
 draft: false
 date: 2025-06-01
-tags:
-  - GettingStarted
 ---
 [[./Version Information|previous]] [[../3 Overview/Use Cases|next]]
 # Roadmap
