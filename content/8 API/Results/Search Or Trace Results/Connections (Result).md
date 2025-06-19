@@ -7,16 +7,14 @@ Unique: false
 permalink: 
 aliases: 
 draft: false
-date: 2024-09-30
+date: 2025-06-19
 tags:
   - ApiResult
   - Connections
-  - GettingStarted
 ---
 # Connections
 
 Type of: _Connection[]_
-Unique: __
 
 List of connections as described below that are retrieved by the search.
 
