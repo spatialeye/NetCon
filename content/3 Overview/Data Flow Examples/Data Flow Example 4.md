@@ -11,7 +11,6 @@ tags:
   - CIM
   - ADMS
   - Terminal
-  - GettingStarted
 ---
 [[./Data Flow Example 3|previous]] [[../Sources of Connectivity|next]]
 # Data flow example IV: From GIS T-piece to Common Information Model
