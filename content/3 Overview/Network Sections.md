@@ -15,9 +15,11 @@ tags:
 # Clustering the Network into Sections
 
 
-Part of NetCon model is that the operated network is pre-traced into **isolatable_sections**. An isolatable section is a part of the network that is operated as one: there is no way of supplying the commodity to a smaller part of the network unless the network is broken or cut up. 
+Part of NetCon model is that the operated network is pre-traced into `isolatable sections`. An isolatable section is a cluster of the network that is always operated as a whole; its connections are welded together-as it where: the commodity is always supplied to an isolatable section as a whole. The only way to stop this inside the isolatable section, is to change the topology by breaking or cutting it up. 
 
-Examples of a network being cut up are when an overhead wire is broken by a falling tree, or when a gas network is operated by inserting a blocking balloon. Which connection can be `cut up` are specified by the `cut up` expression on the `NetConBase` feature source. A cut up network will still provide commodity service to the upstream network, whilst
+Between isolatable sections, there are some that contain paths of barriers, paths of directed connections, or groups of bidirectional connections. The first two are 'sectioning' the network into clusters, as it where. Barrier sections determine whether downstream sections are fed or not, depending on default or near real-time operational state. Unidirectional connections have impact on flow, and therefore have to be separated out from bidirectional ones, so we can treat isolatable sections as a network in its own right.
+
+Examples of a network being cut up are when an overhead wire is broken by a falling tree, or when a gas network is operated by inserting a blocking balloon. Which connection can be `cut up` are specified by the `cut up` expression on the `NetConBase` feature source. A cut up network will still provide commodity service to the upstream network, whilst the downstream part will be without commodity service.
 
 ```mermaid
 ---
