@@ -1,6 +1,6 @@
 ---
 title: IsolatableSectionId
-description: Unique id of the [[Isolatable Section|section]] that can be isolated as a single unit.
+description: Unique id of the section that can be isolated as a single unit.
 Type: long
 Order: 999
 Unique: false
@@ -17,5 +17,6 @@ tags:
 Type of: _long_
 Unique: __
 
-Unique id of the [[Isolatable Section|section]] that can be isolated as a single unit.
+Unique id of the section that can be isolated as a single unit.
 
+See also [[../../../5 Configuration/Sectioning and Tracing/Sections/Isolatable Sections|Isolatable Sections]].
