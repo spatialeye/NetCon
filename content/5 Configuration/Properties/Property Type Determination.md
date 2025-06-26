@@ -4,7 +4,7 @@ description:
 permalink: 
 aliases: 
 draft: false
-date: 2025-03-20
+date: 2025-06-19
 tags: 
 ---
 # Property Type Determination
