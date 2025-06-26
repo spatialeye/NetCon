@@ -39,6 +39,8 @@ Please see Smallworld documentation.
 
 #### Configuring topology bound assets
 
+Assets in the GIS that have topology need to be denoted when 
+
 #### Relations inside asset objects
 
 #### Configuring topology inside assets
