@@ -4,8 +4,8 @@ description: "[[NetConQL - Specification|NetConQL - Specification]] expression f
 Type: string
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-01-17
 tags:
