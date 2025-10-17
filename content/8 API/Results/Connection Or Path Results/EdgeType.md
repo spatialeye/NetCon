@@ -4,8 +4,8 @@ description: Enumerator denoting the asset this connection came from. '0' is fro
 Type: integer
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-04-17
 tags:
