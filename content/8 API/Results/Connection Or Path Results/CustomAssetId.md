@@ -4,8 +4,8 @@ description: Company wide unique id of the asset. Note that one asset can have s
 Type: boolean
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:
