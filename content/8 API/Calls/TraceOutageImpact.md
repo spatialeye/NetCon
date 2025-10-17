@@ -1,8 +1,8 @@
 ---
 title: trace-outage-impact
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-02-18
 tags:
@@ -19,7 +19,7 @@ For each of the input connections, it will find the isolated sections. For these
 
 Then for the area that needs to be isolated, the downstream impact area is computed. Potential barrier that can back-feed into the affected area are listed. These barriers will be marked with a [[../Results/Connection Or Path Results/TraceMarker|TraceMarker]] of 32, 'make conducting'.
 
-Please see [[../../6 Use/Outage Impact Analysis|Outage Impact Analysis]] as a description
+Please see [[../../6 Use/NetCon Portal/NetCon Portal - 3.1 Outage Impact Analysis|NetCon Portal - 3.1 Outage Impact Analysis]] as a description
 
 ## Parameters
 | File                                                                                   | type    | mand  | description                                                                                                                                                                                                                                                                                                                                                                                                                                             |
