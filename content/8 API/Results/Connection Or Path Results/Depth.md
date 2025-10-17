@@ -4,8 +4,8 @@ description: Index of the current connection in the path. A depth = 1 means it i
 Type: boolean
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-06-05
 tags:
