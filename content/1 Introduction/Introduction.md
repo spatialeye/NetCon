@@ -6,7 +6,7 @@ aliases:
 draft: false
 date: 2024-09-27
 ---
-[[./1.1 Copyright and Usage|previous]] [[../2 Version And Release Information/2.2 Version Information|next]]
+[[./Copyright and Usage|previous]] [[../2 Version And Release Information/2.2 Version Information|next]]
 # Introduction
 
 The NetCon model and its logic have been created by Spatial Eye to **reason about networks** and provide **a single source of truth for network information** in the organisation. Networks can be electricity, gas, water, heath, sewage or telecom networks, or other commodities that can be transported.
@@ -49,4 +49,4 @@ s((substation S))
 
 ```
 
-Please note that the text and programs in NetCon are protected by [[./1.1 Copyright and Usage|previous]].
+Please note that the text and programs in NetCon are protected by [[./Copyright and Usage|previous]].

@@ -8,7 +8,7 @@ date: 2024-09-27
 comments: false
 shared:
 ---
-[[../index|previous]] [[./1.2 Introduction|next]]
+[[../index|previous]] [[./Introduction|next]]
 # Copyright and Usage
 © Spatial Eye 2022-2025
 
