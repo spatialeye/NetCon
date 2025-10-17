@@ -4,8 +4,8 @@ description: List of connections as described below that are retrieved by the se
 Type: Connection[]
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-06-19
 tags:
