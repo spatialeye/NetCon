@@ -1,11 +1,11 @@
 ---
 title: Commodity Rules
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-06-05
-tags: 
+tags:
 ---
 # Commodity Rules
 
