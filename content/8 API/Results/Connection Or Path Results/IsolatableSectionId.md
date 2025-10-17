@@ -19,4 +19,4 @@ Unique: __
 
 Unique id of the section that can be isolated as a single unit.
 
-See also [[../../../5 Configuration/Sectioning and Tracing/Sections/Isolatable Sections|Isolatable Sections]].
+See also [[../../../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Isolatable Sections|Isolatable Sections]].
