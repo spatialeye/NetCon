@@ -4,8 +4,8 @@ description: Id of the asset in registration system. Unique per Asset Table Name
 Type: long
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-06-05
 tags:
