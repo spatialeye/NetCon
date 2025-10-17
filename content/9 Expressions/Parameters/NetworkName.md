@@ -4,8 +4,8 @@ description: Name of a network that has been defined, either by setting up a Net
 Type: string
 Order: 999
 Mandatory: true
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-10-02
 tags:
