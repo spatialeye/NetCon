@@ -22,7 +22,7 @@ The definition and contents of the table is standard and should not be altered u
 |          7 | data hot fix            | Missing in the registration but known to be there.                                                  |
 |          8 | to relocate             | Proposed to be relocated, but still in service now.                                                 |
 |         10 | decommissioned          | Proposed to be abandoned, but still in service now.                                                 |
-|         11 | in service stand by     | In service, but not actively used due to registration being under revision.                         |
+|         11 | in service stand by     | In service, but not actively used due to the registration being under revision.                     |
 |         13 | rejected                | In service but rejected because of a data quality problem.                                          |
 |         15 | inactive                | Built, has been in service but not now, and is still connected.                                     |
 |         20 | reserved                | Designated capacity that is reserved for a specific purpose.                                        |
