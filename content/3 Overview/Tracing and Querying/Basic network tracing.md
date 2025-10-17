@@ -1,11 +1,11 @@
 ---
 title: Basic network tracing
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-02-22
-tags: 
+tags:
 ---
 [[./NetCon Path|previous]] [[../Networks/Life Cycle Status|next]]
 # Basic network tracing
