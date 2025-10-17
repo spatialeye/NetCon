@@ -1,11 +1,11 @@
 ---
 title: Shortest path or Dijkstra algorithm
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-02-22
-tags: 
+tags:
 ---
 [[../Networks/Network Ontology|previous]] [[./NetCon Path|next]]
 # Shortest path or Dijkstra algorithm
