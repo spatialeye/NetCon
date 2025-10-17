@@ -4,8 +4,8 @@ description: If true (default) then connections that are barring (blocking the c
 Type: boolean
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-10-02
 tags:
