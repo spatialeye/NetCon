@@ -1,11 +1,11 @@
 ---
 title: Geom Attribute Definition
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-03-25
-tags: 
+tags:
 ---
 # Registration Geometry Definition
 
