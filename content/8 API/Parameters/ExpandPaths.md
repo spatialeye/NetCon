@@ -4,8 +4,8 @@ description: Enum that determines what to do with the results. 'connections' = o
 Type: string
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-06-11
 tags:
