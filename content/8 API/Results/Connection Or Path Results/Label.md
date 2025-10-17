@@ -4,8 +4,8 @@ description: Tagging information to label important assets in the network. Typic
 Type: string
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:
