@@ -1,7 +1,7 @@
 ---
 title: Connectivity Extraction Process
-description: 
-permalink: 
+description:
+permalink:
 aliases:
   - Data Flow
 draft: false
