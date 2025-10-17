@@ -9,7 +9,7 @@ tags:
 ---
 # Commodity Rules
 
-If *no* commodity rules are provided, it is assumed that every [[../../3 Overview/3.5 Commodity Networks/Commodity|Commodity]] of a connection can be provided by its neighbouring connections leading to it. In other words, starting from a source and going down stream, if a connection can be reached and has a commodity set, than it is assumed that commodity is going through that connection. The [[../../8 API/Results/Connection Or Path Results/Flow|Flow]] is established that way, going from the [[../../3 Overview/3.5 Commodity Networks/Sources|Source]] to other connections in the network.
+If *no* commodity rules are provided, it is assumed that every [[../../3 Overview/Networks/Commodity|Commodity]] of a connection can be provided by its neighbouring connections leading to it. In other words, starting from a source and going down stream, if a connection can be reached and has a commodity set, than it is assumed that commodity is going through that connection. The [[../../8 API/Results/Connection Or Path Results/Flow|Flow]] is established that way, going from the [[../../3 Overview/Networks/Sources|Source]] to other connections in the network.
 
 If a node can be reached via different paths, i.e. it is fed from a Source via more than one connection, the entire Cycle is marked as having a meshed flow. For example, if two transformers are feeding the same part of the network, or if a section of a gas network is connected to two pressure regulating stations.
 
@@ -50,7 +50,7 @@ The NetConCommodityTransitionRule collection has the following definition:
 
 | FieldName | FieldType                                                              | Optional |
 | --------- | ---------------------------------------------------------------------- | -------- |
-| Disciplin | Letter denoting [[../../3 Overview/3.5 Commodity Networks/Disciplin|Disciplin]], e.g.                                    | No       |
+| Disciplin | Letter denoting [[../../3 Overview/Networks/Disciplin|Disciplin]], e.g.                                    | No       |
 | FieldType | String. Values must be one of: String, DateTime, Double, Long, Boolean | No       |
 | Unit      | String, e.g. `m` for meter or `m2` of squared meter.                   | Yes      |
 
