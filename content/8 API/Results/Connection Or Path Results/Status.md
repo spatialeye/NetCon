@@ -4,8 +4,8 @@ description: Enumerator denoting the status of the asset of this connection.
 Type: integer
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-06-05
 tags:
