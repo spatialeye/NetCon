@@ -4,8 +4,8 @@ description: List of paths as described below that are retrieved by the trace.
 Type: Path[]
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:
