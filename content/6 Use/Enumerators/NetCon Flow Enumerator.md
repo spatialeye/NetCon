@@ -1,11 +1,11 @@
 ---
 title: NetCon Flow Values
 description: Encodes the flow as used in NetCon.
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-04-18
-tags: 
+tags:
 ---
 # NetCon Flow Enumerator
 
