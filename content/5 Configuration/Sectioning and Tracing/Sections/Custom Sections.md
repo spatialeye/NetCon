@@ -1,8 +1,8 @@
 ---
 title: Custom Sections
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-05-18
 tags:
