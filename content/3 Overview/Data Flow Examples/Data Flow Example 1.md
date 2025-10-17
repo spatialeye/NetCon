@@ -1,8 +1,8 @@
 ---
 title: Data Flow Example 1
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-06-01
 tags:
