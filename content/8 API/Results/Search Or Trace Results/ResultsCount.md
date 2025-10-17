@@ -5,7 +5,7 @@ Type: int
 Order: 999
 Unique: false
 permalink: Results/ResultsCount
-aliases: 
+aliases:
 draft: false
 date: 2024-09-27
 tags:
