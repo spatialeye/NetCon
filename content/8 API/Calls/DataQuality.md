@@ -1,8 +1,8 @@
 ---
 title: DataQuality
 description: Return counts of islands, missing nodes, supernumerary nodes and supernumerary links in the network.
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-04-18
 tags:
