@@ -4,7 +4,7 @@ description: Name of the asset table in the NetConConnection table. It may conta
 Type: string
 Mandatory: false
 Order: 10
-permalink: 
+permalink:
 aliases:
   - Parameters/AssetTableNameWildCard
 draft: false
