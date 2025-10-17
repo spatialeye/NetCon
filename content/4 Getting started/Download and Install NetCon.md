@@ -9,7 +9,7 @@ tags:
   - GettingStarted
   - ToDo
 ---
-[[../index#Getting started|previous]] [[./Download and Install NetCon Portal|next]]
+[[../index#Getting started|previous]] [[./Connectivity Extraction Process|next]]
 # Download and Install NetCon
 
 NetCon version 2.0 is compatible with Spatial Workshop and XY Server of version 2024.1.  
@@ -38,13 +38,16 @@ Note that Spatial Eye has developed the add-ins mechanism in order to support fa
 > [!Tip] Unblock download files
 > After download, first `unblock` the downloaded files (or entire zip-file) in Windows Explorer | Properties (Alt-Enter). DLLs that are blocked by the operating system cannot be used by the software and will give weird exceptions.
 
-The installation is simply done by copying the DLLs into the add-ins directory. See also the [[../2 Version And Release Information/Previous releases/NetCon 1.0 DLLs|previous version installation]].
+The installation is simply done by copying the DLLs into the add-ins directory. See also the [[2.1.1 NetCon 1.0 DLLs|previous version installation]].
 
-|                            | Desktop                                                                                     | Server                                                                                     |
-| -------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| **DLLs**                   | NetworkTraceBase.dll                                                                        | NetworkTraceBase.dll<br>NetworkTraceServices.dll<br>SpatialWarehouseTimestampTask.dll      |
-| **Prerequisites**          | ZeroFormatter.dll<br>ZeroFormatter.Interfaces.dll<br>Microsoft.Bcl.HashCode.dll             | ZeroFormatter.dll<br>ZeroFormatter.Interfaces.dll<br>Microsoft.Bcl.HashCode.dll            |
-| **Installation directory** | C:\\Program Files\\Spatial Eye\\Spatial Workshop\\AddIns | C:\\Program Files\\Spatial Eye\\XY Server\\AddIns |
+|                            | Desktop                                                                                                  | Server                                                                                                                                        |
+| -------------------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Prerequisites**          | Microsoft.Bcl.HashCode.dll                                                                               | Microsoft.Bcl.HashCode.dll                                                                                                                    |
+| **SWH Extraction**         | *prerequisites above*<br>ZeroFormatter.dll<br>ZeroFormatter.Interfaces.dll<br>NodeMapperFeatureSouce.dll | *prerequisites above*<br>ZeroFormatter.dll<br>ZeroFormatter.Interfaces.dll<br>NodeMapperFeatureSouce.dll<br>SpatialWarehouseTimestampTask.dll |
+| **NetCon**                 | *prerequisites above*<br>NetworkTraceBase.dll<br>                                                        | *prerequisites above*<br>NetworkTraceBase.dll<br>NetworkTraceServices.dll<br>                                                                 |
+| **NetCon Portal**          | N/A                                                                                                      | *NetCon above*<br>NetConPortal.dll                                                                                                            |
+| **NetCon Flow**            |                                                                                                          |                                                                                                                                               |
+| **Installation directory** | C:\\Program Files\\Spatial Eye\\Spatial Workshop\\AddIns              | C:\\Program Files\\Spatial Eye\\XY Server\\AddIns                                                    |
 
 ### Installation of the styles
 
@@ -54,6 +57,15 @@ For NetCon 2.0 additional themed styles are provided as a style library document
 | -------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | **Style library**          | seExtended.seStyles                                                                                 | seExtended.seStyles                                                                                |
 | **Installation directory** | C:\\Program Files\\Spatial Eye\\Spatial Workshop\\StyleLibraries | C:\\Program Files\\Spatial Eye\\XY Server\\StyleLibraries |
+### Installation of the NetCon Portal Application in Lite
+
+|                            | Server                                                                                                          |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **Prerequisites**          | C:\\Program Files\\Spatial Eye\\XY Server\\Resources\Applications\Lite |
+| **NetCon Portal**          | NetConPortal (which is a Lite Application Folder)                                                               |
+| **Installation directory** | C:\\Program Files\\Spatial Eye\\XY Server\\Applications                |
+
+#ToDo
 
 ### Additional configuration for large networks
 
