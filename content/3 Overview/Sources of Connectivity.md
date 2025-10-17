@@ -1,8 +1,8 @@
 ---
 title: Sources of Connectivity
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-03-12
 tags:

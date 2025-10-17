@@ -1,11 +1,11 @@
 ---
 title: NetCon Role Enumerator
 description: Encoding the role types as used in NetCon.
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-04-18
-tags: 
+tags:
 ---
 # NetCon Role Enumerator
 

@@ -1,8 +1,8 @@
 ---
 title: Version Information
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-06-18
 Version: 2024.2.2
@@ -17,11 +17,13 @@ This paragraph contains the version information for the `Spatial Eye NetCon` pro
 
 |               Version               | Released     |
 | :---------------------------------: | ------------ |
-| [[Version Information#Spatial Eye NetCon 2024.2.2.12|Spatial Eye NetCon 2024.2.2.12]] | t.b.d.       |
+|                Next                 | t.b.d.       |
+| [[Version Information#Spatial Eye NetCon 2025.1.2.4|Spatial Eye NetCon 2025.1.2.4]]  | 17 oct 2025  |
+| [[Version Information#Spatial Eye NetCon 2025.1.2.3|Spatial Eye NetCon 2025.1.2.3]]  | 19 sep 2025  |
 | [[Version Information#Spatial Eye NetCon 2024.2.2.11|Spatial Eye NetCon 2024.2.2.11]] | 19 juni 2025 |
 | [[Version Information#Spatial Eye NetCon 2024.2.2.10|Spatial Eye NetCon 2024.2.2.10]] | 18 juni 2025 |
-| [[Version Information#Spatial Eye NetCon 2024.2.2.9|Spatial Eye NetCon 2024.2.2.9]]  | 28 mei 2025  |
-| [[Version Information#Spatial Eye NetCon 2024.1.3.8|Spatial Eye NetCon 2024.1.3.8]]  | 16 mei 2025  |
+| [[Version Information#Spatial Eye NetCon 2024.2.2.9|Spatial Eye NetCon 2024.2.2.9]]  | 28 may 2025  |
+| [[Version Information#Spatial Eye NetCon 2024.1.3.8|Spatial Eye NetCon 2024.1.3.8]]  | 16 may 2025  |
 | [[Version Information#Spatial Eye NetCon 2024.1.3.7|Spatial Eye NetCon 2024.1.3.7]]  | 17 apr 2025  |
 | [[Version Information#Spatial Eye NetCon 2024.1.3.6|Spatial Eye NetCon 2024.1.3.6]]  | 10 apr 2025  |
 | [[Version Information#Spatial Eye NetCon 2024.1.3.5|Spatial Eye NetCon 2024.1.3.5]]  | 25 mar 2025  |
@@ -37,9 +39,23 @@ This paragraph contains the version information for the `Spatial Eye NetCon` pro
 
 # Release Notes
 
-## Spatial Eye NetCon 2024.2.2.11
+## Spatial Eye NetCon 2025.1.2.4
 
 Fixes:
+* When having a multiple [[../5 Configuration/Sectioning and Tracing/NetCon feature sources#NetConTrace|NetConTrace feature sources]] in your configuration. the start up order could hamper loading connection changes on top of read-only connections. This has been fixed. The initialisation of the module can be followed by querying the [[../8 API/Results/Progress State/ProcessState|ProcessState]] information and logging.
+Enhancements:
+* NetCon can monitor changes not only from GeoNotes data patches tables, but also from NetPlan data patches as well as from the NetPlan designed network.
+* NetCon supports arbitrary start indices to be created on the network.
+
+---
+
+## Spatial Eye NetCon 2025.1.2.3
+
+Fixes:
+* In the NetCon 1.0 Aggregator, the during network reduction the merging of geometries has been added. Note that it is recommended to change to NetCon 2.0, where all new developments land.
+Enhancements:
+* [[../6 Use/NetCon Portal/NetCon Portal - 1. Introduction|NetCon portal]] has been added to view, interact and change connectivity information.
+* A new value 'InServiceStandBy' has been added to [[../6 Use/Enumerators/NetCon Status Enumerator|NetCon Status Enumerator]].
 
 ---
 ## Spatial Eye NetCon 2024.2.2.11

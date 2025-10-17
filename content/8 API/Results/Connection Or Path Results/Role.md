@@ -4,8 +4,8 @@ description: The role that this connection has in the commodity network.
 Type: integer
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: true
 date: 2024-09-30
 tags:

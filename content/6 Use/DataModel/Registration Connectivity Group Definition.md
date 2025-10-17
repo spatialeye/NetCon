@@ -1,12 +1,12 @@
 ---
 title: ConnectivityRuleGroupDefinition
-description: 
-permalink: 
+description:
+permalink:
 aliases:
   - Manifold Definition
 draft: false
 date: 2024-10-02
-tags: 
+tags:
 ---
 # Registration Connectivity Group Definition
 

@@ -1,11 +1,11 @@
 ---
 title: Stacked Overlay Networks
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-03-12
-tags: 
+tags:
 ---
 [[./Overlay Networks for Data Quality|previous]] [[./Distribute Overlay Networks Architecture|next]]
 # Stacked Overlay Networks

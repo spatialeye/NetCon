@@ -1,11 +1,11 @@
 ---
 title: NetCon Path
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-02-23
-tags: 
+tags:
 ---
 [[./Shortest path or Dijkstra algorithm|previous]] [[./Basic network tracing|next]]
 # NetCon Path

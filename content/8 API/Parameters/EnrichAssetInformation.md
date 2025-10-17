@@ -4,8 +4,8 @@ description: This parameter became redundant. If enrichment data has been config
 Type: boolean
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-02-18
 tags:

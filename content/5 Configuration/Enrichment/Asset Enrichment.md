@@ -1,11 +1,11 @@
 ---
 title: Asset Enrichment
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-03-20
-tags: 
+tags:
 ---
 # Asset Enrichment
 

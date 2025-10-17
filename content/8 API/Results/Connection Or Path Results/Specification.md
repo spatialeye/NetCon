@@ -4,8 +4,8 @@ description: Spec of type information of the asset, that provides relevant chara
 Type: string
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:

@@ -1,11 +1,11 @@
 ---
 title: NetConQL - Specification
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2024-12-19
-tags: 
+tags:
 ---
 # NetConQL - Specification
 

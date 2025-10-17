@@ -1,8 +1,8 @@
 ---
 title: Introduction to Overlay Networks
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-03-12
 tags:

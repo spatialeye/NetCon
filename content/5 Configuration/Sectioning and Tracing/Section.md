@@ -1,11 +1,11 @@
 ---
 title: Section
 description: Sections in general
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-01-17
-tags: 
+tags:
 ---
 # Sections in general
 

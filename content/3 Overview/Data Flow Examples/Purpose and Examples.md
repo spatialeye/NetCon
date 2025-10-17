@@ -1,7 +1,7 @@
 ---
 title: Purpose and Examples
-description: 
-permalink: 
+description:
+permalink:
 aliases:
   - single source of truth
   - data morphing

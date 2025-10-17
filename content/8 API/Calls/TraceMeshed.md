@@ -1,8 +1,8 @@
 ---
 title: trace-meshed
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-06-11
 tags:

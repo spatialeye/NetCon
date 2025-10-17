@@ -4,8 +4,8 @@ description: Normally, the trace-out and trace-neighbor follows the direction of
 Type: boolean
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:

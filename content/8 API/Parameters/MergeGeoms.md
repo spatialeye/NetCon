@@ -4,8 +4,8 @@ description: If false (default) no additional geometries are retrieved. If true,
 Type: boolean
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:

@@ -4,8 +4,8 @@ description: If false (default) no area geometry is returned. If true, one area 
 Type: boolean
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:

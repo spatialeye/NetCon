@@ -5,7 +5,7 @@ Type: long[]
 Order: 20
 Mandatory: false
 permalink: Parameters/AssetIds
-aliases: 
+aliases:
 draft: false
 date: 2024-11-19
 tags:

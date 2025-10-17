@@ -1,11 +1,11 @@
 ---
 title: Default parameters in the API
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
-tags: 
+tags:
 ---
 # Default parameters in the API
 

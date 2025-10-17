@@ -58,9 +58,10 @@ We recommend you take notice of the following introduction:
 If you are new to NetCon, implement the basics by following the steps below
 
 1. [[./4 Getting started/Download and Install NetCon|Download and Install NetCon]]
-2. [[./4 Getting started/Connectivity Extraction Process|Connectivity Extraction Process]]
-3. [[./4 Getting started/Viewing Connectivity|Viewing Connectivity]]
-4. [[Querying Connectivity|Querying Connectivity]]
+2. [[./4 Getting started/Download and Install NetCon Portal|Download and Install NetCon Portal]]
+3. [[./4 Getting started/Connectivity Extraction Process|Connectivity Extraction Process]]
+4. [[./4 Getting started/Viewing Connectivity|Viewing Connectivity]]
+5. [[Querying Connectivity|Querying Connectivity]]
 ## Configuration
 
 Please follow the these steps

@@ -1,8 +1,8 @@
 ---
 title: Commodity Networks
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-02-22
 tags:

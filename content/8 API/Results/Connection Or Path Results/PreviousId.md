@@ -4,8 +4,8 @@ description: Id pointing to the id of the preceding path, that came before this 
 Type: long
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-06-05
 tags:

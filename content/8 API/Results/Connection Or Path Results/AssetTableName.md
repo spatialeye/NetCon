@@ -4,8 +4,8 @@ description: Name of the table where more information can be found on the asset 
 Type: string
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-06-05
 tags:

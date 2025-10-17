@@ -1,7 +1,7 @@
 ---
 title: Road-map
 description: List of committed and requested future capabilities of NetCon
-permalink: 
+permalink:
 aliases:
   - Enhancement Requests
   - Roadmap

@@ -1,11 +1,11 @@
 ---
 title: NetCon TraceMarker Enumerator
 description: Mark a special role of connections in path results when tracing.
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-04-19
-tags: 
+tags:
 ---
 # NetCon TraceMarker Enumerator
 

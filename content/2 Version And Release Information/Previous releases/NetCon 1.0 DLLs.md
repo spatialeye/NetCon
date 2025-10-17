@@ -1,8 +1,8 @@
 ---
 title: NetCon 1.0 DLLs
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-02-05
 tags:

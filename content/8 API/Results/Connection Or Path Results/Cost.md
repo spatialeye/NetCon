@@ -4,8 +4,8 @@ description: Cost of using this connection in the trace. Typically this is the l
 Type: double
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-06-05
 tags:

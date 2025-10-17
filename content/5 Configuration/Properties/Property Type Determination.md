@@ -1,11 +1,11 @@
 ---
 title: Property Type Determination
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-06-19
-tags: 
+tags:
 ---
 # Property Type Determination
 

@@ -1,8 +1,8 @@
 ---
 title: Enhanced Connectivity Extraction from Smallworld
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2024-10-01
 tags:

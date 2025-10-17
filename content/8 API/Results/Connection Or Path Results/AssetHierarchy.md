@@ -4,8 +4,8 @@ description: List of name=value pairs that provide more information. Name may po
 Type: string
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-06-05
 tags:

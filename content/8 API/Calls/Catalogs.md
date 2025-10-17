@@ -1,8 +1,8 @@
 ---
 title: Catalogs
 description: Returns all NetCon catalogs and enumerator values.
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-01-17
 tags:

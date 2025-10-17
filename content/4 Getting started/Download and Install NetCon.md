@@ -1,15 +1,15 @@
 ---
 title: Download and Install NetCon
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:
   - GettingStarted
   - ToDo
 ---
-[[../index#Getting started|previous]] [[./Connectivity Extraction Process|next]]
+[[../index#Getting started|previous]] [[./Download and Install NetCon Portal|next]]
 # Download and Install NetCon
 
 NetCon version 2.0 is compatible with Spatial Workshop and XY Server of version 2024.1.  

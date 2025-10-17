@@ -4,8 +4,8 @@ description: Name of organisation owning this connection or asset.
 Type: string
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-04-18
 tags:
