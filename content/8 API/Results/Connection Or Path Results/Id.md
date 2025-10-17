@@ -5,7 +5,7 @@ Type: long
 Order: 10
 Unique: true
 permalink: Connection-Or-Path-Results/Id
-aliases: 
+aliases:
 draft: false
 date: 2025-06-05
 tags:
