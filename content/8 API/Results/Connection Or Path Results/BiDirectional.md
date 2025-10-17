@@ -5,7 +5,7 @@ Type: boolean
 Order: 40
 Unique: false
 permalink: Connection-Or-Path-Results/BiDirectional
-aliases: 
+aliases:
 draft: false
 date: 2025-06-05
 tags:
