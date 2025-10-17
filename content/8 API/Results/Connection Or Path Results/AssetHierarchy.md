@@ -20,7 +20,7 @@ List of name=value pairs that provide more information. Name may point to anothe
 
 ## Enrichment
 
-Information in the [[AssetHierarchy|AssetHierarchy]] can be enriched by providing so called enrichment tables, see [[../../../5 Configuration/Enrichment/Asset Hierarchy Enrichment|Asset Hierarchy Enrichment]].
+Information in the [[AssetHierarchy|AssetHierarchy]] can be enriched by providing so called enrichment tables, see [[../../../5 Configuration/Configuration - 5. Enrichment/Asset Hierarchy Enrichment|Asset Hierarchy Enrichment]].
 ## Examples
 
 | AssetTableName | AssetId | Connection | AssetHierarchy     | Meaning                                                 | Further enrichment possible?                        |
@@ -29,4 +29,4 @@ Information in the [[AssetHierarchy|AssetHierarchy]] can be enriched by providin
 | installation   | 10      | no         | station.id=7       | This installation is part of station with the id 7.     | Yes, e.g. an installation number and serial number. |
 | station        | 7       | no         |                    |                                                         | Yes, e.g. a station name and address.               |
 
-When the asset hierarchy string input is parsed, the type of the value is [[../../../5 Configuration/Properties/Property Type Determination|determined according to rules]].
+When the asset hierarchy string input is parsed, the type of the value is [[../../../5 Configuration/Configuration - 6. Properties/Property Type Determination|determined according to rules]].
