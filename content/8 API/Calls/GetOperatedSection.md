@@ -13,7 +13,7 @@ tags:
 ---
 # API GetOperatedSection
 
-The API Call `get-operated-section` retrieves all connectivity information for the [[../../5 Configuration/Sectioning and Tracing/Sections/Operated Sections|operated sections]] of the matching start connections.
+The API Call `get-operated-section` retrieves all connectivity information for the [[../../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Operated Sections|operated sections]] of the matching start connections.
 The operated section is the part of the network that connected together by all connections and the [[../../3 Overview/Networks/Barrier or Operational State|Barrier]]s that are conducting, possibly separated by [[CommodityNet|CommodityNet]] or something similar.
 
 If the search parameters are specified as wildcards, many matching records can be retrieved. Cap this my specifying [[../Parameters/MaxResults|MaxResults]].
