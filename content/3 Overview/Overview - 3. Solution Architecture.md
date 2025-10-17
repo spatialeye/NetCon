@@ -1,5 +1,5 @@
 ---
-title: Solution Architecture
+title: Overview - 3. Solution Architecture
 description:
 permalink:
 aliases:
@@ -8,7 +8,7 @@ date: 2025-06-01
 tags:
   - Overview
 ---
-[[./3.2 Data Flow Examples/Overview Examples - 1. Purpose and Examples|previous]] [[./Overview - 4. Sources of Connectivity|next]]
+[[Overview Examples - 1. Purpose and Examples|previous]] [[./Overview - 4. Sources of Connectivity|next]]
 # Solution Architecture
 
 The different functions of NetCon are:

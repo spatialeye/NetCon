@@ -78,7 +78,7 @@ classDiagram
 
 ## 1st level higher order or Isolatable Section Network
 
-[[../5 Configuration/Sectioning and Tracing/Sections/Isolatable Sections|Isolatable Section]] is either:
+[[../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Isolatable Sections|Isolatable Section]] is either:
 * A cluster of connections that are not barriers nor bidirectional, or
 * A singular path of connections that are barriers or unidirectional.
 
@@ -91,9 +91,9 @@ Wherease for the paths of barriers or directed connections holds:
 ## 2nd level higher order or super sections
 
 The AbstractSuperSection consist of subsets of 1 or more IsolatableSection:
-* [[../5 Configuration/Sectioning and Tracing/Sections/Operated Sections|Operated Section]]: Aggregates how the network is currently operated, i.e. determined by if a barrier is barring (a new Operated Section) or conducting (in one and the same Operated Section). Optionally the Operated Sections may split by a change commodity-subnetwork, such as HV -> MV or MV -> LV.
-* [[../5 Configuration/Sectioning and Tracing/Sections/Control or NetCongestion Section|Control Section]]: Aggregates how the network is operated, and in addition it is split by the important barriers (e.g. switches) that follow a particular upstream condition, such as e.g. a busbar, installation, or block.
-* [[../5 Configuration/Sectioning and Tracing/Sections/Custom Sections|Custom Section]]: Aggregates how the network is operated, and in addition contains customs splits or upstream conditions.
+* [[../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Operated Sections|Operated Section]]: Aggregates how the network is currently operated, i.e. determined by if a barrier is barring (a new Operated Section) or conducting (in one and the same Operated Section). Optionally the Operated Sections may split by a change commodity-subnetwork, such as HV -> MV or MV -> LV.
+* [[../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Control or NetCongestion Sections|Control Section]]: Aggregates how the network is operated, and in addition it is split by the important barriers (e.g. switches) that follow a particular upstream condition, such as e.g. a busbar, installation, or block.
+* [[../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Custom Sections|Custom Section]]: Aggregates how the network is operated, and in addition contains customs splits or upstream conditions.
 
 ## Storage into the database
 The NetCon 2.0 way to store this in the database is the following:

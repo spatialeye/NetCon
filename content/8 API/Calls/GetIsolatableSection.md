@@ -13,7 +13,7 @@ tags:
 ---
 # API GetIsolatableSection
 
-The API Call `get-isolatable-section` retrieves all connectivity information for the [[../../5 Configuration/Sectioning and Tracing/Sections/Isolatable Sections|isolatable sections]] of the matching start connections.
+The API Call `get-isolatable-section` retrieves all connectivity information for the [[../../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Isolatable Sections|isolatable sections]] of the matching start connections.
 The isolatable section is the smallest part of the network that can only be used together, i.e. it can not be split any further by [[../../3 Overview/Networks/Barrier or Operational State|Barrier]]s.
 
 If the search parameters are specified as wildcards, many matching records can be retrieved. Cap this my specifying [[../Parameters/MaxResults|MaxResults]].

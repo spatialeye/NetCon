@@ -32,7 +32,7 @@ The flow describes the direction of the flow of the [[../../../3 Overview/Networ
 | 8    | no engine | The flow could not be computed since the engine has not been initialized.                                                |
 ## Rules
 
-Flow is affected by [[../../../5 Configuration/Commodities/Commodity Rules|Commodity Rules]] as well as [[../../../5 Configuration/Commodities/Flow Transition Rules|Flow Transition Rules]].
+Flow is affected by [[../../../5 Configuration/Configuration - 4. Commodities/Commodity Rules|Commodity Rules]] as well as [[../../../5 Configuration/Configuration - 4. Commodities/Flow Transition Rules|Flow Transition Rules]].
 
 ## Meshed
 
