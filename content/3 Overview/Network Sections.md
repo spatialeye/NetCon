@@ -1,8 +1,8 @@
 ---
 title: Network Sections
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2024-09-27
 tags:
