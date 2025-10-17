@@ -14,7 +14,7 @@ By following the `FromId` and `ToId` properties, every connection in a section i
 
 ## Sections in NetCon
 
-In [[../../1 Introduction/1.1 Copyright and Usage|NetCon]], sections are created in a special way: Every section is also a connection, thus creating a higher order network of sections.
+In [[../../1 Introduction/Copyright and Usage|NetCon]], sections are created in a special way: Every section is also a connection, thus creating a higher order network of sections.
 So besides holding a group of connections, it also has connection properties.
 
 Its `FromId` and `ToId` are derived from the connections that it contains:
