@@ -4,8 +4,8 @@ description: If false (default and faster), no geometries are returned. This is 
 Type: boolean
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:
