@@ -1,8 +1,8 @@
 ---
 title: get-connection
 description: Retrieves all connectivity information of assets for matching criteria.
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-02-18
 tags:
