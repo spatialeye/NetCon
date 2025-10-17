@@ -4,8 +4,8 @@ description: Direction of commodity. 'DownStream' if the commodity flows from Fr
 Type: string
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-06-11
 tags:
