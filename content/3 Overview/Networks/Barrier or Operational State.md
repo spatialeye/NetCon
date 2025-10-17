@@ -1,7 +1,7 @@
 ---
 title: Barrier or Operational State
-description: 
-permalink: 
+description:
+permalink:
 aliases:
   - Barrier
   - Operational State
