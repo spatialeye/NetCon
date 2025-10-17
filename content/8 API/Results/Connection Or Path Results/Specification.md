@@ -18,8 +18,8 @@ Type of: _string_
 
 Spec of type information of the asset, that provides relevant characteristics of the asset. E.g. for an electric network this could be the core diameter and impedance, for a gas or water network the diameter and resistance, and for a telecom network the light characteristics. If enrichment information has been configured, a whole range of additional specification attributes can be retrieved.
 
-See also [[../../../5 Configuration/Enrichment/Specification Enrichment|Specification Enrichment]].
+See also [[../../../5 Configuration/Configuration - 5. Enrichment/Specification Enrichment|Specification Enrichment]].
 
 Note that if the specification contains a property with the key `id`, it will be renamed in the output to `Specification.Id` as not to conflict with the [[./Id|Id]] of the Connection.
 
-When the specification string input is parsed, the type of the value is [[../../../5 Configuration/Properties/Property Type Determination|determined according to rules]].
+When the specification string input is parsed, the type of the value is [[../../../5 Configuration/Configuration - 6. Properties/Property Type Determination|determined according to rules]].
