@@ -1,8 +1,8 @@
 ---
 title: Terminal
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-04-17
 tags:
