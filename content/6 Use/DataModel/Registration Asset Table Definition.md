@@ -1,12 +1,12 @@
 ---
 title: Asset Table Definition
-description: 
-permalink: 
+description:
+permalink:
 aliases:
   - Rwo Definition
 draft: false
 date: 2024-10-02
-tags: 
+tags:
 ---
 # Registration Asset Table Definition
 
