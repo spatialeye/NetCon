@@ -1,11 +1,11 @@
 ---
 title: Wildcards
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-01-01
-tags: 
+tags:
 ---
 # Wildcards
 
