@@ -1,8 +1,8 @@
 ---
 title: trace-path
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-02-18
 tags:
