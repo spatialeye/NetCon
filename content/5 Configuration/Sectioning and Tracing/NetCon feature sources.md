@@ -1,19 +1,20 @@
 ---
 title: NetCon feature sources
-description: 
-permalink: 
-aliases: 
-draft: true
+description:
+permalink:
+aliases:
+draft: false
 date: 2024-10-17
-tags: 
+tags:
 ---
 # NetCon feature sources
 
 
-| Name              | Purpose                                                                                                                                              |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| NetConBase        | Common behavior for inheritance. Abstract class that cannot be instantiated.                                                                         |
-| NetConExtract     | To build NetConConnections from an arbitrary sources                                                                                                 |
-| NetConExtractVMDS | To build NetConConnections from a VMDS sources                                                                                                       |
-| NetConTrace       | To build & expose tracing behavior on top of NetConConnections.<br>This will also cluster/section the network into Isolatable and Operated Sections. |
+| Name              | Purpose                                                                                                                                                            |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| NetConExtract     | To build NetConConnections from an arbitrary sources. In progress.                                                                                                 |
+| NetConExtractVMDS | To build NetConConnections from a VMDS sources. Please follow the standard process as set out by Spatial Eye to extract the connectivity.                          |
+| NetConTrace       | To build & expose tracing behavior on top of NetConConnections.<br>This optionally clusters the network into Isolatable, Operated, Congestion and Custom Sections. |
+
+## NetConTrace
 
