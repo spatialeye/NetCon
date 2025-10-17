@@ -1,8 +1,8 @@
 ---
 title: get-control-section
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-04-22
 tags:
