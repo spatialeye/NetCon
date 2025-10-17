@@ -4,8 +4,8 @@ description: Name of organisation responsible for operating this connection or b
 Type: string
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-04-18
 tags:
