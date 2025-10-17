@@ -26,22 +26,22 @@ Currently this site is in English only.
 This section provides a short [[./1 Introduction/Introduction|Introduction]] to the agnostic NetCon model for connectivity (also known as topology) for networks.
 
 ## Latest news
-We had a release adding Net Congestion tooling; besides [[./5 Configuration/Sectioning and Tracing/Sections/Isolatable Sections|Isolatable Sections]] and [[./5 Configuration/Sectioning and Tracing/Sections/Operated Sections|Operated Sections]] it is now possible to define [[./5 Configuration/Sectioning and Tracing/Sections/Control or NetCongestion Section|Control or NetCongestion Section]].
+We had a release adding Net Congestion tooling; besides [[./5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Isolatable Sections|Isolatable Sections]] and [[./5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Operated Sections|Operated Sections]] it is now possible to define [[./5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Control or NetCongestion Sections|Control or NetCongestion Sections]].
 For the electricity domain, these look remarkable similar to what you see in FISR and the (A)DMS.
-When switches are operated, by means of [[./5 Configuration/Overlay and Near Real Time Networks/Overlay Networks for Data Quality|an overlay network]], the new network state is reflected in new control sections and a new [[./8 API/Results/Connection Or Path Results/Flow|flow]] for all affected connections.
+When switches are operated, by means of [[./5 Configuration/Configuration - 9. Overlay and Near Real Time Networks/Overlay - 2. Overlay Networks for Data Quality|an overlay network]], the new network state is reflected in new control sections and a new [[./8 API/Results/Connection Or Path Results/Flow|flow]] for all affected connections.
 ## Version information
 
-This section provides [[./2 Version And Release Information/Version Information#Releases|Version Information]], [[./2 Version And Release Information/Version Information#Release Notes|Release Notes]] and a [[./2 Version And Release Information/Roadmap|Roadmap]].
+This section provides [[2.2 Version Information#Releases|Version Information]], [[2.2 Version Information#Release Notes|Release Notes]] and a [[2.3 Roadmap|2.3 Roadmap]].
 
 ## Overview - Read me first
 
 We recommend you take notice of the following introduction:
-1. [[./3 Overview/Use Cases|Use Cases]]
-2. [[./3 Overview/Data Flow Examples/Purpose and Examples|Purpose and Examples]]
-3. [[./3 Overview/Solution Architecture|Solution Architecture]]
-4. [[./3 Overview/Sources of Connectivity|Sources of Connectivity]]
+1. [[Overview - 1. Use Cases|Overview - 1. Use Cases]]
+2. [[Overview Examples - 1. Purpose and Examples|Overview Examples - 1. Purpose and Examples]]
+3. [[./3 Overview/Overview - 3. Solution Architecture|Overview - 3. Solution Architecture]]
+4. [[./3 Overview/Overview - 4. Sources of Connectivity|Overview - 4. Sources of Connectivity]]
 5. Networks
-	1. [[./3 Overview/Networks/Commodity Networks|Commodity Networks]]
+	1. [[./3 Overview/Overview - 5. Commodity Networks|Overview - 5. Commodity Networks]]
 	2. [[./3 Overview/Networks/Network Ontology|Network Ontology]]
 	3. [[./3 Overview/Networks/Life Cycle Status|Life Cycle Status]]
 	4. [[./3 Overview/Networks/Barrier or Operational State|Barrier or Operational State]]
@@ -58,7 +58,7 @@ We recommend you take notice of the following introduction:
 If you are new to NetCon, implement the basics by following the steps below
 
 1. [[./4 Getting started/Download and Install NetCon|Download and Install NetCon]]
-2. [[./4 Getting started/Download and Install NetCon Portal|Download and Install NetCon Portal]]
+2. [[Download and Install NetCon Portal|Download and Install NetCon Portal]]
 3. [[./4 Getting started/Connectivity Extraction Process|Connectivity Extraction Process]]
 4. [[./4 Getting started/Viewing Connectivity|Viewing Connectivity]]
 5. [[Querying Connectivity|Querying Connectivity]]
@@ -67,15 +67,15 @@ If you are new to NetCon, implement the basics by following the steps below
 Please follow the these steps
 
 1. Configuring the Asset Registration for Extraction
-	1. [[./5 Configuration/Extraction/Base Connectivity Extraction|Base Connectivity Extraction]]
-	2. [[./5 Configuration/Extraction/Atomic Model configuration|Atomic Model configuration]]
-	3. [[./5 Configuration/Extraction/Section Model configuration|Section Model configuration]]
-	4. [[./5 Configuration/Extraction/Templates for Connectivity Extraction|Templates for Connectivity Extraction]]
+	1. [[./5 Configuration/Configuration - 1. Extraction/Base Connectivity Extraction|Base Connectivity Extraction]]
+	2. [[./5 Configuration/Configuration - 1. Extraction/Atomic Model configuration|Atomic Model configuration]]
+	3. [[./5 Configuration/Configuration - 1. Extraction/Section Model configuration|Section Model configuration]]
+	4. [[./5 Configuration/Configuration - 1. Extraction/Templates for Connectivity Extraction|Templates for Connectivity Extraction]]
 2. [[Clustering the Network into Sections|Clustering the Network into Sections]]
-	1. [[./5 Configuration/Sectioning and Tracing/Sections/Isolatable Sections|Isolatable Sections]]
-	2. [[./5 Configuration/Warehouse/Operated Sections Model|Operated Sections Model]]
-	3. [[./5 Configuration/Sectioning and Tracing/Sections/Control or NetCongestion Section|Control or NetCongestion Section]]
-	4. [[./5 Configuration/Sectioning and Tracing/Sections/Custom Sections|Custom Sections]]
+	1. [[./5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Isolatable Sections|Isolatable Sections]]
+	2. [[./5 Configuration/Configuration - 2. Warehouse/Operated Sections Model|Operated Sections Model]]
+	3. [[./5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Control or NetCongestion Sections|Control or NetCongestion Sections]]
+	4. [[./5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Custom Sections|Custom Sections]]
 3. [[Configuring NetCon TraceAPI|Configuring NetCon TraceAPI]]
 4. [[./9 Expressions/NetCon Expressions|Using NetCon Expressions]]
 	1. [[Flow Calculation Export|Expressions for Flow Calculation exports]]
