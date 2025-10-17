@@ -8,7 +8,7 @@ date: 2024-09-27
 tags:
   - Overview
 ---
-[[./Commodity Networks|previous]] [[../Tracing and Querying/Shortest path or Dijkstra algorithm|next]]
+[[../Overview - 5. Commodity Networks|previous]] [[../Tracing and Querying/Shortest path or Dijkstra algorithm|next]]
 # Network Ontology
 
 ```mermaid
@@ -20,7 +20,7 @@ graph
 
 The purpose of NetCon is to have a convenient way to reason about the network. Many iterations of different models have been examined and NetCon is the result.
 
-First of all, the common approach to modelling a network as a **graph** has been followed. Every element in the graph is stored as **connection**. This connects two nodes, denoted by a **from_node_id** and a **to_node_id**. This does not mean that every node in the original source network results in a node in NetCon. NetCon mostly likely has many more nodes, as we will see below. The name 'connection' has been chosen because not only because the **links** or **edges** of the source system will result in connections, but other elements will results in connections, as discussed in [[./Commodity Networks|previous]].
+First of all, the common approach to modelling a network as a **graph** has been followed. Every element in the graph is stored as **connection**. This connects two nodes, denoted by a **from_node_id** and a **to_node_id**. This does not mean that every node in the original source network results in a node in NetCon. NetCon mostly likely has many more nodes, as we will see below. The name 'connection' has been chosen because not only because the **links** or **edges** of the source system will result in connections, but other elements will results in connections, as discussed in [[../Overview - 5. Commodity Networks|previous]].
 
 ```mermaid
 ---

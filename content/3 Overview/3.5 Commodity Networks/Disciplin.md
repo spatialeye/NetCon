@@ -9,7 +9,7 @@ tags:
   - Commodity
   - Disciplin
 ---
-[[./Commodity Networks|previous]] [[./Derived Commodity|next]] 
+[[../Overview - 5. Commodity Networks|previous]] [[./Derived Commodity|next]] 
 # Disciplin
 
 For networks in NetCon we consider the following disciplines:

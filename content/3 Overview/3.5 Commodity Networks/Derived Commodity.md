@@ -13,7 +13,7 @@ tags:
 
 [[./Commodity|previous]] [[./Network Ontology|next]]
 
-#ToDo Note that deriving commodities is a [[Roadmap|Roadmap]] topic and not yet complete.
+#ToDo Note that deriving commodities is a [[../../2 Version And Release Information/2.3 Roadmap|2.3 Roadmap]] topic and not yet complete.
 
 In the asset registration, it is not always clear - when dealing with asset records and their directly related records - what the direct commodity and its details are.
 

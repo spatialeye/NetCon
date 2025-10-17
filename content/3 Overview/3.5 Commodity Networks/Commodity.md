@@ -10,7 +10,7 @@ tags:
   - Overview
   - ToDo
 ---
-[[./Commodity Networks|previous]] [[./Derived Commodity|next]] 
+[[../Overview - 5. Commodity Networks|previous]] [[./Derived Commodity|next]] 
 # Commodity
 
 The commodity of a network is what is being transported by it.
