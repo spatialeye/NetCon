@@ -4,7 +4,7 @@ description: A NetConQL description of the query.
 Type: string
 Order: 100
 Unique: false
-permalink: 
+permalink:
 aliases:
   - Results/Recipe
 draft: false
