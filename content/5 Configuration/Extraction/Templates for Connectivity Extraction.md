@@ -1,11 +1,11 @@
 ---
 title: Templates for Connectivity Extraction
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2025-04-18
-tags: 
+tags:
 ---
 # Templates for Connectivity Extraction
 
