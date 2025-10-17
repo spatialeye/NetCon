@@ -1,8 +1,8 @@
 ---
 title: Statistics
 description: Returns counts of how often certain properties, such as Barrier or Role or AssetTableName, occur.
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-06-11
 tags:
