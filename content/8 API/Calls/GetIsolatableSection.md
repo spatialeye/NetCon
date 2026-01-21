@@ -10,15 +10,16 @@ tags:
   - ApiCall
   - GetIsolatableSection
   - ToDo
+  - GettingStarted
 ---
 # API GetIsolatableSection
 
 The API Call `get-isolatable-section` retrieves all connectivity information for the [[../../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Isolatable Sections|isolatable sections]] of the matching start connections.
-The isolatable section is the smallest part of the network that can only be used together, i.e. it can not be split any further by [[../../3 Overview/Networks/Barrier or Operational State|Barrier]]s.
+The isolatable section is the smallest part of the network that can only be used together, i.e. it can not be split any further by [[../../3 Overview/3.5 Commodity Networks/Barrier or Operational State|Barrier]]s.
 
 If the search parameters are specified as wildcards, many matching records can be retrieved. Cap this my specifying [[../Parameters/MaxResults|MaxResults]].
 
-If no parameters are provided, the connections of the isolatable sections of the [[../../3 Overview/Networks/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are retrieved.
+If no parameters are provided, the connections of the isolatable sections of the [[../../3 Overview/3.5 Commodity Networks/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are retrieved.
 ## Parameters
 | File                                                                         | type    | mand  | description                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | ---------------------------------------------------------------------------- | ------- | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -86,7 +87,7 @@ If no parameters are provided, the connections of the isolatable sections of the
 
 
   
-For a more elaborate explanation see [[../../3 Overview/Networks/Network Ontology|Network Ontology]].
+For a more elaborate explanation see [[../../3 Overview/3.5 Commodity Networks/Network Ontology|Network Ontology]].
 
 ---
 Example query to find all connections in the same isolatable section as the the asset with `AssetTableName = 'e_lv_house_connection'` and `AssetId = 123`:
