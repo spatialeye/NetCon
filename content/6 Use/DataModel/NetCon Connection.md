@@ -7,6 +7,7 @@ draft: false
 date: 2025-05-20
 tags:
   - Connection
+  - GettingStarted
 ---
 # NetCon Connection
 
@@ -28,7 +29,7 @@ The definition of the table contents is standard and may not be altered.
 | edgetype       | [[../../8 API/Results/Connection Or Path Results/EdgeType|EdgeType]]         | Enumerator that say something about what type of connection this is. 0 = self-loop (GeometryP is set), 1 = link (GeometryL is set), 2 = terminal (no geometry). See also [[../Enumerators/NetCon EdgeType Enumerator|NetCon EdgeType Enumerator]].                                                 |
 | cost           | [[../../8 API/Results/Connection Or Path Results/Cost|Cost]]             | Double precision indicating cost, impedance or resistance.                                                                                                                                                                                               |
 | label          | [[../../8 API/Results/Connection Or Path Results/Label|Label]]            | Optional string value that provides additional information about this connection.                                                                                                                                                                        |
-| commodity      | [[../../3 Overview/Networks/Commodity|Commodity]]        | The item being transported, e.g. HV, MV, LV for high voltage, and `abc` or '123' for the phases, or ‘u’ (1 unknown phase), combined, e.g. 'LV:abc'. Similarly, this could be HP or LP (high or low pressure) followed by the type of gas CH4 or H2, etc. |
+| commodity      | [[../../3 Overview/3.5 Commodity Networks/Commodity|Commodity]]        | The item being transported, e.g. HV, MV, LV for high voltage, and `abc` or '123' for the phases, or ‘u’ (1 unknown phase), combined, e.g. 'LV:abc'. Similarly, this could be HP or LP (high or low pressure) followed by the type of gas CH4 or H2, etc. |
 | status         | [[../../8 API/Results/Connection Or Path Results/Status|Status]]           | Enumerator indicating the status life cycle time dimension. See also [[../Enumerators/NetCon Status Enumerator|NetCon Status Enumerator]].                                                                                                                                                       |
 | geometryl      | GeometryL            | Multiple Line geometry (for links and hyperlinks).                                                                                                                                                                                                       |
 | geometryp      | GeometryP            | Multiple Point geometry (for points and long hyperlinks).                                                                                                                                                                                                |
