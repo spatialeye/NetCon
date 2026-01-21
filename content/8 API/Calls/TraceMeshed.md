@@ -9,6 +9,7 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceMeshed
+  - GettingStarted
 ---
 # API TraceMeshed
 
@@ -18,7 +19,7 @@ If the start connection is not connected to meshed connections, there will not b
 
 If the search parameters are specified as wildcards, many matching records can be retrieved.
 
-If no parameters are provided, the [[../../3 Overview/Networks/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are used as input.
+If no parameters are provided, the [[../../3 Overview/3.5 Commodity Networks/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are used as input.
 
 ## Parameters
 | File                                                                                   | type    | mand  | description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -104,7 +105,7 @@ If no parameters are provided, the [[../../3 Overview/Networks/Sources|Sources]]
 
 
   
-For a more elaborate explanation see [[../../3 Overview/Networks/Network Ontology|Network Ontology]].
+For a more elaborate explanation see [[../../3 Overview/3.5 Commodity Networks/Network Ontology|Network Ontology]].
 
 ---
 Example query to find the connected meshed Asset as paths for an Asset with TableName = 'e_isolating_equipment' and Id = 789:
