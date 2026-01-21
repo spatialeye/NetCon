@@ -10,12 +10,13 @@ tags:
   - ApiCall
   - Catalogs
   - ToDo
+  - GettingStarted
   - ApiMetaCall
 ---
 # Catalogs
 
 Future function that will return all catalogs and enumerators in the NetCon network.
-Part of the [[../../2 Version And Release Information/Roadmap|Roadmap]].
+Part of the [[../../2 Version And Release Information/2.3 Roadmap|2.3 Roadmap]].
 
 #ToDo 
 
