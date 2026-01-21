@@ -10,8 +10,9 @@ tags:
   - Section
   - Overview
   - NetCon2
+  - GettingStarted
 ---
-[[./Networks/Referential Information|previous]] [[../index#Getting started|next]]
+[[./3.5 Commodity Networks/Referential Information|previous]] [[../index#Getting started|next]]
 # Clustering the Network into Sections
 
 
