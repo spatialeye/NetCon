@@ -9,6 +9,7 @@ tags:
   - Commodity
   - Overview
   - ToDo
+  - GettingStarted
 ---
 [[../Overview - 5. Commodity Networks|previous]] [[./Derived Commodity|next]] 
 # Commodity

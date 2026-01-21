@@ -10,15 +10,16 @@ tags:
   - ApiCall
   - GetCustomSection
   - ToDo
+  - GettingStarted
 ---
 # API GetControlSection
 
-The API Call `get-custom-section` retrieves all connectivity information for the [[../../5 Configuration/Sectioning and Tracing/Sections/Custom Sections|Custom Sections]] of the matching start connections.
-The custom section is a user defined part of the network that is connected together by all connections and the [[../../3 Overview/Networks/Barrier or Operational State|Barrier]]s that are conducting and additional separating features.
+The API Call `get-custom-section` retrieves all connectivity information for the [[../../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Custom Sections|Custom Sections]] of the matching start connections.
+The custom section is a user defined part of the network that is connected together by all connections and the [[../../3 Overview/3.5 Commodity Networks/Barrier or Operational State|Barrier]]s that are conducting and additional separating features.
 
 If the search parameters are specified as wildcards, many matching records can be retrieved. Cap this my specifying [[../Parameters/MaxResults|MaxResults]].
 
-If no parameters are provided, the connections of the custom sections of the [[../../3 Overview/Networks/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are retrieved.
+If no parameters are provided, the connections of the custom sections of the [[../../3 Overview/3.5 Commodity Networks/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are retrieved.
 
 ## Parameters
 | File                                                                         | type    | mand  | description                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -87,7 +88,7 @@ If no parameters are provided, the connections of the custom sections of the [[.
 
 
   
-For a more elaborate explanation see [[../../3 Overview/Networks/Network Ontology|Network Ontology]].
+For a more elaborate explanation see [[../../3 Overview/3.5 Commodity Networks/Network Ontology|Network Ontology]].
 
 ---
 Example query to find all connections in the same operated section as the the asset with `AssetTableName = 'e_lv_house_connection'` and `AssetId = 123`:

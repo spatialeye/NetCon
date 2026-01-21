@@ -7,7 +7,7 @@ draft: false
 date: 2025-02-22
 tags:
 ---
-[[./NetCon Path|previous]] [[../Networks/Life Cycle Status|next]]
+[[./NetCon Path|previous]] [[../3.5 Commodity Networks/Life Cycle Status|next]]
 # Basic network tracing
 
 In this paragraph, we will discuss the start, block, stop and yield criteria that are used during NetCon tracing.

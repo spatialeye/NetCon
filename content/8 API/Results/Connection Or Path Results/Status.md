@@ -11,6 +11,7 @@ date: 2025-06-05
 tags:
   - ApiResult
   - Status
+  - GettingStarted
 ---
 # Status
 
@@ -19,4 +20,4 @@ Unique: __
 
 Enumerator denoting the status of the asset of this connection.
 
-See also [[../../../3 Overview/Networks/Life Cycle Status|Life Cycle Status]]] and See also [[../../../6 Use/Enumerators/NetCon Status Enumerator|NetCon Status Enumerator]].
+See also [[../../../3 Overview/3.5 Commodity Networks/Life Cycle Status|Life Cycle Status]]] and See also [[../../../6 Use/Enumerators/NetCon Status Enumerator|NetCon Status Enumerator]].

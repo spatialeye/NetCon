@@ -7,6 +7,7 @@ aliases:
 draft: false
 tags:
   - Index
+  - GettingStarted
 date: 2024-09-26
 Version: 2024.1.3
 Product: NetCon 2.0
@@ -31,21 +32,21 @@ For the electricity domain, these look remarkable similar to what you see in FIS
 When switches are operated, by means of [[./5 Configuration/Configuration - 9. Overlay and Near Real Time Networks/Overlay - 2. Overlay Networks for Data Quality|an overlay network]], the new network state is reflected in new control sections and a new [[./8 API/Results/Connection Or Path Results/Flow|flow]] for all affected connections.
 ## Version information
 
-This section provides [[2.2 Version Information#Releases|Version Information]], [[2.2 Version Information#Release Notes|Release Notes]] and a [[2.3 Roadmap|2.3 Roadmap]].
+This section provides [[./2 Version And Release Information/2.2 Version Information#Releases|Version Information]], [[./2 Version And Release Information/2.2 Version Information#Release Notes|Release Notes]] and a [[./2 Version And Release Information/2.3 Roadmap|2.3 Roadmap]].
 
 ## Overview - Read me first
 
 We recommend you take notice of the following introduction:
-1. [[Overview - 1. Use Cases|Overview - 1. Use Cases]]
-2. [[Overview Examples - 1. Purpose and Examples|Overview Examples - 1. Purpose and Examples]]
+1. [[./3 Overview/Overview - 1. Use Cases|Overview - 1. Use Cases]]
+2. [[./3 Overview/3.2 Data Flow Examples/Overview Examples - 1. Purpose and Examples|Overview Examples - 1. Purpose and Examples]]
 3. [[./3 Overview/Overview - 3. Solution Architecture|Overview - 3. Solution Architecture]]
 4. [[./3 Overview/Overview - 4. Sources of Connectivity|Overview - 4. Sources of Connectivity]]
 5. Networks
 	1. [[./3 Overview/Overview - 5. Commodity Networks|Overview - 5. Commodity Networks]]
-	2. [[./3 Overview/Networks/Network Ontology|Network Ontology]]
-	3. [[./3 Overview/Networks/Life Cycle Status|Life Cycle Status]]
-	4. [[./3 Overview/Networks/Barrier or Operational State|Barrier or Operational State]]
-	5. [[./3 Overview/Networks/Referential Information|Referential Information]]
+	2. [[./3 Overview/3.5 Commodity Networks/Network Ontology|Network Ontology]]
+	3. [[./3 Overview/3.5 Commodity Networks/Life Cycle Status|Life Cycle Status]]
+	4. [[./3 Overview/3.5 Commodity Networks/Barrier or Operational State|Barrier or Operational State]]
+	5. [[./3 Overview/3.5 Commodity Networks/Referential Information|Referential Information]]
 6. Tracing and Querying
 	1. [[./3 Overview/Tracing and Querying/Shortest path or Dijkstra algorithm|Shortest path or Dijkstra algorithm]]
 	2. [[./3 Overview/Tracing and Querying/NetCon Path|NetCon Path]]

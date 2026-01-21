@@ -9,12 +9,13 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceOut
+  - GettingStarted
 ---
 # API TraceOut
 
 The API Call `trace-out` will use the start criteria to retrieve matching connections to start from and determine all shortest [[../Results/Search Or Trace Results/Paths (Result)|Paths (Result)]] to connections that match yield criteria. Block criteria will be avoided during this trace.
 
-If no parameters are provided, the [[../../3 Overview/Networks/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are used as start. Similarly, if no yield parameters are provided, shortest paths to [[Consumers|Consumers]] are retrieved, see [[../Results/Connection Or Path Results/Role|Role]].
+If no parameters are provided, the [[../../3 Overview/3.5 Commodity Networks/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are used as start. Similarly, if no yield parameters are provided, shortest paths to [[Consumers|Consumers]] are retrieved, see [[../Results/Connection Or Path Results/Role|Role]].
 
 Note that all provided start and yield parameters will be used for the match as a logical `and`, apart from the `StartAssetId` which will overrule any `StartCustomAssetId` provided. Likewise for `StopAssetId` and `StopCustomAssetId`.
 
@@ -122,7 +123,7 @@ If the search parameters are specified as wildcards, many matching records can b
 
 
   
-For a more elaborate explanation see [[../../3 Overview/Networks/Network Ontology|Network Ontology]].
+For a more elaborate explanation see [[../../3 Overview/3.5 Commodity Networks/Network Ontology|Network Ontology]].
 
 ---
 Example query to trace out from Asset with TableName = 'e_transformer' and Id = 123 to all switching gear within 100 meters:

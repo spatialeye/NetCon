@@ -10,15 +10,16 @@ tags:
   - ApiCall
   - GetOperatedSection
   - ToDo
+  - GettingStarted
 ---
 # API GetOperatedSection
 
 The API Call `get-operated-section` retrieves all connectivity information for the [[../../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Operated Sections|operated sections]] of the matching start connections.
-The operated section is the part of the network that connected together by all connections and the [[../../3 Overview/Networks/Barrier or Operational State|Barrier]]s that are conducting, possibly separated by [[CommodityNet|CommodityNet]] or something similar.
+The operated section is the part of the network that connected together by all connections and the [[../../3 Overview/3.5 Commodity Networks/Barrier or Operational State|Barrier]]s that are conducting, possibly separated by [[CommodityNet|CommodityNet]] or something similar.
 
 If the search parameters are specified as wildcards, many matching records can be retrieved. Cap this my specifying [[../Parameters/MaxResults|MaxResults]].
 
-If no parameters are provided, the connections of the operated sections of the [[../../3 Overview/Networks/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are retrieved.
+If no parameters are provided, the connections of the operated sections of the [[../../3 Overview/3.5 Commodity Networks/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are retrieved.
 
 ## Parameters
 | File                                                                         | type    | mand  | description                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -87,7 +88,7 @@ If no parameters are provided, the connections of the operated sections of the [
 
 
   
-For a more elaborate explanation see [[../../3 Overview/Networks/Network Ontology|Network Ontology]].
+For a more elaborate explanation see [[../../3 Overview/3.5 Commodity Networks/Network Ontology|Network Ontology]].
 
 ---
 Example query to find all connections in the same operated section as the the asset with `AssetTableName = 'e_lv_house_connection'` and `AssetId = 123`:

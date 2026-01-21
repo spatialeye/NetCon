@@ -9,12 +9,13 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TracePath
+  - GettingStarted
 ---
 # API TracePath
 
 The API Call `trace-path` will use the start criteria to retrieve matching connections to start from and determine one shortest [[../Results/Search Or Trace Results/Paths (Result)|Paths (Result)]] to the first connection that matches the yield criteria. Block criteria will be avoided during this trace.
 
-If no parameters are provided, the [[Consumers|Consumers]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are used as start. Similarly, if no yield parameters are provided, shortest paths to [[../../3 Overview/Networks/Sources|Sources]] are retrieved, see [[../Results/Connection Or Path Results/Role|Role]].
+If no parameters are provided, the [[Consumers|Consumers]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are used as start. Similarly, if no yield parameters are provided, shortest paths to [[../../3 Overview/3.5 Commodity Networks/Sources|Sources]] are retrieved, see [[../Results/Connection Or Path Results/Role|Role]].
 
 Note that all provided start and yield parameters will be used for the match as a logical `and`, apart from the `StartAssetId` which will overrule any `StartCustomAssetId` provided. Likewise for `StopAssetId` and `StopCustomAssetId`.
 
@@ -118,7 +119,7 @@ Block parameters will be used as a logical `or`: if any of those parameters is m
 
 
   
-For a more elaborate explanation see [[../../3 Overview/Networks/Network Ontology|Network Ontology]].
+For a more elaborate explanation see [[../../3 Overview/3.5 Commodity Networks/Network Ontology|Network Ontology]].
 
 ---
 Example query to find the path from Asset with TableName = 'e_lv_house_connection' and Id = 123 to the nearest transformer:

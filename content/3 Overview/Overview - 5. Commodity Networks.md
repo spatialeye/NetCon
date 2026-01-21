@@ -9,11 +9,12 @@ tags:
   - Overview
   - Commodity
   - Disciplin
+  - GettingStarted
 ---
-[[./Overview - 4. Sources of Connectivity|previous]] [[./Networks/Disciplin|Disciplin]] [[./Networks/Commodity|Commodity]] [[./Networks/Network Ontology|next]]
+[[./Overview - 4. Sources of Connectivity|previous]] [[./3.5 Commodity Networks/Disciplin|Disciplin]] [[./3.5 Commodity Networks/Commodity|Commodity]] [[./3.5 Commodity Networks/Network Ontology|next]]
 # Commodity Networks
 
-NetCon is all about networks, but not just any network. It reasons about networks that transport a [[./Networks/Commodity|Commodity]]. It is setup in such a way that for each type of network specific behavior can be exhibited. We call the types of the networks [[./Networks/Disciplin|disciplines]].
+NetCon is all about networks, but not just any network. It reasons about networks that transport a [[./3.5 Commodity Networks/Commodity|Commodity]]. It is setup in such a way that for each type of network specific behavior can be exhibited. We call the types of the networks [[./3.5 Commodity Networks/Disciplin|disciplines]].
 
 ## From Asset to Connection
 
@@ -43,27 +44,27 @@ classDiagram
   end
 ```
 
-What the network is conducting or transporting is stored in the [[./Networks/Commodity|Commodity]] field. Examples are high pressure or low pressure gas, optionally followed by what type of gas (e.g. methane or hydrogen). Another example is low, medium or high voltage power, optionally followed by phase information.
+What the network is conducting or transporting is stored in the [[./3.5 Commodity Networks/Commodity|Commodity]] field. Examples are high pressure or low pressure gas, optionally followed by what type of gas (e.g. methane or hydrogen). Another example is low, medium or high voltage power, optionally followed by phase information.
 
-When the commodity is switched of or stopped, the network connection that does this is called a **barrier**. More about this can be read in [[./Networks/Barrier or Operational State|Barrier]].
+When the commodity is switched of or stopped, the network connection that does this is called a **barrier**. More about this can be read in [[./3.5 Commodity Networks/Barrier or Operational State|Barrier]].
 
 The commodity is transported through the network. While it is being transported, it will experience a certain resistance, which is expressed by the **cost**. For an electricity network, the cost is typically expressed as **impedance**, whereas for others it is called **resistance**. For now, the cost is just stored as a number of double precision and it defaults to the length of a connection.
 
 If the source registration system records assets that have switching behavior, then those will result in connection(s) with the [[../6 Use/Enumerators/NetCon Barrier Enumerator|NetCon Barrier Enumerator]] set to a value other than 0.
 Operating barriers to stop or enable the flow, would be equivalent to setting the cost to infinitely high or back to normal cost. We prefer not to do those changes. Instead, we mark connections that are used for switching the network as barriers.
-Typically, the default network state is stored in the [[./Networks/Barrier or Operational State|Barrier]] property and actually override barrier values can be kept in a near real-time store. This limited number of overrides can be passed on to the engine that reasons with the network connectivity.
+Typically, the default network state is stored in the [[./3.5 Commodity Networks/Barrier or Operational State|Barrier]] property and actually override barrier values can be kept in a near real-time store. This limited number of overrides can be passed on to the engine that reasons with the network connectivity.
 
 The connection has a **role** in the network with regards to the commodity, which can be one or more of: transport provider, source (sometimes called origin), sink (sometimes called service point, end point or house connection). Possible values are described [here](Overview%2520-%25205.%2520Commodity%2520Networks.md##netcon-role-enumerator).
 
-The connection may not yet be available which is expressed as the life cycle status in [[../8 API/Results/Connection Or Path Results/Status|Status]] code, e.g. it can be planned or be out put out of service. More about this can be read in [[./Networks/Life Cycle Status|Life Cycle Status]].
+The connection may not yet be available which is expressed as the life cycle status in [[../8 API/Results/Connection Or Path Results/Status|Status]] code, e.g. it can be planned or be out put out of service. More about this can be read in [[./3.5 Commodity Networks/Life Cycle Status|Life Cycle Status]].
 
-It is possible that a single assets results in several connections, both for link and for node assets, as we will describe subsequently in [[./Networks/Referential Information|Referential Information]].
+It is possible that a single assets results in several connections, both for link and for node assets, as we will describe subsequently in [[./3.5 Commodity Networks/Referential Information|Referential Information]].
 
 When an asset is described as a line asset, e.g. a cable, fiber, conduct, protection pipe, these will result in one or more connections. A line asset can have several interactions along it route. Each of those interaction points, as well as the ends, will result in nodes. Depending on the source system, also some redundant, 'left over' or 'dummy 'nodes can exist. A line asset will result in a string of connections, all connected by their from_node_ids and to_node_ids into a single line (or path in graph theory). These will have an [[../8 API/Results/Connection Or Path Results/EdgeType|edge type]] = 1, meaning it came from a line asset.
 
 When an asset is described as a point asset, e.g. a fuse, a device, a valve, a switch, a cross-connection or a T-piece, these will result in one or more connections. At a minimum, they will result in a single connection with the same from_node_id and to_node_id. This will have an [[../8 API/Results/Connection Or Path Results/EdgeType|edge type]] = 0, meaning it came from a point asset.
 
-In addition, points asset can have an attribute that it want to connect to the network via [[./Networks/Terminal|Terminal]]s. When this is the case, no connection from a line asset will connect to the connection representing the point asset directly. Instead, there will be terminals generated in between. Terminals have [[../8 API/Results/Connection Or Path Results/EdgeType|edge type]] = 2.
+In addition, points asset can have an attribute that it want to connect to the network via [[./3.5 Commodity Networks/Terminal|Terminal]]s. When this is the case, no connection from a line asset will connect to the connection representing the point asset directly. Instead, there will be terminals generated in between. Terminals have [[../8 API/Results/Connection Or Path Results/EdgeType|edge type]] = 2.
 
 In addition, if several points assets are located on, i.e. they are sharing, the same node in the source system, one could argue that this may be convenient from the registration perspective, i.e. when it is a top-view, but that this is not according to reality. For example, when two valves are drawn on top of each other in the GIS, this is not according to reality, when they will never be in the same spot. In such a situation, the **terminals** generation parameter 'needsterminals' can be set such these points assets each will get their own node_id in the connection table. In the case of two valves, both can operate the network and are barriers. The terminators leading from the line assets - most likely a pipe - to the valve, will also be barriers and each go to the respective valve. Clearly, the operating behavior is different now the valves are separated: If valve1 is open, and valve2 is closed, then - because of the terminals, the valve2 connection is not part of the conducting network and is never reached when doing a trace-out.
 

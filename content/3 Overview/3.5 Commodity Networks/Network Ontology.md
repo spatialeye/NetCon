@@ -7,6 +7,7 @@ draft: false
 date: 2024-09-27
 tags:
   - Overview
+  - GettingStarted
 ---
 [[../Overview - 5. Commodity Networks|previous]] [[../Tracing and Querying/Shortest path or Dijkstra algorithm|next]]
 # Network Ontology

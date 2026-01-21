@@ -7,7 +7,7 @@ draft: false
 date: 2025-02-22
 tags:
 ---
-[[../Networks/Network Ontology|previous]] [[./NetCon Path|next]]
+[[../3.5 Commodity Networks/Network Ontology|previous]] [[./NetCon Path|next]]
 # Shortest path or Dijkstra algorithm
 
 Excellent explanations can be easily found on the internet, e.g. [on wikipedia](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
@@ -39,7 +39,7 @@ graph LR
   classDef barrierStyle fill:#bbf, stroke #000
 ```
 
-We start at the [[../Networks/Sources|Source]], which is connected to n1. The cost will be $0.
+We start at the [[../3.5 Commodity Networks/Sources|Source]], which is connected to n1. The cost will be $0.
 ```mermaid
 ---
 title: Shortest path, step 1

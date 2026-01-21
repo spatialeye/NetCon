@@ -9,6 +9,7 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetNeighborDownstream
+  - GettingStarted
 ---
 # API GetNeighborDownstream
 
@@ -18,7 +19,7 @@ The input connections themselves are excluded from the result.
 
 If the search parameters are specified as wildcards, many matching records can be retrieved.
 
-If no parameters are provided, the [[../../3 Overview/Networks/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are used as input.
+If no parameters are provided, the [[../../3 Overview/3.5 Commodity Networks/Sources|Sources]] (see also [[../Results/Connection Or Path Results/Role|Role]]) in the network are used as input.
 
 ## Parameters
 | File                                                                         | type    | mand  | description                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -87,7 +88,7 @@ If no parameters are provided, the [[../../3 Overview/Networks/Sources|Sources]]
 
 
   
-For a more elaborate explanation see [[../../3 Overview/Networks/Network Ontology|Network Ontology]].
+For a more elaborate explanation see [[../../3 Overview/3.5 Commodity Networks/Network Ontology|Network Ontology]].
 
 ---
 Example query to find the downstream Assets' connections from an Asset with TableName = 'e_transformer_fp' and Id = 456:

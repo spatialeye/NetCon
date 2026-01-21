@@ -12,9 +12,9 @@ tags:
 [[../index#Getting started|previous]] [[./Connectivity Extraction Process|next]]
 # Download and Install NetCon
 
-NetCon version 2.0 is compatible with Spatial Workshop and XY Server of version 2024.1.  
-Versions still supported are .
-Versions no longer supported are 2022.3, 2022.4, 2023.1, 2023.2.
+NetCon version 2.0 is compatible with Spatial Workshop and XY Server of version 2025.3.  
+Versions still supported are 2025.1.
+Versions no longer supported are 2022.3, 2022.4, 2023.1, 2023.2, 2024.0, 2024.1.
 ### Download
 
 You may download the Spatial Eye software from the support website (see links at the bottom of this page).
@@ -38,13 +38,13 @@ Note that Spatial Eye has developed the add-ins mechanism in order to support fa
 > [!Tip] Unblock download files
 > After download, first `unblock` the downloaded files (or entire zip-file) in Windows Explorer | Properties (Alt-Enter). DLLs that are blocked by the operating system cannot be used by the software and will give weird exceptions.
 
-The installation is simply done by copying the DLLs into the add-ins directory. See also the [[2.1.1 NetCon 1.0 DLLs|previous version installation]].
+The installation is simply done by copying the DLLs into the add-ins directory. See also the [[../2 Version And Release Information/2.1 Previous releases/2.1.1 NetCon 1.0 DLLs|previous version installation]].
 
 |                            | Desktop                                                                                                  | Server                                                                                                                                        |
 | -------------------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Prerequisites**          | Microsoft.Bcl.HashCode.dll                                                                               | Microsoft.Bcl.HashCode.dll                                                                                                                    |
 | **SWH Extraction**         | *prerequisites above*<br>ZeroFormatter.dll<br>ZeroFormatter.Interfaces.dll<br>NodeMapperFeatureSouce.dll | *prerequisites above*<br>ZeroFormatter.dll<br>ZeroFormatter.Interfaces.dll<br>NodeMapperFeatureSouce.dll<br>SpatialWarehouseTimestampTask.dll |
-| **NetCon**                 | *prerequisites above*<br>NetworkTraceBase.dll<br>                                                        | *prerequisites above*<br>NetworkTraceBase.dll<br>NetworkTraceServices.dll<br>                                                                 |
+| **NetCon**                 | *prerequisites above*<br>Stateless.dll<br>NetworkTraceBase.dll<br>                                       | *prerequisites above*<br>Stateless.dll<br>NetworkTraceBase.dll<br>NetworkTraceServices.dll<br>                                                |
 | **NetCon Portal**          | N/A                                                                                                      | *NetCon above*<br>NetConPortal.dll                                                                                                            |
 | **NetCon Flow**            |                                                                                                          |                                                                                                                                               |
 | **Installation directory** | C:\\Program Files\\Spatial Eye\\Spatial Workshop\\AddIns              | C:\\Program Files\\Spatial Eye\\XY Server\\AddIns                                                    |

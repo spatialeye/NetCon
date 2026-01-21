@@ -23,10 +23,10 @@ These are generic services to ask information about the network.
 
 | File                                                                    | description                                                                                          |
 | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| [[./Calls/DataQuality\|DataQuality]]                     | Return counts of islands, missing nodes, supernumerary nodes and supernumerary links in the network. |
-| [[./Calls/Engine Process States\|Engine Process States]] | Returns state records of the execution of processes of the network engines.                          |
 | [[./Calls/Catalogs\|Catalogs]]                           | Returns all NetCon catalogs and enumerator values.                                                   |
 | [[./Calls/Statistics\|Statistics]]                       | Returns counts of how often certain properties, such as Barrier or Role or AssetTableName, occur.    |
+| [[./Calls/Engine Process States\|Engine Process States]] | Returns state records of the execution of processes of the network engines.                          |
+| [[./Calls/DataQuality\|DataQuality]]                     | Return counts of islands, missing nodes, supernumerary nodes and supernumerary links in the network. |
 
 
 
