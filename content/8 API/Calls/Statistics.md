@@ -9,6 +9,7 @@ tags:
   - Statistics
   - ApiMetaCall
   - ApiCall
+  - GettingStarted
 ---
 # Statistics
 
@@ -29,10 +30,10 @@ For each group of statics, it will report:
 The total number of elements and their summed up cost of:
 
 * [[../../6 Use/DataModel/NetCon Connection|Connection]] network
-* [[../../5 Configuration/Sectioning and Tracing/Sections/Isolatable Sections|Isolatable Sections]] network
-* [[../../5 Configuration/Sectioning and Tracing/Sections/Operated Sections|Operated Sections]] network
-* [[../../5 Configuration/Sectioning and Tracing/Sections/Control or NetCongestion Section|Control or NetCongestion Section]] network
-* [[../../5 Configuration/Sectioning and Tracing/Sections/Custom Sections|Custom Sections]] network
+* [[../../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Isolatable Sections|Isolatable Sections]] network
+* [[../../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Operated Sections|Operated Sections]] network
+* [[../../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Control or NetCongestion Sections|Control or NetCongestion Sections]] network
+* [[../../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Custom Sections|Custom Sections]] network
 
 ## Flow
 
@@ -52,7 +53,7 @@ By default, the following statistics are returned:
 * [[../Results/Connection Or Path Results/AssetTableName|AssetTableName]]
 * [[../Results/Connection Or Path Results/Role|Role]]
 * [[../Results/Connection Or Path Results/Barrier|Barrier]]
-* [[../../3 Overview/Networks/Commodity|Commodity]]
+* [[../../3 Overview/3.5 Commodity Networks/Commodity|Commodity]]
 * [[../Results/Connection Or Path Results/EdgeType|EdgeType]]
 * [[../Results/Connection Or Path Results/Status|Status]]
 * [[../Results/Connection Or Path Results/Owner|Owner]]
