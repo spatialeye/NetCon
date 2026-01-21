@@ -10,12 +10,13 @@ tags:
   - ApiTraceCall
   - TraceOutageImpact
   - ToDo
+  - GettingStarted
 ---
 # API TraceOutageImpact
 
 The API Call `trace-outage-impact` finds the upstream and downstream impact area and lists the barriers to operated. It returns the [[../Results/Search Or Trace Results/Connections (Result)|Connections (Result)]].
 
-For each of the input connections, it will find the isolated sections. For these it will trace upstream to retrieve [[../../3 Overview/Networks/Barrier or Operational State|Barrier]]s that can be operated. These barriers will be marked with a [[../Results/Connection Or Path Results/TraceMarker|TraceMarker]] of 16, 'make barring'. Barriers that cannot are ignored and will cause a larger upstream area.
+For each of the input connections, it will find the isolated sections. For these it will trace upstream to retrieve [[../../3 Overview/3.5 Commodity Networks/Barrier or Operational State|Barrier]]s that can be operated. These barriers will be marked with a [[../Results/Connection Or Path Results/TraceMarker|TraceMarker]] of 16, 'make barring'. Barriers that cannot are ignored and will cause a larger upstream area.
 
 Then for the area that needs to be isolated, the downstream impact area is computed. Potential barrier that can back-feed into the affected area are listed. These barriers will be marked with a [[../Results/Connection Or Path Results/TraceMarker|TraceMarker]] of 32, 'make conducting'.
 
@@ -103,7 +104,7 @@ Please see [[../../6 Use/NetCon Portal/NetCon Portal - 3.1 Outage Impact Analysi
 
 
   
-For a more elaborate explanation see [[../../3 Overview/Networks/Network Ontology|Network Ontology]].
+For a more elaborate explanation see [[../../3 Overview/3.5 Commodity Networks/Network Ontology|Network Ontology]].
 
 ---
 Example query to find the outage impact area for two assets with the [[../Parameters/AssetIds|AssetIds]] 872309, 872303:
