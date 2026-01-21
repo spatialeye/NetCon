@@ -7,8 +7,9 @@ draft: false
 date: 2025-06-01
 tags:
   - Overview
+  - GettingStarted
 ---
-[[Overview Examples - 1. Purpose and Examples|previous]] [[./Overview - 4. Sources of Connectivity|next]]
+[[./3.2 Data Flow Examples/Overview Examples - 1. Purpose and Examples|previous]] [[./Overview - 4. Sources of Connectivity|next]]
 # Solution Architecture
 
 The different functions of NetCon are:
