@@ -10,7 +10,7 @@ tags:
 # NetCon Barrier Enumerator
 
 Enumerator defining the switching or barring behavior of the network assets that can block the flow.
-See also [[../../3 Overview/Networks/Barrier or Operational State|Barrier]].
+See also [[../../3 Overview/3.5 Commodity Networks/Barrier or Operational State|Barrier]].
 
 | BarrierType | BarrierValue         | Description                                                                                                            |
 | ----------: | -------------------- | ---------------------------------------------------------------------------------------------------------------------- |
