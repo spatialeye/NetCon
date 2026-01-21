@@ -16,7 +16,7 @@ As long as the attributes [[../../../8 API/Results/Connection Or Path Results/Bi
 
 ## Computation from Source
 
-Isolatable Sections are computed starting from the [[../../../3 Overview/Networks/Sources|Sources]] in the network.
+Isolatable Sections are computed starting from the [[../../../3 Overview/3.5 Commodity Networks/Sources|Sources]] in the network.
 By default, if connections are cannot be fed from a source, they will not have an Isolatable Sections.
 Thus, if a connecton *can* be reached from source, even if [[../../../8 API/Results/Connection Or Path Results/Barrier|barriers]] are currently blocking the commodity, they will have an Isolatable Section.
 
