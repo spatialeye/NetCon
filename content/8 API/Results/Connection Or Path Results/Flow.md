@@ -11,6 +11,7 @@ date: 2025-06-11
 tags:
   - ApiResult
   - Flow
+  - GettingStarted
 ---
 # Flow
 
@@ -18,16 +19,16 @@ Type of: _string_
 
 Direction of commodity. 'DownStream' if the commodity flows from FromId towards ToId, 'Meshed' if the networks barriers are such that the flow can go both ways, i.e. from sources at either side, 'NoFlow' if no connected path to a Source exists. Upstream, when streaming from ToId to FlowId. Note that you should never see 'UpStream' in API call results since it swaps the FromId and ToId so the flow is 'DownStream' instead.
 
-The flow is computed as downstream seen from Connections with the [[./Role|Role]] = [[../../../3 Overview/Networks/Sources|Source]].
+The flow is computed as downstream seen from Connections with the [[./Role|Role]] = [[../../../3 Overview/3.5 Commodity Networks/Sources|Source]].
 
-The flow describes the direction of the flow of the [[../../../3 Overview/Networks/Commodity|Commodity]] in a connection, or how the connection is used in the network:
+The flow describes the direction of the flow of the [[../../../3 Overview/3.5 Commodity Networks/Commodity|Commodity]] in a connection, or how the connection is used in the network:
 
 | Code | Value     | Meaning                                                                                                                  |
 | ---- | --------- | ------------------------------------------------------------------------------------------------------------------------ |
 | 0    | none      | The connection is not fed from a source. Possible some [[./Barrier|Barrier]]s are barring, or may be there is no source connected. |
 | 1    | down      | The connection is used from FromId to ToId.                                                                              |
 | 2    | up        | The connection is used from ToId to FromId.                                                                              |
-| 3    | meshed    | Up as well as down; which means the connection is fed from a [[../../../3 Overview/Networks/Sources\|Source]] at either side.                         |
+| 3    | meshed    | Up as well as down; which means the connection is fed from a [[../../../3 Overview/3.5 Commodity Networks/Sources\|Source]] at either side.                         |
 | 4    | violation | Not used. A violation would be if a non [[./BiDirectional|BiDirectional]] connection is used up. The software prevents this.             |
 | 8    | no engine | The flow could not be computed since the engine has not been initialized.                                                |
 ## Rules
