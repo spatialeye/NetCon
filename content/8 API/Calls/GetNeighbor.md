@@ -1,6 +1,6 @@
 ---
 title: get-neighbor
-description:
+description: Retrieves neighboring connections.
 permalink:
 aliases:
 draft: false
@@ -9,7 +9,6 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetNeighbor
-  - GettingStarted
 ---
 # API GetNeighbor
 
