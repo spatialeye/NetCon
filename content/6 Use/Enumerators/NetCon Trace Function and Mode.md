@@ -1,52 +1,53 @@
 ---
 title: NetCon Trace Function and Mode
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
-date: 2025-06-19
-tags: 
+date: 2026-01-27
+tags:
 ---
 # NetCon Trace Function and Mode
 
 Enumerator that provides feedback on the Trace Function and Mode that were chosen by making an [[../../8 API/NetCon API Calls|API Call]].
-See also [[TraceFunction|TraceFunction]].
+See also [[./NetCon TraceFunction Enumerator|NetCon TraceFunction Enumerator]] and [[./NetCon TraceMode Enumerator|NetCon TraceMode Enumerator]].
 
-| Function Id | Mode Id | Function Name        | Mode Name                 | Value                         |
-| ----------: | ------- | -------------------- | ------------------------- | ----------------------------- |
-|           0 | -       | getConnection        | -                         | get-connection                |
-|           1 | -       | getIsolatableSection | -                         | get-isolatablesection         |
-|           2 | -       | getOperatedSection   | -                         | get-operatedSection           |
-|           3 | -       | getControlSection    | -                         | get-controlSection            |
-|           4 | -       | getCustomSection     | -                         | get-customSection             |
-|           5 | -       | getNeighbors         | -                         | get-neighbors                 |
-|          10 | 1       | tracePath            | normal                    | trace-path-forward            |
-|             | 2       |                      | **backwards**             | trace-path                    |
-|             | 4       |                      | down                      | trace-path-downstream         |
-|             | 8       |                      | up                        | trace-path-upstream           |
-|          11 | 1       | traceOut             | **normal**                | trace-out                     |
-|             | 2       |                      | backwards                 | trace-out-backwards           |
-|             | 4       |                      | down                      | trace-out-downstream          |
-|             | 8       |                      | up                        | trace-out-upstream            |
-|          12 | 12      | traceMeshed          | meshed                    | trace-meshed                  |
-|          13 | 1       | traceNeighbors       | trace-neighbors-backwards | trace-neighbors               |
-|             | 2       |                      | backwards                 | trace-neighbors-backwards     |
-|             | 4       |                      | down                      | trace-neighbors-downstream    |
-|             | 8       |                      | up                        | trace-neighbors-upstream      |
-|          14 | 3       | traceAsset           | any                       | trace-asset                   |
-|          15 | 1       | traceSingularPath    | normal                    | trace-singularpath            |
-|             | 2       |                      | backwards                 | trace-singularpath-backwards  |
-|             | 4       |                      | down                      | trace-singularpath-downstream |
-|             | 8       |                      | up                        | trace-singularpath-upstream   |
-|          16 | -       | traceOutageImpact    | -                         | trace-outage-impact           |
-|          17 | -       | traceOutageRootCause | -                         | trace-outage-root-cause       |
+The [[../../8 API/Parameters/BlockBarringConnections|BlockBarringConnections]] parameter can alter the [[./NetCon TraceMode Enumerator|Trace Mode]] that is being used performing the [[./NetCon TraceFunction Enumerator|Trace Function]], which is useful if barring barriers must be returned as well during a flow trace.
 
-| Mode Id | Mode      | Description                                                                                                 |
-| ------- | --------- | ----------------------------------------------------------------------------------------------------------- |
-| 1       | normal    | Follow connections in the order from FromId to ToId and reversed if bidirectional.                          |
-| 2       | backwards | Opposite of 'normal'; unidirectional connections are traversed in the opposite direction.                   |
-| 3       | any       | Ignore directionality of the connections.                                                                   |
-| 4       | down      | Follow flow downstream flow (as determined by barriers, commodity rules and flow restrictions).             |
-| 8       | up        | Follow flow upstream flow (as determined by barriers, commodity rules and flow restrictions).               |
-| 12      | meshed    | Follow flow upstream or downstream flow (as determined by barriers, commodity rules and flow restrictions). |
-
+| Function Id | Mode Id | Function Name        | Mode Name                 | Block Barring Connections | Value                         |
+| ----------: | ------- | -------------------- | ------------------------- | ------------------------- | ----------------------------- |
+|           0 | -       | getConnection        | -                         |                           | get-connection                |
+|           1 | -       | getIsolatableSection | -                         |                           | get-isolatablesection         |
+|           2 | -       | getOperatedSection   | -                         |                           | get-operatedSection           |
+|           3 | -       | getControlSection    | -                         |                           | get-controlSection            |
+|           4 | -       | getCustomSection     | -                         |                           | get-customSection             |
+|           5 | -       | getNeighbors         | -                         |                           | get-neighbors                 |
+|          10 | 1       | tracePath            | normal                    | true/false                | trace-path-forward            |
+|             | 2       |                      | **backwards**             | true/false                | trace-path                    |
+|             | 4       |                      | down                      | true                      | trace-path-downstream         |
+|             | 8       |                      | up                        | true                      | trace-path-upstream           |
+|             | 20      |                      | downInclBarring           | false                     | trace-path-downstream         |
+|             | 24      |                      | upInclBarring             | false                     | trace-path-upstream           |
+|          11 | 1       | traceOut             | **normal**                | true/false                | trace-out                     |
+|             | 2       |                      | backwards                 | true/false                | trace-out-backwards           |
+|             | 4       |                      | down                      | true                      | trace-out-downstream          |
+|             | 8       |                      | up                        | true                      | trace-out-upstream            |
+|             | 20      |                      | downInclBarring           | false                     | trace-out-downstream          |
+|             | 24      |                      | upInclBarring             | false                     | trace-out-upstream            |
+|          12 | 12      | traceMeshed          | meshed                    | true                      | trace-meshed                  |
+|             | 28      |                      | meshedInclBarring         | false                     | trace-meshed                  |
+|          13 | 1       | traceNeighbors       | trace-neighbors-backwards | true/false                | trace-neighbors               |
+|             | 2       |                      | backwards                 | true/false                | trace-neighbors-backwards     |
+|             | 4       |                      | down                      | true                      | trace-neighbors-downstream    |
+|             | 8       |                      | up                        | true                      | trace-neighbors-upstream      |
+|             | 20      |                      | downInclBarring           | false                     | trace-neighbors-downstream    |
+|             | 24      |                      | upInclBarring             | false                     | trace-neighbors-upstream      |
+|          14 | 3       | traceAsset           | any                       | true/false                | trace-asset                   |
+|          15 | 1       | traceSingularPath    | normal                    | true/false                | trace-singularpath            |
+|             | 2       |                      | backwards                 | true/false                | trace-singularpath-backwards  |
+|             | 4       |                      | down                      | true                      | trace-singularpath-downstream |
+|             | 8       |                      | up                        | true                      | trace-singularpath-upstream   |
+|             | 20      |                      | downInclBarring           | false                     | trace-singularpath-downstream |
+|             | 24      |                      | upInclBarring             | false                     | trace-singularpath-upstream   |
+|          16 | -       | traceOutageImpact    | -                         |                           | trace-outage-impact           |
+|          17 | -       | traceOutageRootCause | -                         |                           | trace-outage-root-cause       |
