@@ -7,7 +7,6 @@ draft: false
 date: 2025-05-20
 tags:
   - Connection
-  - GettingStarted
 ---
 # NetCon Connection
 
