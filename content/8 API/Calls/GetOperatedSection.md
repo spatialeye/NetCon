@@ -1,6 +1,6 @@
 ---
 title: get-operated-section
-description:
+description: Retrieves all connections inside an Operated Section.
 permalink:
 aliases:
 draft: false
@@ -10,7 +10,6 @@ tags:
   - ApiCall
   - GetOperatedSection
   - ToDo
-  - GettingStarted
 ---
 # API GetOperatedSection
 

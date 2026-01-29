@@ -12,7 +12,6 @@ tags:
   - ApiParameter
   - ConnectionId
   - ConnectionIds
-  - GettingStarted
 ---
 # ConnectionIds
 

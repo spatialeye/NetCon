@@ -1,6 +1,6 @@
 ---
 title: get-control-section
-description:
+description: Retrieves all connections inside a Control Section.
 permalink:
 aliases:
 draft: false
@@ -10,7 +10,6 @@ tags:
   - ApiCall
   - GetControlSection
   - ToDo
-  - GettingStarted
 ---
 # API GetControlSection
 

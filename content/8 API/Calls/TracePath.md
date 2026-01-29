@@ -1,6 +1,6 @@
 ---
 title: trace-path
-description:
+description: Traces a network and returns the first path that is a match.
 permalink:
 aliases:
 draft: false
@@ -9,7 +9,6 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TracePath
-  - GettingStarted
 ---
 # API TracePath
 

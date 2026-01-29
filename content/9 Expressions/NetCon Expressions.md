@@ -59,8 +59,8 @@ Bla bla
 
 | File                                                                   | description                                                                                         |
 | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| [[./NetworkPredicate Expressions/Or()\|Or()]]   | Combines two [[NetworkPredicate|NetworkPredicate]]s and only returns true if one of the combined predicates is true. |
 | [[./NetworkPredicate Expressions/Not()\|Not()]] | Creates a new [[NetworkPredicate|NetworkPredicate]] that returns true if the receiving predicate is false.           |
+| [[./NetworkPredicate Expressions/Or()\|Or()]]   | Combines two [[NetworkPredicate|NetworkPredicate]]s and only returns true if one of the combined predicates is true. |
 | [[./NetworkPredicate Expressions/And()\|And()]] | Combines two [[NetworkPredicate|NetworkPredicate]]s and only returns true if all combined predicates are true.       |
 
 

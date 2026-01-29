@@ -1,6 +1,6 @@
 ---
 title: trace-meshed
-description:
+description: Traces a meshed network, i.e. one that whose flow it both up and down stream for the current barring states.
 permalink:
 aliases:
 draft: false
@@ -9,7 +9,6 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceMeshed
-  - GettingStarted
 ---
 # API TraceMeshed
 

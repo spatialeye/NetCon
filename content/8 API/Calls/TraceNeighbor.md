@@ -1,6 +1,6 @@
 ---
 title: trace-neighbor
-description:
+description: Traces to the neighboring asset of this asset; all connections belong to this asset between start connection and result will not be counted as neighbors.
 permalink:
 aliases:
 draft: false
@@ -10,7 +10,6 @@ tags:
   - ApiTraceCall
   - TraceNeighbor
   - ToDo
-  - GettingStarted
 ---
 # API TraceNeighbor
 

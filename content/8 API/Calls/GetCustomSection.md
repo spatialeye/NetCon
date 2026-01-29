@@ -1,6 +1,6 @@
 ---
 title: get-custom-section
-description:
+description: Retrieves all connections inside a Custom Section.
 permalink:
 aliases:
 draft: false
@@ -10,7 +10,6 @@ tags:
   - ApiCall
   - GetCustomSection
   - ToDo
-  - GettingStarted
 ---
 # API GetControlSection
 

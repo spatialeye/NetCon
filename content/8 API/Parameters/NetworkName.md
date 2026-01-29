@@ -4,8 +4,8 @@ description: Optional name of the network, in case the server hosts more than on
 Type: string
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-02-18
 tags:

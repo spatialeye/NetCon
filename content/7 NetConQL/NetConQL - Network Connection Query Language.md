@@ -12,7 +12,7 @@ tags:
 
 In order to solve use cases, the network must be queried. 
 These can be simple select queries, traces, or network reductions.
-In NetCon, all queries are expressed in [[NetConQL|NetConQL]].
+In NetCon, all queries are expressed in [[./NetConQL|NetConQL]].
 
 N.B. ConQL as a language is in progress and will be driven by customer requirements.
 

@@ -1,6 +1,6 @@
 ---
 title: trace-outage-impact
-description:
+description: Performs an outage isolation, calculates the impacted area, the upstream barriers that need to be closed to effectuate to isolation, and the backfeeding barriers that can be used to allieviate the outage.
 permalink:
 aliases:
 draft: false
@@ -10,7 +10,6 @@ tags:
   - ApiTraceCall
   - TraceOutageImpact
   - ToDo
-  - GettingStarted
 ---
 # API TraceOutageImpact
 

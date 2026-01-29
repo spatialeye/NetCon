@@ -5,8 +5,6 @@ permalink:
 aliases:
 draft: false
 date: 2024-09-27
-tags:
-  - GettingStarted
 ---
 [[./Copyright and Usage|previous]] [[../2 Version And Release Information/2.2 Version Information|next]]
 # Introduction

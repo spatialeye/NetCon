@@ -12,7 +12,6 @@ tags:
   - ApiParameter
   - AssetId
   - AssetIds
-  - GettingStarted
 ---
 # AssetIds
 

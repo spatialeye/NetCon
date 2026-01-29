@@ -8,7 +8,6 @@ date: 2025-06-01
 tags:
   - Overview
   - Example
-  - GettingStarted
 ---
 [[./Overview Examples - 1. Purpose and Examples|previous]] [[./Data Flow Example 2|next]]
 # Data flow example I: From GIS valve to simple flow calculation

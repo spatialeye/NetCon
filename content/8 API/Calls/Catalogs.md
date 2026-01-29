@@ -9,8 +9,6 @@ tags:
   - "#ApiMetaCall"
   - ApiCall
   - Catalogs
-  - ToDo
-  - GettingStarted
   - ApiMetaCall
 ---
 # Catalogs
@@ -18,8 +16,17 @@ tags:
 Future function that will return all catalogs and enumerators in the NetCon network.
 Part of the [[../../2 Version And Release Information/2.3 Roadmap|2.3 Roadmap]].
 
-#ToDo 
-
+The following catalogues with their values and descriptions will be returned:
+* [[../../3 Overview/3.5 Commodity Networks/Disciplin|Network Disciplin]]
+* [[../../6 Use/Enumerators/NetCon Status Enumerator|NetCon Status Enumerator]]
+* [[../../6 Use/Enumerators/NetCon Role Enumerator|NetCon Role Enumerator]]
+* [[../../6 Use/Enumerators/NetCon Barrier Enumerator|NetCon Barrier Enumerator]]
+* [[../../6 Use/Enumerators/NetCon Flow Enumerator|NetCon Flow Enumerator]]
+* [[../../6 Use/Enumerators/NetCon EdgeType Enumerator|NetCon EdgeType Enumerator]]
+* [[../../6 Use/Enumerators/NetCon TraceFunction Enumerator|NetCon TraceFunction Enumerator]]
+* [[../../6 Use/Enumerators/NetCon TraceMode Enumerator|NetCon TraceMode Enumerator]]
+* [[../../6 Use/Enumerators/NetCon TraceMarker Enumerator|NetCon TraceMarker Enumerator]]
+* [[../../6 Use/Enumerators/NetCon TraceResultExpandPathsMode Enumerator|NetCon TraceResultExpandPathsMode Enumerator]]
 ## Parameters
 | File                                                     | type   | mand  | description                                                                                                                                                               |
 | -------------------------------------------------------- | ------ | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

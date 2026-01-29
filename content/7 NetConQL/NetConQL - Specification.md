@@ -115,5 +115,5 @@ Is automatically translated into:
 
 
 ## Usage of Flags:
-See [[./NetConQL - Flags|NetConQL - Flags]].
+See [[./NetConQL - Enumerator Flags|NetConQL - Enumerator Flags]].
 

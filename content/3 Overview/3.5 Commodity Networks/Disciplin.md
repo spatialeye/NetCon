@@ -8,7 +8,6 @@ date: 2024-09-27
 tags:
   - Commodity
   - Disciplin
-  - GettingStarted
 ---
 [[../Overview - 5. Commodity Networks|previous]] [[./Derived Commodity|next]] 
 # Disciplin

@@ -1,6 +1,6 @@
 ---
 title: trace-out
-description:
+description: Traces a network and returns all paths that are a match.
 permalink:
 aliases:
 draft: false
@@ -9,7 +9,6 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceOut
-  - GettingStarted
 ---
 # API TraceOut
 

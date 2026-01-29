@@ -1,6 +1,6 @@
 ---
 title: get-neighbor-upstream
-description:
+description: Retrieves neighboring connections that are connected with an upstream flow.
 permalink:
 aliases:
 draft: false
@@ -9,7 +9,6 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetNeighborUpstream
-  - GettingStarted
 ---
 # API GetNeighborUpstream
 

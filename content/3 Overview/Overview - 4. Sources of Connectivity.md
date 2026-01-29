@@ -8,7 +8,6 @@ date: 2025-03-12
 tags:
   - data_sources
   - Overview
-  - GettingStarted
 ---
 [[./Overview - 3. Solution Architecture|previous]] [[./Overview - 5. Commodity Networks|next]]
 # Four common sources of information for network connectivity

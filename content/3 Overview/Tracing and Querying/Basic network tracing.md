@@ -104,7 +104,7 @@ Similar to the first start criterium above, one could set start criteria to find
 | 88  | 8      | 8    | Prosumer |
 | 99  | 9      | 9    | Consumer |
 
-The [[../../8 API/Results/Connection Or Path Results/Role|Role]] property is a [[../../7 NetConQL/NetConQL - Flags|flag]], this is why the `LIKE` will match both. In case this is not desired, one could write:
+The [[../../8 API/Results/Connection Or Path Results/Role|Role]] property is a [[../../7 NetConQL/NetConQL - Enumerator Flags|flag]], this is why the `LIKE` will match both. In case this is not desired, one could write:
 
 	SELECT (Id, FromId, ToId) FROM E.Connection WHERE Role=Consumer
 
