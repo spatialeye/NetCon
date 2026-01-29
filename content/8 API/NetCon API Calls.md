@@ -4,7 +4,7 @@ description:
 permalink:
 aliases:
 draft: false
-date: 2024-09-30
+date: 2026-01-29
 tags:
 ---
 # NetCon API Calls
@@ -15,6 +15,8 @@ About the parameters of the API calls.
 
 * Many parameters are optional. The combination of the parameters that you do (or do not) provide, will determine the result that you get.
 * Some parameter have `pattern` appended to their name. Those are support [[./Wildcards|Wildcards]] patterns.
+
+Most calls are also available in an [[./Calls/Async NetCon API|Async NetCon API]] version.
  
 ---
 ## Meta information calls
