@@ -12,7 +12,6 @@ tags:
   - ApiParameter
   - AssetHierarchyPattern
   - AssetHierarchy
-  - GettingStarted
 ---
 # AssetHierarchyPattern
 
