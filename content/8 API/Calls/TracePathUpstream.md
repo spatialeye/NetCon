@@ -1,6 +1,6 @@
 ---
 title: trace-path-upstream
-description:
+description: Traces a network and returns the first path that is a match by following an upstream flow.
 permalink:
 aliases:
 draft: false
@@ -9,7 +9,6 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TracePathUpstream
-  - GettingStarted
 ---
 # API TracePath
 
