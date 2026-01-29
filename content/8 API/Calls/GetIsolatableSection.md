@@ -1,6 +1,6 @@
 ---
 title: get-isolatable-section
-description:
+description: Retrieves all connections inside an Isolatatble Section.
 permalink:
 aliases:
 draft: false
@@ -10,7 +10,6 @@ tags:
   - ApiCall
   - GetIsolatableSection
   - ToDo
-  - GettingStarted
 ---
 # API GetIsolatableSection
 
