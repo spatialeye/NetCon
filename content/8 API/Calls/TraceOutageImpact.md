@@ -21,6 +21,7 @@ Then for the area that needs to be isolated, the downstream impact area is compu
 
 Please see [[../../6 Use/NetCon Portal/NetCon Portal - 3.1 Outage Impact Analysis|NetCon Portal - 3.1 Outage Impact Analysis]] as a description
 
+For this query, [[../Parameters/AllowStartTerminals|AllowStartTerminals]] is set to false (default).
 ## Parameters
 | File                                                                                   | type    | mand  | description                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | -------------------------------------------------------------------------------------- | ------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
