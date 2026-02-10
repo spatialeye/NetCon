@@ -12,7 +12,7 @@ tags:
 # NetCon Portal - 6. Trace Form
 Trace Form provides the possibility to run any kind of NetCon trace on the network. Instead of operating the traces via API interface, Trace Form combines settings for all traces together and displays the results in the map (rather than just as a JSON export file).  
 ## Select Existing Template
-First page of the Trace form offers the user the option to select an existing template. If there is none saved or if no template is needed, then continue with the default ‘New Template’ option.
+First page of the Trace form offers the user the option to select an existing template. If there is none saved or if no template is needed, then continue with the default 'New Template' option.
 ![[../../Zimages/Trace_select_template.png|Trace_select_template.png]]
 ## Setting the trace criteria
 The Trace Form offers many criteria to be set up. These are divided into separate categories:

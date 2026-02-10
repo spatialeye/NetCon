@@ -9,7 +9,6 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceNeighbor
-  - ToDo
 ---
 # API TraceNeighbor
 
@@ -124,4 +123,5 @@ Example query to find Asset ConnectId = 987:
 
     https://server.domain.local/api/v2/netcon/v1/get-connection?AssetId=987
 
-#ToDo Add example outcome.
+Work in progress: Add example outcome.
+

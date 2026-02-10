@@ -7,7 +7,6 @@ draft: false
 date: 2024-09-30
 tags:
   - GettingStarted
-  - ToDo
 ---
 [[../index#Getting started|previous]] [[./Connectivity Extraction Process|next]]
 # Download and Install NetCon
@@ -30,7 +29,8 @@ For example:
 
 ### Memory requirement
 
-The memory required to run NetCon for generating sections or to run the in-memory NetConTrace API is dependent on the size of your network #ToDo
+The memory required to run NetCon for generating sections or to run the in-memory NetConTrace API is dependent on the size of your network. Sizing guidance is work in progress.
+
 ### Installation of the DLLs
 
 Note that Spatial Eye has developed the add-ins mechanism in order to support faster releases for specific solutions; this is also the case for NetCon which has more releases than the underlying base products.
@@ -64,19 +64,17 @@ For NetCon 2.0 additional themed styles are provided as a style library document
 | **Prerequisites**          | C:\\Program Files\\Spatial Eye\\XY Server\\Resources\Applications\Lite |
 | **NetCon Portal**          | NetConPortal (which is a Lite Application Folder)                                                               |
 | **Installation directory** | C:\\Program Files\\Spatial Eye\\XY Server\\Applications                |
-
-#ToDo
-
+Work in progress.
 ### Additional configuration for large networks
 
 If your network is large (> 48.8 million network connections), besides having plenty internal memory in your system you will need to configure the .Net Framework to allow large data structures. In the `*.config` files (both for XY Server and Spatial Workshop Ultimate and GSA or XY Server), enable "AllowVeryLargeObjects". Make a backup of the *.config file, open the *.config files with an XML-editor (or plain text editor), locate the configuration/runtime node, and enable gcAllowVeryLargeObjects (note, other configuration is in place, only add the ```<gcAllowVeryLargeObjects>``` node):
 
 ```xml
 <configuration>
-  <runtime>
-    <!-- Allow for large networks ( > ~48 million connections) -->
-    <gcAllowVeryLargeObjects enabled="true" />
-  </runtime>
+  <runtime>
+    <!-- Allow for large networks ( > ~48 million connections) -->
+    <gcAllowVeryLargeObjects enabled="true" />
+  </runtime>
 </configuration>
 ```
 
@@ -87,3 +85,5 @@ Without this setting you may encounter the following error:
 > System.OutOfMemoryException: Array dimensions exceeded supported range.
 
 See also https://learn.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/gcallowverylargeobjects-element
+
+
