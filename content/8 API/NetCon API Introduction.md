@@ -21,9 +21,9 @@ The [[./NetCon API Calls|NetCon API Calls]] can be split into four categories:
 
 To see and play with the services, the OpenAPI / SwaggerUI provided by the server can be used.
 
-    https://servername.domain.local/swagger-ui/#/
+    https://servername.domain.local/swagger-ui/#/
 
-    https://servername.domain.local/openapi
+    https://servername.domain.local/openapi
 
 The NetCon API browser user interface should look like this:
 
@@ -33,3 +33,4 @@ The NetCon API browser user interface should look like this:
 By clicking on one of the GET boxes above, you'll get the interaction screen:
 
 ![[../Zimages/netcon_trace_api_in_browser_trace_isolatable_section.png|NetCon_Trace_Isolatable Section API in browser]]
+
