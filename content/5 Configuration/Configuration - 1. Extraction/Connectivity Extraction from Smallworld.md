@@ -30,7 +30,7 @@ erDiagram
 
 Spatial Eye provides a template configuration to extract network connectivity from Smallworld configurations. To get started, it is handy to know:
 
-- What is the discipline you are going to model? It is good to decide on a prefix for you model, typically one uses 'E' for electricity, 'G' for gas, 'T' for telecom, 'W' for water, 'S' for sewage, 'H' for heath. For convenience, below we will assume 'E'.
+- What is the discipline you are going to model? It is good to decide on a prefix for you model, typically one uses 'E' for electricity, 'G' for gas, 'T' for telecom, 'W' for water, 'S' for sewage, 'H' for heat. For convenience, below we will assume 'E'.
 - What is the coordinate system that is used to acquire the data? This could potentially be different from the coordinate system that is used to tag the database. For example, in the Netherlands, the Smallworld CS used for tagging is 'Niederlande mm' but all data is acquired and loaded via the EPSG CS 'Amersfoort RD new'. Hence, the latter is used to interpret the data. This is an exception though, most of the time the CS will be set correctly.
 - Internal world configurations: What objects own an internal world and how are worldids made up? For example a substation and a distribution point could both be a world owner that contain an internal world with connectivity information. The world information is used to scale and project the connectivity to the outside world. For example, you may have a table called substation whose internal worlds are described as `"3524"+substation.id.toString()` or as `format("substation({0})", substation.id)`.
 - What part of the connectivity is not part of the manifolds, but inside and between real-world objects? This will be modelled as hyperlinks.
