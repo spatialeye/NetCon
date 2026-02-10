@@ -124,5 +124,6 @@ For a more elaborate explanation see [[../../3 Overview/3.5 Commodity Networks/N
 ---
 Example query to find the path from Asset with TableName = 'e_lv_house_connection' and Id = 123 to the nearest transformer:
   
-    https://server.domain.local/api/v2/netcon/v1/trace-path?StartAssetTableNameWildCard=e_lv_house_connection&StartAssetId=123&stopAssetTableNamePattern=e_transfomer
+    https://server.domain.local/api/v2/netcon/v1/trace-path?StartAssetTableNameWildCard=e_lv_house_connection&StartAssetId=123&stopAssetTableNamePattern=e_transfomer
+
 
