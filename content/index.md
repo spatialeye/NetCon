@@ -1,6 +1,6 @@
 ---
 title: Welcome to NetCon
-description: Starting page for the NetCon documentatation
+description: Starting page for the NetCon documentation
 permalink: index.html
 aliases:
   - LandingPage
@@ -15,7 +15,7 @@ srcLang: en-US
 This is the NetCon 2.0 [documentation](https://kenkor.github.io/NetCon/Home).
 # It is all about the Network: NetCon
 
-Welcome to the online Spatial Eye NetCon© Help site. 
+Welcome to the online Spatial Eye NetCon Help site. 
 Here you will find information about the why, what and how of reasoning about your network with NetCon.
 Also, it provides information on how to install, configure and use NetCon, and its related components such as the [[./8 API/NetCon API Introduction|TraceAPI]] or Flow Calculation export.
 
@@ -26,7 +26,7 @@ Currently this site is in English only.
 This section provides a short [[./1 Introduction/Introduction|Introduction]] to the agnostic NetCon model for connectivity (also known as topology) for networks.
 
 ## Latest news
-We had a release adding Net Congestion tooling; besides [[./5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Isolatable Sections|Isolatable Sections]] and [[./5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Operated Sections|Operated Sections]] it is now possible to define [[./5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Control or NetCongestion Sections|Control or NetCongestion Sections]].
+We had a release adding NetCongestion tooling; besides [[./5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Isolatable Sections|Isolatable Sections]] and [[./5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Operated Sections|Operated Sections]] it is now possible to define [[./5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Control or NetCongestion Sections|Control or NetCongestion Sections]].
 For the electricity domain, these look remarkable similar to what you see in FISR and the (A)DMS.
 When switches are operated, by means of [[./5 Configuration/Configuration - 9. Overlay and Near Real Time Networks/Overlay - 2. Overlay Networks for Data Quality|an overlay network]], the new network state is reflected in new control sections and a new [[./8 API/Results/Connection Or Path Results/Flow|flow]] for all affected connections.
 ## Version information
@@ -50,8 +50,7 @@ We recommend you take notice of the following introduction:
 	1. [[./3 Overview/Tracing and Querying/Shortest path or Dijkstra algorithm|Shortest path or Dijkstra algorithm]]
 	2. [[./3 Overview/Tracing and Querying/NetCon Path|NetCon Path]]
 	3. [[./3 Overview/Tracing and Querying/Basic network tracing|Basic network tracing]]
-7. 
-8. [[./3 Overview/Network Sections|Network Sections]]
+7. [[./3 Overview/Network Sections|Network Sections]]
 
 ## Getting started
 
@@ -104,3 +103,4 @@ Please follow the these steps
 	* [[./8 API/NetCon API Calls#Meta information calls|Meta API]]
 * [[./8 API/Common parameters in the API|Common parameters in the API]]
 * [[./8 API/Default parameters in the API|Default parameters in the API]]
+
