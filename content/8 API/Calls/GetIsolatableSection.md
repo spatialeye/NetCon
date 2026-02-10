@@ -9,7 +9,6 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetIsolatableSection
-  - ToDo
 ---
 # API GetIsolatableSection
 
@@ -95,5 +94,6 @@ Example query to find all connections in the same isolatable section as the the 
 https://server.domain.local/api/v2/netcon/v1/get-isolatable-section?AssetTableNameWildCard=e_lv_house_connection&AssetId=123
 ```
 
-#ToDo Add example outcome.
+Work in progress: Add example outcome.
+
 
