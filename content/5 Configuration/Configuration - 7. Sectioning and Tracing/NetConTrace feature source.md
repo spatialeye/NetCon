@@ -6,7 +6,6 @@ aliases:
 draft: false
 date: 2024-10-31
 tags:
-  - ToDo
 ---
 # NetConTrace feature source
 
@@ -16,7 +15,7 @@ Both the tracing and section take the same input [[../../6 Use/DataModel/NetCon 
 After loading, which time is dependent on the speed of the database and the number of connections, tracing is available.
 Depending on the settings below, the feature source will cluster/section the network into Isolatable and Operated Sections, as well as Control and Custom sections.
 
-#ToDo Write more.
+Work in progress: Write more.
 
 | Configuration line item             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Default value                                                                 | Parameter                        |
 | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------- |
@@ -121,3 +120,4 @@ And the accompanying upstream predicate would be:
 |                            | SumCost              | double     |                                                                                                   |
 |                            | Marker               | enum       |                                                                                                   |
 |                            |                      |            |                                                                                                   |
+
