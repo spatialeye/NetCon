@@ -123,5 +123,6 @@ For a more elaborate explanation see [[../../3 Overview/3.5 Commodity Networks/N
 ---
 Example query to find the path from Asset with TableName = 'e_lv_house_connection' and Id = 123 to its feeding transformer:
 
-    https://server.domain.local/api/v2/netcon/v1/trace-path-upstream?StartAssetTableNameWildCard=e_lv_house_connection&StartAssetId=123&stopAssetTableNamePattern=e_transformer
+    https://server.domain.local/api/v2/netcon/v1/trace-path-upstream?StartAssetTableNameWildCard=e_lv_house_connection&StartAssetId=123&stopAssetTableNamePattern=e_transformer
+
 

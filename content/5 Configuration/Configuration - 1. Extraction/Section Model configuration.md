@@ -31,7 +31,7 @@ The meaning of section clustering options is explained in the table below:
 | NamingCutterField | Every connection that clusters the sections can possibly provide its 'name' or 'label' to the downstream cluster that follows it. Optionally this parameter can provide the name of a boolean field that tells if a name is provided by this collection. For example, 'IsSuperCutter' on 'Connection' can be true when it is barring or is a LV/MV transformer.
 | CutterField | Name of the boolean field that denotes if the resulting section is barring. E.g. 'IsSuperBarrier' is true just when it is barring.
 | MergeStrategy | 'None', which is the default meaning that every Isolating Section is part of at most one higher order section, or 'CopyCutterToNeighbours' which is provided for compatibility reasons and deprecated now. When the 'MergeStrategy' is set to 'CopyCutterToNeighbours', the Isolated Section cutting up the cluster, i.e. a transformer, is made part of its neighbors as well. To denote which is the neighbor addition, 'referenceType' is set to '1' for those relations.
-| CalcUpstream | Boolean to denote if you want to obtain a upstream relation table linking each section to the previous one that is feeding it. It is computed breadth first starting from the source.
+| CalcUpstream | Boolean to denote if you want to obtain an upstream relation table linking each section to the previous one that is feeding it. It is computed breadth first starting from the source.
 | CalcDownstream | Boolean to denote if you want to obtain a downstream relation table linking each section to the next one that is fed from it. It is computed breadth first starting from the source.
 | OmitEmpty | False by default. If true, then sections without a 'name' will be omitted from the result. Typically, because names are provided by the labels of the important barring objects, having no name means it is something that is not fed, has no source, meaning it is an island.
 
@@ -69,7 +69,7 @@ If you want the downstream relationship to be present:
              "CalcUpstream": "False",
              "CalcDownstream": "True",
 
-If you are using labels for naming sections and are not interested to have sections that are not fed:
+If you are using labels for naming sections and are not interested in having sections that are not fed:
 
              "OmitEmpty": "True"
 
@@ -84,7 +84,7 @@ This is a mandatory table. For compatibility this table is called 'NetConSection
 | SectionId | Unique id, generated as Min(ConnectionId) of its contents. |
 | From Id | Node Id where isolatable section starts from. |
 | To Id | Node Id where isolatable section goes to. |
-| Role | Enumerator denoting rol of isolated section in network. See also [Role](Section%2520Model%2520configuration.md##netcon-role). |
+| Role | Enumerator denoting role of isolated section in network. See also [Role](Section%2520Model%2520configuration.md##netcon-role). |
 | Is Barrier | Enumerator. 0 if not a barrier, 1 if barring and section is 'off', -1 if it can be barring but connection is 'on', i.e. conducting. Other values reserved for the future. |
 | Label | Identifies a name for the section, typically the barrier asset through which it is fed. |
 
@@ -106,12 +106,12 @@ This is an optional table that is strongly recommended. For compatibility this t
 | SuperSectionId | Unique id, generated as Min(SectionId) of its contents. |
 | From Id | Node Id where operated section starts from. |
 | To Id | Node Id where operated section goes to. |
-| Role | Enumerator denoting rol of operated section in network. See also [Role](Section%2520Model%2520configuration.md##netcon-role). |
+| Role | Enumerator denoting role of operated section in network. See also [Role](Section%2520Model%2520configuration.md##netcon-role). |
 | Is Barrier | Enumerator. 0 if not a barrier, 1 if barring and section is 'off', -1 if it can be barring but connection is 'on', i.e. conducting. Other values reserved for the future. |
 
 #### SuperSectionToSection
 
-This is a relation table, that Isolatable Sections their Operated Section:
+This is a relation table that links Isolatable Sections to their Operated Section:
 
 | Field | Meaning |
 | ----- | ------- |

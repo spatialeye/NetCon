@@ -6,13 +6,12 @@ aliases:
 draft: false
 date: 2024-10-02
 tags:
-  - ToDo
 ---
 # Base Connectivity Extraction
 
-#ToDo
-
 This section describes how to configure NetCon network connectivity.
+Spatial Eye consultants have a standardized process of extracting network connectivity information from Smallworld.
+It must be kept standard, because it will be replaced by more advanced software that can handle delta's. 
 
 #### What is in the Smallworld topology
 
@@ -46,3 +45,4 @@ Assets in the GIS that have topology need to be denoted when
 #### Configuring topology inside assets
 
 #### Relations outside the manifold
+

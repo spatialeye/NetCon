@@ -8,7 +8,6 @@ date: 2024-09-27
 tags:
   - Commodity
   - Overview
-  - ToDo
 ---
 [[../Overview - 5. Commodity Networks|previous]] [[./Derived Commodity|next]] 
 # Commodity
@@ -27,9 +26,9 @@ It has one, two or three components:
 In NetCon, the commodity is specified during the extraction.
 The different components are separated with a ':' symbol.
 
-If only a two components is specified, then these are interpreted as "Subnetwork::Details".
+If only two components are specified, then these are interpreted as "Subnetwork::Details".
 
-It is possible to specify a `secondary commodity` by typing a a ';' and then specifying the secondary commodity.
+It is possible to specify a `secondary commodity` by typing a ';' and then specifying the secondary commodity.
 Typical secondary commodities are 'CP' for cathodic protection or 'PL' for public lighting. 
 
 How commodities can transfer or *connect* to other commodities can be specified in [[../../5 Configuration/Configuration - 4. Commodities/Commodity Rules|Commodity Rules]]. If no rules are set, all is allowed, as far as restricted by the registration system of course.
@@ -89,21 +88,19 @@ In the following table some examples are provided per network type:
 |       G | LP:0.4               | low pressure gas, 0.4 bar                                                                                            |
 |       G | LP:0.1:H2            | low pressure gas, 0.1 bar, hydrogen                                                                                  |
 |       G | CP                   | cathodic protection                                                                                                  |
-|       H |                      | **Heath network**                                                                                                    |
-|       H | HT                   | High grade temperature, > 70ᵒC at end consumers                                                                      |
-|       H | MT                   | Medium grade temperature, 55ᵒ - 70ᵒC at end consumers                                                                |
-|       H | LT                   | Low grade temperature, < 55ᵒC at end consumers                                                                       |
+|       H |                      | **Heat network**                                                                                                    |
+|       H | HT                   | High grade temperature, > 70 C at end consumers                                                                      |
+|       H | MT                   | Medium grade temperature, 55 - 70 C at end consumers                                                                |
+|       H | LT                   | Low grade temperature, < 55 C at end consumers                                                                       |
 |       W |                      | **Water network**                                                                                                    |
 |       T |                      | **Telecom network**                                                                                                  |
-
-
-
-#ToDo Write more examples.
+Work in progress: add more examples.
 Especially some with CP and PL.
 
 A special case is a steel pipe transporting gas or water, that is cathodic-protected as well.
 In this case, it transports gas or water on the inside, and it has a small electric current on the outside.
-#ToDo
-
+Work in progress.
 Sometimes the commodity is not registered with an asset, but it needs to be derived as a [[./Derived Commodity|next]].
+
+
 

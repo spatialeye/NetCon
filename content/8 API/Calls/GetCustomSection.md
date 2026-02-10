@@ -9,7 +9,6 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetCustomSection
-  - ToDo
 ---
 # API GetControlSection
 
@@ -96,4 +95,5 @@ Example query to find all connections in the same operated section as the the as
 https://server.domain.local/api/v2/netcon/v1/get-operated-section?AssetTableNameWildCard=e_lv_house_connection&AssetId=123
 ```
 
-#ToDo Add example outcome.
+Work in progress: Add example outcome.
+

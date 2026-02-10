@@ -7,7 +7,6 @@ draft: false
 date: 2024-09-30
 tags:
   - GettingStarted
-  - ToDo
 ---
 [[../../4 Getting started/Connectivity Extraction Process|previous]]
 # Configuration of Connectivity Viewer
@@ -22,7 +21,8 @@ Typically the connectivity data is viewed:
 - Classified by operated section;
 - Upstream and downstream flow indication.
 
-#ToDo Insert examples of each seen in the viewer here.
+Work in progress: add examples of each seen in the viewer here.
+
 Also, put in some examples of the web viewer.
 
 Example of flow of an electric network
@@ -66,7 +66,7 @@ NetCon has been designed to enable data lineage to the source, since data qualit
 In the template configuration for a `seProject` file the relations for ease of navigion have been configured.
 You can find the definitions of the relations in that projectfile.
 
-#ToDo The table below is NetCon 1.0. Update this.
+Work in progress: The table below is NetCon 1.0. Update this.
 
 The following relations are found to be useful:
 
@@ -98,4 +98,6 @@ Expression for AssetHierachy relationship (2):
         
         return MultiFeatureUrn(objectspath);
     }
+
+
 

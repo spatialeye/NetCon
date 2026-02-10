@@ -1,11 +1,11 @@
 ---
 title: Property Graph - Introduction
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: false
 date: 2024-12-19
-tags: 
+tags:
 ---
 # Property Graph - Introduction
 

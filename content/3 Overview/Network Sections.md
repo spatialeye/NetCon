@@ -15,11 +15,11 @@ tags:
 # Clustering the Network into Sections
 
 
-Part of NetCon model is that the operated network is pre-traced into `isolatable sections`. An isolatable section is a cluster of the network that is always operated as a whole; its connections are welded together-as it where: the commodity is always supplied to an isolatable section as a whole. The only way to stop this inside the isolatable section, is to change the topology by breaking or cutting it up. 
+Part of the NetCon model is that the operated network is pre-traced into `isolatable sections`. An isolatable section is a cluster of the network that is always operated as a whole; its connections are welded together, as it were, and the commodity is always supplied to an isolatable section as a whole. The only way to stop this inside the isolatable section is to change the topology by breaking or cutting it up. 
 
-Between isolatable sections, there are some that contain paths of barriers, paths of directed connections, or groups of bidirectional connections. The first two are 'sectioning' the network into clusters, as it where. Barrier sections determine whether downstream sections are fed or not, depending on default or near real-time operational state. Unidirectional connections have impact on flow, and therefore have to be separated out from bidirectional ones, so we can treat isolatable sections as a network in its own right.
+Between isolatable sections, there are some that contain paths of barriers, paths of directed connections, or groups of bidirectional connections. The first two are 'sectioning' the network into clusters, as it were. Barrier sections determine whether downstream sections are fed or not, depending on default or near real-time operational state. Unidirectional connections have impact on flow, and therefore have to be separated out from bidirectional ones, so we can treat isolatable sections as a network in its own right.
 
-Examples of a network being cut up are when an overhead wire is broken by a falling tree, or when a gas network is operated by inserting a blocking balloon. Which connection can be `cut up` are specified by the `cut up` expression on the `NetConBase` feature source. A cut up network will still provide commodity service to the upstream network, whilst the downstream part will be without commodity service.
+Examples of a network being cut up are when an overhead wire is broken by a falling tree, or when a gas network is operated by inserting a blocking balloon. Which connections can be `cut up` are specified by the `cut up` expression on the `NetConBase` feature source. A cut up network will still provide commodity service to the upstream network, while the downstream part will be without commodity service.
 
 ```mermaid
 ---
@@ -85,15 +85,15 @@ classDiagram
 This way, the Isolatable Section Network forms a network in its own right. The non-barrier connection clusters have:
 * FromNodeId = ToNodeId
 
-Wherease for the paths of barriers or directed connections holds:
-* FromNodeId ≠ ToNodeId
+Whereas for the paths of barriers or directed connections holds:
+* FromNodeId != ToNodeId
 
 ## 2nd level higher order or super sections
 
-The AbstractSuperSection consist of subsets of 1 or more IsolatableSection:
+The AbstractSuperSection consists of subsets of 1 or more IsolatableSection:
 * [[../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Operated Sections|Operated Section]]: Aggregates how the network is currently operated, i.e. determined by if a barrier is barring (a new Operated Section) or conducting (in one and the same Operated Section). Optionally the Operated Sections may split by a change commodity-subnetwork, such as HV -> MV or MV -> LV.
 * [[../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Control or NetCongestion Sections|Control Section]]: Aggregates how the network is operated, and in addition it is split by the important barriers (e.g. switches) that follow a particular upstream condition, such as e.g. a busbar, installation, or block.
-* [[../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Custom Sections|Custom Section]]: Aggregates how the network is operated, and in addition contains customs splits or upstream conditions.
+* [[../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Custom Sections|Custom Section]]: Aggregates how the network is operated, and in addition contains custom splits or upstream conditions.
 
 ## Storage into the database
 The NetCon 2.0 way to store this in the database is the following:
@@ -115,7 +115,7 @@ erDiagram
     Json Commodity
     MultiPoint GeometryP
     MultiCurve GeometryL
-    string AssetTabelName FK
+    string AssetTableName FK
     long AssetId FK
     string CustomAssetId FK
     Json Specification
@@ -223,6 +223,7 @@ erDiagram
 
   NetConConnectionRelation }|--o| NetConCustomSection : has
 ```
+
 
 
 

@@ -9,7 +9,6 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceOutageImpact
-  - ToDo
 ---
 # API TraceOutageImpact
 
@@ -111,4 +110,5 @@ Example query to find the outage impact area for two assets with the [[../Parame
 
     https://server.domain.local/api/v2/netcon/trace-outage-impact?StartAssetIds=872309%2C872303
 
-#ToDo Add example outcome.
+Work in progress: Add example outcome.
+

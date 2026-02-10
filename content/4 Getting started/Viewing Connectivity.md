@@ -7,7 +7,6 @@ draft: false
 date: 2024-09-30
 tags:
   - GettingStarted
-  - ToDo
 ---
 [[./Connectivity Extraction Process|previous]]
 # Viewing Connectivity
@@ -21,15 +20,16 @@ Typically the connectivity data is viewed:
 - Classified by isolated section;
 - Classified by operated section;
 - Upstream and downstream flow indication.
-
-#ToDo Insert examples of each seen in the viewer here.
+Work in progress: add examples of each item seen in the viewer here.
 Also, put in some examples of the web viewer.
 
 Example of flow of an electric network
 ![[../Zimages/sections_and_flow_in_elec_network.png|sections_and_flow_in_elec_network.png]]
-Example of flow of an electric network. The flow is computed from the source of the commodity and will change .
+Example of flow of an electric network. The flow is computed from the source of the commodity and will change.
 
 Two types of configurations can be created:
 
 - For viewing the NetCon data as stored in the database;
 - For interacting with the NetCon data as used in Trace expressions and the Trace API.
+
+
