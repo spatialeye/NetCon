@@ -21,7 +21,7 @@ Outage Analysis & Monitor panel is an additional panel that holds several action
 - Save Outage
 
 **Tabs** (both tabs are visible only if there are records fitting the queries available): 
-- *Current Outages*: list of current outages. The list is generated based on a query “Current Outages” defined in the project file. The query is called every time map is moved.
-- *Customers without service*: list of service points that are currently without service (i.e. they got “no flow”). The list is generated based on a query “Customers without service” defined in the project file. The query is called every time map is moved.
+- *Current Outages*: list of current outages. The list is generated based on a query "Current Outages" defined in the project file. The query is called every time map is moved.
+- *Customers without service*: list of service points that are currently without service (i.e. they got "no flow"). The list is generated based on a query "Customers without service" defined in the project file. The query is called every time map is moved.
 
 ![[../../Zimages/Outage_analysis_monitor_panel.png|Outage_analysis_monitor_panel.png]]
