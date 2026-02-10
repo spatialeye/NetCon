@@ -6,11 +6,10 @@ aliases:
 draft: false
 date: 2024-09-27
 tags:
-  - ToDo
 ---
 # NetCon Expressions
 
-#ToDo Revise the text below.
+Work in progress: Revise the text below.
 
 The expression language in GeoSpatial Analysis or Spatial Workshop has been extended with many functions to interact with the NetCon tracing engine. These function will use the engine in exactly the same way as the [NetCon API](NetCon%2520Expressions.md##netcon_api).
 
@@ -38,8 +37,7 @@ About the parameters of the Spatial Workshop Expressions.
 
 * Many parameters are optional and they have default values.
 * Some parameter have `pattern` appended to their name. Those are support [[../8 API/Wildcards|Wildcards]] patterns.
- 
-#ToDo Write content here.
+Work in progress: Write content here.
 
 
 ---
@@ -62,6 +60,7 @@ Bla bla
 | [[./NetworkPredicate Expressions/Or()\|Or()]]   | Combines two [[NetworkPredicate|NetworkPredicate]]s and only returns true if one of the combined predicates is true. |
 | [[./NetworkPredicate Expressions/Not()\|Not()]] | Creates a new [[NetworkPredicate|NetworkPredicate]] that returns true if the receiving predicate is false.           |
 | [[./NetworkPredicate Expressions/And()\|And()]] | Combines two [[NetworkPredicate|NetworkPredicate]]s and only returns true if all combined predicates are true.       |
+
 
 
 
