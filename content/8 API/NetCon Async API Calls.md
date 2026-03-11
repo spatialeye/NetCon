@@ -31,14 +31,14 @@ sequenceDiagram
     create participant job
     request ->> job: start
     request ->> manager: manage(job)
-    request ->> client: job (status = initial)
+    request ->> client: job (with status)
     rect rgb(127, 127, 63)
-    loop
+    loop until status = succeeded or status = error
+        client ->> client: wait
         client ->> status: get-async-status(id)
         status ->> manager: get(id)
         manager ->> status: job
-        status ->> client: job (status = running)
-        client ->> client: wait
+        status ->> client: job (with status)
     end
     end
 
@@ -47,8 +47,8 @@ sequenceDiagram
     client ->> status: get-async-status(id)
     status ->> manager: get(id)
     manager ->> status: job
-    status ->> client: job (status = complete)
-    client ->> result: get-async-status(id)
+    status ->> client: job (with status)
+    client ->> result: get-async-xxx-result(id)
     result ->> manager: get-job-data
     manager ->> result: data
     result ->> client: data
@@ -80,23 +80,28 @@ After an initial async call, this endpoint should be polled to check the job sta
 
 The response is in JSON format, and contains the following elements:
 
-| name | type | value |
-| --- | ---- | --- |
-| Id | Guid | The job ID |
-| Status | string | The job status. See below for details. |
-| Error | string | A textual representation of any error(s) that have occured |
-| StatusUrl | string, optional | An URL to check the status again. This is usally the same as the URL used to get this result. |
-| ResultUrl | string, optional | If the job has finished successfully, this URL is of the data endpoint where the job result can be retrieved. Note that the data is only available for a (short) period of time, configurable on the NetCon Api server. |
+| name             | type               | value                                                                                                                                                                                                                   |
+| ---------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Id               | Guid               | The job ID                                                                                                                                                                                                              |
+| Status           | string             | The job status. See below for details.                                                                                                                                                                                  |
+| Error            | string             | A textual representation of any error(s) that have occured                                                                                                                                                              |
+| CreatedUtc       | datetime           | When the job was created                                                                                                                                                                                                |
+| StartedUtc       | datetime, optional | When the job started execution                                                                                                                                                                                          |
+| FinishedUtc      | datetime, optional | When the job finished execution                                                                                                                                                                                         |
+| Attempts         | int                | The number of attempts                                                                                                                                                                                                  |
+| ExpiresInSeconds | int                | Seconds until record expiry (best-effort)                                                                                                                                                                               |
+| ResultUrl        | string, optional   | If the job has finished successfully, this URL is of the data endpoint where the job result can be retrieved. Note that the data is only available for a (short) period of time, configurable on the NetCon Api server. |
 
 The status element can have the following values:
 
-| name | value | description |
-| ---- | ----- | ----------- |
-| Error | -1 | The job ended in error |
-| Initial | 0 | The job is created, but not yet started |
-| Started | 1 | The job has started - the request is being evaluated but the actual process has not started. This status can be used by certain jobs, but not all will use it. |
-| Running | 2 | The job is running (not yet completed) |
-| Completed | 3 | The job has finished without errors, and is now complete |
+| name      | value | description                                              |
+| --------- | ----- | -------------------------------------------------------- |
+| Canceled  | -2    | The job was cancelled                                    |
+| Failed    | -1    | The job ended in error                                   |
+| Initial   | 0     | The job is created                                       |
+| Queued    | 1     | The job is queued and waiting to run                     |
+| Running   | 2     | The job is running (not yet completed)                   |
+| Succeeded | 3     | The job has finished without errors, and is now complete |
 
 ### Data Endpoint
 
