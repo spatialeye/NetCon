@@ -24,7 +24,7 @@ One can compare the [[Network|Network]] name to a schema name in SQL.
 Specifying the Network in a query will specify which network will be used (e.g. gas or elec, or an Near Realtime Overlay network).
 
 Since the network is expressed in connections, every query will start with the connections, or sections of connections.
-If [[Indices|Indices]] have been generated, and for those fields for which indices are always present, ConQL will automatically use indices; those do not need to be 'hinted' at.
+If [[../5 Configuration/Indices|Indices]] have been generated, and for those fields for which indices are always present, ConQL will automatically use indices; those do not need to be 'hinted' at.
 
 A query returns connections or paths, where paths can only be returned for trace-queries.
 Queries results can be union-ed with other queries.
