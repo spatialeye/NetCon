@@ -52,10 +52,10 @@ Simple path notation, *not* used in NetCon:
 | 1      | -2-        | 3    | 2     | 3       | -           |
 | 1      | -2-        | 5    | 2     | 5       | -           |
 | 1      | -2-3-      | 4    | 3     | 6       | -           |
-| 1      | -2-3-4-    | 6    | 4     | 7       | End         |
+| 1      | -2-3-4-    | 6    | 4     | 7       | Stop        |
 | 1      | -2-5-      | 7    | 3     | 11      | -           |
-| 1      | -2-5-7-    | 8    | 4     | 13      | End         |
-| 1      | -2-5-7-8-  | 9    | 5     | 16      | End         |
+| 1      | -2-5-7-    | 8    | 4     | 13      | Stop        |
+| 1      | -2-5-7-8-  | 9    | 5     | 16      | Stop        |
 ## NetCon Path notation
 
 Instead of having an arbitrary length 'in between' attribute, in NetCon, the paths refer to a **previous** path in a trace to arrive at the outcome with the [[../../8 API/Results/Connection Or Path Results/PreviousId|PreviousId]].
@@ -64,21 +64,21 @@ This way, we can insert them when encountered at the start, during or at the end
 For simplicity, in the example provided, let the connection between two nodes have the id that is made up from putting the two NodeIds together, e.g. the connection from n3 to n4 has an id=34.
 The same table now looks like this:
 
-| LastConnectionId | PreviousId | FromId | ToId | Depth | SumCost | TraceMarker |
-| ---------------- | ---------- | ------ | ---- | ----- | ------- | ----------- |
-| 11               | -          | 1      | 1    | 1     | 0       | Start       |
-| 12               | 11         | 1      | 2    | 2     | 1       | -           |
-| 23               | 12         | 1      | 3    | 3     | 3       | -           |
-| 25               | 12         | 1      | 5    | 3     | 5       | -           |
-| 34               | 23         | 1      | 4    | 4     | 6       | -           |
-| 46               | 34         | 1      | 6    | 5     | 7       | -           |
-| 66               | 46         | 1      | 6    | 6     | 7       | End         |
-| ***45***             | ***25***       | ***1***    | ***4***  | ***4***   | ***10***    | -           |
-| 57               | 25         | 1      | 7    | 4     | 11      | -           |
-| 78               | 57         | 1      | 8    | 5     | 13      | -           |
-| 88               | 78         | 1      | 8    | 6     | 13      | End         |
-| 89               | ***88***   | 1      | 9    | 7     | 16      | -           |
-| 89               | 99         | 1      | 9    | 8     | 16      | End         |
+| LastConnectionId | PreviousId | FromId  | ToId    | Depth   | SumCost  | TraceMarker |
+| ---------------- | ---------- | ------- | ------- | ------- | -------- | ----------- |
+| 11               | -          | 1       | 1       | 1       | 0        | Start       |
+| 12               | 11         | 1       | 2       | 2       | 1        | -           |
+| 23               | 12         | 1       | 3       | 3       | 3        | -           |
+| 25               | 12         | 1       | 5       | 3       | 5        | -           |
+| 34               | 23         | 1       | 4       | 4       | 6        | -           |
+| 46               | 34         | 1       | 6       | 5       | 7        | -           |
+| 66               | 46         | 1       | 6       | 6       | 7        | Stop        |
+| ***45***         | ***25***   | ***1*** | ***4*** | ***4*** | ***10*** | -           |
+| 57               | 25         | 1       | 7       | 4       | 11       | -           |
+| 78               | 57         | 1       | 8       | 5       | 13       | -           |
+| 88               | 78         | 1       | 8       | 6       | 13       | Stop        |
+| 89               | ***88***   | 1       | 9       | 7       | 16       | -           |
+| 89               | 99         | 1       | 9       | 8       | 16       | Stop        |
 Several observations can be made:
 * The connections at the start and end are inserted as [[../../8 API/Results/Connection Or Path Results/EdgeType|self-loops]];
 	* This increases the depth compared to the simple path notation used before;
