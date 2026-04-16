@@ -11,6 +11,8 @@ date: 2024-09-30
 tags:
   - ApiParameter
   - MergeGeoms
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # MergeGeoms
 
