@@ -9,8 +9,6 @@ tags:
   - RateLimiting
   - Hardening
   - Job
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 #  Introduction
 
