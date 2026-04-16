@@ -13,8 +13,6 @@ tags:
   - ApiParameter
   - AssetTableName
   - AssetTableNamePattern
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # AssetTableNamePattern
 
