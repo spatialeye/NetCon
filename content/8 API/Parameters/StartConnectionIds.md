@@ -12,8 +12,6 @@ tags:
   - ApiParameter
   - StartConnectionId
   - StartConnectionIds
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # StartConnectionIds
 
