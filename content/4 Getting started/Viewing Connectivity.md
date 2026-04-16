@@ -7,8 +7,6 @@ draft: false
 date: 2024-09-30
 tags:
   - GettingStarted
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 [[./Connectivity Extraction Process|previous]]
 # Viewing Connectivity
