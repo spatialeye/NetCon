@@ -7,8 +7,6 @@ draft: false
 date: 2024-09-30
 tags:
   - GettingStarted
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 [[../index#Getting started|previous]] [[./Connectivity Extraction Process|next]]
 # Download and Install NetCon
