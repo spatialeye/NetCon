@@ -30,3 +30,17 @@ Information in the [[AssetHierarchy|AssetHierarchy]] can be enriched by providin
 | station        | 7       | no         |                    |                                                         | Yes, e.g. a station name and address.               |
 
 When the asset hierarchy string input is parsed, the type of the value is [[../../../5 Configuration/Configuration - 6. Properties/Property Type Determination|determined according to rules]].
+
+If several values are listed in a single string input, then additional rules apply:
+For each reference, the first field is used as key, and the other fields supply additional values.
+For one particular AssetHierarchy reference, the last value is kept and stored at the reference that belongs with the key.
+
+For example: 
+
+| Occurence | InputString                                                                                                          | Meaning                                                                                                                                                         |
+| --------- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | station.id=7, name=A                                                                                                 | The asset is in Station 7. Station with Id 7 and name "A" is created.                                                                                           |
+| 2         | station.id=7, name=B                                                                                                 | The asset is in Station 7. Station with Id 7 is referred to. Name is overriden to "B".                                                                          |
+| 3         | station.id=7, installation.id=10, installation.type="double-rail", installation.id=11, installation.type="mono-rail" | The asset is in Station 7, and it is also part of installations 10 and 11. Installation 10 is of type "double-rail" and installation 11 is of type "mono-rail". |
+
+Note that to avoid redundant information on connections, it is wise to put just the keys only in the Asset Hierarchy, and load all other data with [[../../../5 Configuration/Configuration - 5. Enrichment/Asset Hierarchy Enrichment|Asset Hierarchy Enrichment]].
