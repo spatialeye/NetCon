@@ -11,6 +11,8 @@ date: 2025-02-18
 tags:
   - ApiParameter
   - EnrichAssetInformation
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # EnrichAssetInformation
 
