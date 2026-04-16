@@ -12,6 +12,8 @@ tags:
   - ApiParameter
   - AssetId
   - AssetIds
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # AssetIds
 
