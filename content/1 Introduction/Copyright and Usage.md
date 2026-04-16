@@ -7,6 +7,9 @@ draft: false
 date: 2024-09-27
 comments: false
 shared:
+tags:
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 [[../index|previous]] [[./Introduction|next]]
 # Copyright and Usage
