@@ -9,8 +9,6 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetControlSection
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # API GetControlSection
 
