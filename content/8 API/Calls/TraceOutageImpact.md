@@ -9,6 +9,8 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceOutageImpact
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # API TraceOutageImpact
 
