@@ -7,6 +7,8 @@ draft: false
 date: 2025-03-12
 tags:
   - "#OverlayNetwork"
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
   - OverlayNetwork
 ---
 [[./Overlay - 3. Stacked Overlay Networks|previous]]
