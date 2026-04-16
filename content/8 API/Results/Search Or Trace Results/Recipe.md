@@ -12,8 +12,6 @@ date: 2025-06-19
 tags:
   - ApiResult
   - "#recipe"
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
   - recipe
 ---
 # Recipe
