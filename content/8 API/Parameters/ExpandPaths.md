@@ -27,6 +27,6 @@ Enum that determines what to do with the results. 'connections' = only return co
 
 See also [[../Results/Connection Or Path Results/PreviousId|PreviousId]].
 
-Previous versions:
+Retired versions:
 * Note that in the first version of NetCon this parameter used to be a boolean.
 * Note that in the pre-release version of NetCon this parameter had different default.
