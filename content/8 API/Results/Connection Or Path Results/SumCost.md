@@ -11,6 +11,8 @@ date: 2025-06-05
 tags:
   - ApiResult
   - SumCost
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # SumCost
 

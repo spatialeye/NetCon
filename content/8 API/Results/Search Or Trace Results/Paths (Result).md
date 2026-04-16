@@ -11,6 +11,8 @@ date: 2024-09-30
 tags:
   - ApiResult
   - Paths
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # Paths
 

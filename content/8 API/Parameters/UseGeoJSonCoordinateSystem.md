@@ -12,6 +12,8 @@ tags:
   - ApiParameter
   - UseGeoJSonCoordinateSystem
   - WGS84
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # UseGeoJSonCoordinateSystem
 

@@ -9,6 +9,8 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceMeshed
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # API TraceMeshed
 

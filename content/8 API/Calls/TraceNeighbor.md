@@ -9,6 +9,8 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceNeighbor
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # API TraceNeighbor
 

@@ -11,6 +11,8 @@ tags:
   - Connectivity
   - Extraction
   - GettingStarted
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # Connectivity Extraction from Smallworld
 

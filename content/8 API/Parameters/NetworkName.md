@@ -12,6 +12,8 @@ tags:
   - ApiParameter
   - NetCon2
   - NetworkName
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # NetworkName
 

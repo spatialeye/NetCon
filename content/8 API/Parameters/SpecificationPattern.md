@@ -12,6 +12,8 @@ tags:
   - ApiParameter
   - Specification
   - SpecificationPattern
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # SpecificationPattern
 

@@ -10,6 +10,8 @@ tags:
   - Smallworld
   - Connectivity
   - Extraction
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # Enhanced Connectivity Extraction from Smallworld
 

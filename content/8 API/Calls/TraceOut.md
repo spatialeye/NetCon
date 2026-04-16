@@ -9,6 +9,8 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TraceOut
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # API TraceOut
 

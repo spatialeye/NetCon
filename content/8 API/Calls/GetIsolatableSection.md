@@ -9,6 +9,8 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetIsolatableSection
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # API GetIsolatableSection
 

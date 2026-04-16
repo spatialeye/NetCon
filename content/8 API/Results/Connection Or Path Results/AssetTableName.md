@@ -11,6 +11,8 @@ date: 2025-06-05
 tags:
   - ApiResult
   - AssetTableName
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # AssetTableName
 

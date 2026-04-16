@@ -11,6 +11,8 @@ date: 2026-01-27
 tags:
   - ApiParameter
   - BlockPredicate
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # BlockPredicate
 

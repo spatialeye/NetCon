@@ -5,6 +5,9 @@ permalink:
 aliases:
 draft: false
 date: 2024-09-27
+tags:
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 [[./Copyright and Usage|previous]] [[./Graph Theory - History and Context|next]]
 # Introduction

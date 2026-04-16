@@ -11,6 +11,8 @@ tags:
   - CIM
   - ADMS
   - Terminal
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 [[./Data Flow Example 3|previous]] [[../Overview - 4. Sources of Connectivity|next]]
 # Data flow example IV: From GIS T-piece to Common Information Model

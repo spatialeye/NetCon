@@ -8,6 +8,8 @@ date: 2026-02-24
 tags:
   - Index
   - Indices
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # Indices
 
