@@ -9,6 +9,8 @@ tags:
   - "#ApiMetaCall"
   - ApiCall
   - Catalogs
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
   - ApiMetaCall
 ---
 # Catalogs
