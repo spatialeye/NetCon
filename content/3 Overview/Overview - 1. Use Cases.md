@@ -3,8 +3,6 @@ title: Overview - 1. Use Cases
 draft: false
 tags:
   - background_usecases
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 date: 2025-05-18
 ---
 [[../2 Version And Release Information/2.3 Roadmap|previous]] [[./3.2 Data Flow Examples/Overview Examples - 1. Purpose and Examples|next]]
