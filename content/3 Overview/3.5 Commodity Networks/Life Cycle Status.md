@@ -8,6 +8,8 @@ date: 2024-09-27
 tags:
   - LifeCycleStatus
   - Overview
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 [[../Tracing and Querying/Basic network tracing|previous]] [[./Barrier or Operational State|next]]
 # Life Cycle Status
