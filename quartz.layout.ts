@@ -10,19 +10,20 @@ export const sharedPageComponents: SharedLayout = {
     provider: 'giscus',
     options: {
       // from data-repo
-      repo: 'KenKor/NetCon',
+      repo: 'spatialeye/NetCon',
       // from data-repo-id
-      repoId: 'R_kgDOOsFxGg',
+      repoId: 'R_kgDON_6btg',
       // from data-category
-      category: 'Announcements',
+      category: 'General',
       // from data-category-id
-      categoryId: 'DIC_kwDOOsFxGs4CqTB_',
+      categoryId: 'DIC_kwDON_6bts4CqWKp',
+      lang: 'en',
     }
   }),
 ],
   footer: Component.Footer({
     links: {
-      "© Spatial Eye 2022-2025": "https://documentation.spatial-eye.com/spw/2024_1/en/f9b4c64a-8d44-4a34-ae2a-19f0be0522e1.htm",
+      "© Spatial Eye 2022-2026": "https://documentation.spatial-eye.com/spw/2024_1/en/f9b4c64a-8d44-4a34-ae2a-19f0be0522e1.htm",
       "Spatial Eye documentation": "https://documentation.spatial-eye.com/",
       "Geospatial Analysis documentation": "https://documentation.geospatialanalysis.online/",
     },
