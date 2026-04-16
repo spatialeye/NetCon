@@ -7,8 +7,6 @@ draft: false
 date: 2025-06-01
 tags:
   - Overview
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # Derived Commodity
 

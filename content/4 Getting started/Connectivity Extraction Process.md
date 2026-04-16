@@ -13,8 +13,6 @@ tags:
   - DataFlow
   - Connectivity
   - Topology
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 [[./Download and Install NetCon|previous]] [[../5 Configuration/Configuration - 1. Extraction/Connectivity Extraction from Smallworld|next]]
 # Connectivity Extraction Process

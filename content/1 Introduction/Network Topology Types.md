@@ -5,9 +5,6 @@ permalink:
 aliases:
 draft: false
 date: 2026-02-10
-tags:
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 [[./Graph Theory - History and Context|previous]] [[../2 Version And Release Information/2.2 Version Information|next]]
 # Network Topology Types

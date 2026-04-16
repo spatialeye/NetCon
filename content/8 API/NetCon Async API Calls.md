@@ -7,8 +7,6 @@ draft: false
 date: 2026-01-29
 tags:
   - ApiCall
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # Async NetCon API
 

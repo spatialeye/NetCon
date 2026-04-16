@@ -9,8 +9,6 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetNeighbor
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # API GetNeighbor
 

@@ -9,8 +9,6 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetNeighborDownstream
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # API GetNeighborDownstream
 

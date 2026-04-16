@@ -9,8 +9,6 @@ tags:
   - Overview
   - Commodity
   - Disciplin
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 [[./Overview - 4. Sources of Connectivity|previous]] [[./3.5 Commodity Networks/Disciplin|Disciplin]] [[./3.5 Commodity Networks/Commodity|Commodity]] [[./3.5 Commodity Networks/Network Ontology|next]]
 # Commodity Networks

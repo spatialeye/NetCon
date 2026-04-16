@@ -9,8 +9,6 @@ tags:
   - ApiSearchCall
   - ApiCall
   - GetOperatedSection
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # API GetOperatedSection
 

@@ -9,8 +9,6 @@ tags:
   - ApiCall
   - ApiTraceCall
   - TracePathUpstream
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # API TracePath
 

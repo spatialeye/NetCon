@@ -13,8 +13,6 @@ tags:
   - CommodityPattern
   - Commodity
   - NetCon2
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # CommodityPattern
 

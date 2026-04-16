@@ -9,8 +9,6 @@ tags:
   - GetConnection
   - ApiSearchCall
   - ApiCall
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # API GetConnection
 

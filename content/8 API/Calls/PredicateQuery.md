@@ -10,8 +10,6 @@ tags:
   - ApiTraceCall
   - ApiSearchCall
   - PredicateQuery
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # API PredicateQuery
 

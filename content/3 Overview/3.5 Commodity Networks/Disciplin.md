@@ -8,8 +8,6 @@ date: 2024-09-27
 tags:
   - Commodity
   - Disciplin
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 [[../Overview - 5. Commodity Networks|previous]] [[./Derived Commodity|next]] 
 # Disciplin

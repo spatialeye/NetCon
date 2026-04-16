@@ -12,8 +12,6 @@ tags:
   - ApiParameter
   - ConnectionId
   - ConnectionIds
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # ConnectionIds
 

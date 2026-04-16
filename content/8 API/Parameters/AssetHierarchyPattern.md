@@ -12,8 +12,6 @@ tags:
   - ApiParameter
   - AssetHierarchyPattern
   - AssetHierarchy
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # AssetHierarchyPattern
 

@@ -11,8 +11,6 @@ date: 2025-06-05
 tags:
   - ApiResult
   - BiDirectional
-  - GeometryRetentionMinutes
-  - GeometryRetentionTime
 ---
 # BiDirectional
 
