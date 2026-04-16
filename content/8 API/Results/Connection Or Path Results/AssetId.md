@@ -11,6 +11,8 @@ date: 2025-06-05
 tags:
   - ApiResult
   - AssetId
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # AssetId
 
