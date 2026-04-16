@@ -9,6 +9,8 @@ tags:
   - Statistics
   - ApiMetaCall
   - ApiCall
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # Statistics
 
