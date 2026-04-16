@@ -11,6 +11,8 @@ date: 2026-02-09
 tags:
   - ApiParameter
   - AllowStartTerminals
+  - GeometryRetentionMinutes
+  - GeometryRetentionTime
 ---
 # AllowStartTerminals
 
