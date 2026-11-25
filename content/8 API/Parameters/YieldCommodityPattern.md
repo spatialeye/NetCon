@@ -4,8 +4,8 @@ description: Same as [[CommodityPattern|CommodityPattern]] and used to determine
 Type: boolean
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-10-20
 tags:
