@@ -1,12 +1,12 @@
 ---
 title: DocumentationProcess
 description: Steps to product and publish the documentation
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: true
 date: 2024-09-30
 shared: false
-tags: 
+tags:
 ---
 # Documentation Process
 

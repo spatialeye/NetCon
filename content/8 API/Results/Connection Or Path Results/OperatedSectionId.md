@@ -1,11 +1,11 @@
 ---
 title: OperatedSectionId
-description: Unique id of the [[Operated Section|section]] that currently is operated as a single unit.
+description: Unique id of the section that currently is operated as a single unit.
 Type: long
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:
@@ -15,7 +15,7 @@ tags:
 # OperatedSectionId
 
 Type of: _long_
-Unique: __
 
-Unique id of the [[Operated Section|section]] that currently is operated as a single unit.
+Unique id of the section that currently is operated as a single unit.
 
+See also [[../../../5 Configuration/Configuration - 7. Sectioning and Tracing/Sections/Operated Sections|Operated Sections]].

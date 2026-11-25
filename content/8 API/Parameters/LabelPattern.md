@@ -4,8 +4,8 @@ description: 'The string or pattern that matches the Label of the NetConConnecti
 Type: string
 Mandatory: false
 Order: 29
-permalink: 
-aliases: 
+permalink:
+aliases:
 date: 2024-09-27
 draft: false
 tags:

@@ -1,8 +1,8 @@
 ---
 title: Untitled
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: true
 date: 2025-05-20
 tags:

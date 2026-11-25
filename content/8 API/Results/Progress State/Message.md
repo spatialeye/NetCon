@@ -1,13 +1,13 @@
 ---
 title: Message
-description: Last message provided as logging information for this result or state.
+description: Last message provided as logging information for this result or state. If a query has been performed well, this is the NetConQL description of the optimized query.
 Type: string
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
-date: 2024-09-30
+date: 2025-06-19
 tags:
   - ApiResult
   - Message
@@ -15,9 +15,8 @@ tags:
 # Message
 
 Type of: _string_
-Unique: __
 
-Last message provided as logging information for this result or state.
+Last message provided as logging information for this result or state. If a query has been performed well, this is the NetConQL description of the optimized query.
 
 
 

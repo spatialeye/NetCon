@@ -1,8 +1,8 @@
 ---
 title: Network()
 description: An expression that provides a handle to the network, which contains [[Connections|Connections]] and knows about their [[Sections|Sections]] and [[Flow|Flow]].
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: true
 date: 2024-10-02
 tags:

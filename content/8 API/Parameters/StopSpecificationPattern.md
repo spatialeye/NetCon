@@ -4,8 +4,8 @@ description: Same as [[SpecificationPattern|SpecificationPattern]] and used to d
 Type: string
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-11-19
 tags:

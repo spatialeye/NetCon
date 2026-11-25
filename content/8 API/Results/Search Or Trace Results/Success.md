@@ -4,11 +4,11 @@ description: True if any results have been retrieved.
 Type: boolean
 Order: 100
 Unique: false
-permalink: 
+permalink:
 aliases:
   - Results/Success
 draft: false
-date: 2024-09-27
+date: 2025-06-19
 tags:
   - ApiResult
   - Success
@@ -16,6 +16,5 @@ tags:
 # Success
 
 Type of: _boolean_
-Mandatory: __
 
 True if any results have been retrieved.

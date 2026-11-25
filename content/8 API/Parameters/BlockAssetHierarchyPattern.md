@@ -4,8 +4,8 @@ description: Same as [[AssetHierarchyPattern|AssetHierarchyPattern]] and used to
 Type: string
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-10-02
 tags:

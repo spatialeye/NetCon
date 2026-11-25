@@ -5,9 +5,9 @@ Type: int
 Order: 20
 Unique: false
 permalink: Results/StartCount
-aliases: 
+aliases:
 draft: false
-date: 2024-09-27
+date: 2025-06-19
 tags:
   - ApiResult
   - StartCount
@@ -15,6 +15,5 @@ tags:
 # StartCount
 
 Type of: _int_
-Mandatory: __
 
 Number of connections that have been retrieved by using the start parameters.

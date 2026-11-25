@@ -1,12 +1,12 @@
 ---
 title: Documentation Tools and Installation
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: true
 shared: false
 date: 2024-10-01
-tags: 
+tags:
 ---
 # Documentation Tools
 

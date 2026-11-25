@@ -4,8 +4,8 @@ description: "Unique name that identifies a property, e.g. 'assettablename', '',
 Type: string
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: true
 date: 2024-10-02
 tags:

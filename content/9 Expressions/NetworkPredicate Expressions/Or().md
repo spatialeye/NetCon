@@ -4,8 +4,8 @@ description: Combines two [[NetworkPredicate|NetworkPredicate]]s and only return
 Type: NetworkPredicate
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-10-02
 tags:

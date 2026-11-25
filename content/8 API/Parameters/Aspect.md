@@ -4,8 +4,8 @@ description: Enum to select what data quality aspect will be computed. If none i
 Type: string
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-06-01
 tags:

@@ -4,8 +4,8 @@ description: Same as [[AssetTableNamePattern|AssetTableNamePattern]] and used to
 Type: boolean
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-10-02
 tags:

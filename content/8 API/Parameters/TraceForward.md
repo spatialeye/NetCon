@@ -4,8 +4,8 @@ description: Normally, the trace-path goes against the direction of the network,
 Type: boolean
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-10-29
 tags:

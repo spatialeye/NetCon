@@ -4,8 +4,8 @@ description: Area geometry providing the buffered line and point geometries of t
 Type: multipolygon
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-10-02
 tags:
@@ -15,7 +15,6 @@ tags:
 # GeometryA
 
 Type of: _multipolygon_
-Unique: __
 
 Area geometry providing the buffered line and point geometries of the connection(s) of this asset or group of assets.
 

@@ -1,13 +1,13 @@
 ---
 title: WaitMilliSeconds
-description: Optional parameter, the default value is '-1'. If  the [[WaitTillInitialized|WaitTillInitialized]] is set, this second parameter will specify the maximum of milliseconds that the call will wait before returning.
+description: Optional parameter, the default value is '-1'. This second parameter will specify the maximum of milliseconds that the call will wait before returning, if he WaitTillInitialized parameter is set.
 Type: integer
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
-date: 2024-09-30
+date: 2025-06-06
 tags:
   - ApiParameter
   - WaitMilliSeconds
@@ -15,6 +15,7 @@ tags:
 # WaitMilliSeconds
 
 Type of: _integer_
-Unique: __
 
-Optional parameter, the default value is '-1'. If  the [[WaitTillInitialized|WaitTillInitialized]] is set, this second parameter will specify the maximum of milliseconds that the call will wait before returning.
+Optional parameter, the default value is '-1'. This second parameter will specify the maximum of milliseconds that the call will wait before returning, if he WaitTillInitialized parameter is set.
+
+See also [[./WaitTillInitialized|WaitTillInitialized]].

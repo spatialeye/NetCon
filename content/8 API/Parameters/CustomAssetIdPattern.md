@@ -5,7 +5,7 @@ Type: string
 Mandatory: false
 Order: 22
 permalink: Parameters/CustomAssetId
-aliases: 
+aliases:
 date: 2024-09-27
 draft: false
 tags:
