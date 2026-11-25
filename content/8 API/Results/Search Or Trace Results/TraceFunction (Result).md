@@ -4,7 +4,7 @@ description: Provides feedback about the function and mode performed by the trac
 Type: string
 Order: 100
 Unique: false
-permalink: 
+permalink:
 aliases:
   - Results/TraceFunction
 draft: false
