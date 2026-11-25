@@ -1,22 +1,21 @@
 ---
-title: Subdivision of the network that transports a certain commodity, e.g. low voltage electricity (LV), public lighting (PL), high pressure gas (HP) or water transport.
-description: CommoditySubnetwork
+title: CommoditySubnetwork
+description: Subdivision of the network that transports a certain commodity, e.g. low voltage electricity (LV), public lighting (PL), high pressure gas (HP) or water transport.
 Type: string
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
-date: 2024-09-30
+date: 2025-06-05
 tags:
   - ApiResult
   - CommoditySubnetwork
   - Commodity
 ---
-# Subdivision of the network that transports a certain commodity, e.g. low voltage electricity (LV), public lighting (PL), high pressure gas (HP) or water transport.
+# CommoditySubnetwork
 
 Type of: _string_
-Unique: __
 
-CommoditySubnetwork
+Subdivision of the network that transports a certain commodity, e.g. low voltage electricity (LV), public lighting (PL), high pressure gas (HP) or water transport.
 
