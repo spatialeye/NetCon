@@ -4,8 +4,8 @@ description: Optional expression that leads to a property. It is possible to use
 Type: string
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2025-02-18
 tags:
