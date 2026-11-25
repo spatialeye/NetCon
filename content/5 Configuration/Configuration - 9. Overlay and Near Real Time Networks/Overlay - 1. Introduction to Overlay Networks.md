@@ -20,6 +20,11 @@ It takes in removals of existing connections, updates and new connections.
 > The Overlay Network only contains the differences and points to the underlying network. This saves space at the cost of some lookup overhead.
 > This makes it is possible to create a temporary Overlay Network for just one query result.
 
+> [!Warning] Changes in the underlying network
+> An Overlay Network is built on its underlying network as that network was when the Overlay Network loaded.
+> When the underlying network changes afterwards, for example through its delta tables, the Overlay Network is not loaded again with it.
+> Until the Overlay Network is loaded again, its traces and queries can give results that do not match the current underlying network.
+
 A typical application of an Overlay Network is:
 * Data Quality patches: Improve on data quality problems for which a fix is required immediately, and eventually need to be fixed in the source;
 
