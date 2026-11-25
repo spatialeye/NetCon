@@ -4,8 +4,8 @@ description: An engine that holds the network network, which contains [[Connecti
 Type: NetworkEngine
 Order: 999
 Unique: true
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-10-02
 tags:
