@@ -4,8 +4,8 @@ description: Point geometry denoting the position(s) of the asset or group of as
 Type: multipoint
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:
@@ -15,7 +15,6 @@ tags:
 # GeometryP
 
 Type of: _multipoint_
-Unique: __
 
 Point geometry denoting the position(s) of the asset or group of assets for this connection.
 
