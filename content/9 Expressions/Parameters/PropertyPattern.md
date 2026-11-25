@@ -4,8 +4,8 @@ description: A string with or without a [[Wildcard|Wildcard]] pattern that must 
 Type: string
 Order: 999
 Mandatory: true
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-10-02
 tags:
