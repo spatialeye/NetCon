@@ -1,11 +1,11 @@
 ---
 title: <% tp.file.title %>
-description: 
-permalink: 
-aliases: 
+description:
+permalink:
+aliases:
 draft: true
 date: <% tp.date.now() %>
-tags: 
+tags:
 ---
 # <% tp.file.title %>
 
