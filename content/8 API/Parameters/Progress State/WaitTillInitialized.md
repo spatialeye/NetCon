@@ -4,8 +4,8 @@ description: Optional parameter, the default value is 'false'. If 'true', the ca
 Type: boolean
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:
@@ -15,6 +15,5 @@ tags:
 # WaitTillInitialized
 
 Type of: _boolean_
-Unique: __
 
 Optional parameter, the default value is 'false'. If 'true', the call will wait for the initialization to complete before returning.
