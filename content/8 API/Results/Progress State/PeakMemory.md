@@ -4,8 +4,8 @@ description: The *total* memory that the server is consuming measured during the
 Type: long
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:
@@ -15,7 +15,6 @@ tags:
 # PeakMemory
 
 Type of: _long_
-Unique: __
 
 The *total* memory that the server is consuming measured during the execution of this process. This is *not* the memory consumed by the process.
 
