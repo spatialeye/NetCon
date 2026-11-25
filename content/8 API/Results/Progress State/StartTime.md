@@ -4,8 +4,8 @@ description: The moment that the process or computation was started. Universal d
 Type: datetime
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:
