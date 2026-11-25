@@ -4,16 +4,13 @@ description: <% tp.file.title %>
 Type: boolean
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: true
 date: <% tp.date.now() %>
 tags:
   - ExpressionResult
   - <% tp.file.title %>
-  - <%
-  - tp.file.title
-  - "%>"
 ---
 # <% tp.file.title %>
 
