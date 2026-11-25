@@ -4,8 +4,8 @@ description: Same as [[AssetIds|AssetIds]] and used to determine the start crite
 Type: long[]
 Order: 999
 Mandatory: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-11-19
 tags:
