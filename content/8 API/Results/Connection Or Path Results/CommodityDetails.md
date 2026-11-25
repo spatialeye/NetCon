@@ -1,13 +1,13 @@
 ---
 title: CommodityDetails
-description: Specifies details of the commodity being transported, e.g. phase information, channels.
+description: Specifies details of the commodity being transported, e.g. phase information, channels, liquid substance (e.g. 'industrial water') that is being transported.
 Type: string
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
-date: 2024-09-30
+date: 2025-06-05
 tags:
   - ApiResult
   - CommodityDetails
@@ -15,7 +15,6 @@ tags:
 # CommodityDetails
 
 Type of: _string_
-Unique: __
 
-Specifies details of the commodity being transported, e.g. phase information, channels.
+Specifies details of the commodity being transported, e.g. phase information, channels, liquid substance (e.g. 'industrial water') that is being transported.
 
