@@ -1,5 +1,5 @@
 ---
-title: Viewer Project Configuration
+title: NetCon Portal - 1. Viewer Project configuration
 description:
 permalink:
 aliases:
