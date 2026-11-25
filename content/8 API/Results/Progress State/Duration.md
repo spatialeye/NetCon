@@ -4,8 +4,8 @@ description: Specifices the time it took to perform the process or computation. 
 Type: timespan
 Order: 999
 Unique: false
-permalink: 
-aliases: 
+permalink:
+aliases:
 draft: false
 date: 2024-09-30
 tags:
